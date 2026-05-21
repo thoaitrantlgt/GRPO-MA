@@ -826,7 +826,7 @@ class GRPOMATrainer(Trainer):
             global_thinking_std = gathered_thinking_values.std().clamp(min=1e-4)
 
             # Normalize using global statistics
-            thinking_advantages_local = (thinking_values_local - global_thinking_mean)
+            thinking_advantages_local = (thinking_values_local - global_thinking_mean) / global_thinking_std
 
             # Log global metrics
             self._metrics["value_mean"].append(global_thinking_mean.item())
