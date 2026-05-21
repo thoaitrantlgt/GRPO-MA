@@ -1,0 +1,16 @@
+GRPO-MA
+Copyright 2026 Hongcheng Wang, Yinuo Huang, Sukai Wang, Guanghui Ren, Hao Dong
+and the GRPO-MA contributors.
+
+This product includes software developed at:
+  - Peking University (PKU) / PKU-Agibot Joint Lab
+  - University of Electronic Science and Technology of China (UESTC)
+  - Agibot
+
+Portions of this codebase are derived from the following Apache-2.0 projects:
+  - HuggingFace Transformers (https://github.com/huggingface/transformers)
+  - HuggingFace TRL          (https://github.com/huggingface/trl)
+  - HuggingFace PEFT         (https://github.com/huggingface/peft)
+
+Their original copyright notices and the Apache License v2.0 apply to the
+derived portions; see the LICENSE file for the full license text.

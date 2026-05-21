@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# GRPO-MA: dataset manifests are downloaded from HF (see metadata/README.md)
+metadata/*.json
+metadata/*.jsonl
+
+# GRPO-MA: training/eval outputs
+debug_log/
+output/
+data/
+pretrained_weights/

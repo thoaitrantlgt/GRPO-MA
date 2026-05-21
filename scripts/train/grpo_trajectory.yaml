@@ -1,0 +1,6 @@
+# Download the JSON manifests first; see metadata/README.md for instructions.
+datasets:
+  - json_path: metadata/grpo_sharerobot_trajectory_train.json
+    sampling_strategy: "all"
+    data_root: data/ShareRobot/trajectory/images
+    data_modality: image
