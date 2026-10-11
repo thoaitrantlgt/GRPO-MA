@@ -226,3 +226,8 @@ debug_log/
 output/
 data/
 pretrained_weights/
+
+# Local research execution traces and temporary artifacts
+.aris/traces/
+.aris/meta/
+tmp/
