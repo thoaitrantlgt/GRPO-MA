@@ -1,0 +1,8 @@
+{
+  "interruption": "Source snapshot path missing in original posterior-credit run",
+  "fit_completed": true,
+  "recovery": "Read original protocol source and verify every vector against original moments.json; reuse all frozen tables",
+  "tables_refitted": false,
+  "protocol_changed": false,
+  "GPU_cost": 0
+}

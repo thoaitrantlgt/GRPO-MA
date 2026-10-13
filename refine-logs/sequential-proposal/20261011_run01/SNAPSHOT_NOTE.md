@@ -1,0 +1,1 @@
+Snapshot is byte-identical to the root proposal. Relative links in the snapshot resolve from the repository root. Audit covers document consistency, not experimental validation or novelty certification.

@@ -1,0 +1,64 @@
+{
+  "status": "FAIL",
+  "active_tests": 19,
+  "test_exit_code": 0,
+  "missing_local_document_links": [
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\EXPERIMENT_PLAN.md",
+      "target": "../../experiments/gradient_headroom/protocol.json"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "archive/jada_proposal/refine-logs/cpu-estimator-gate/20261011_run01/RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "archive/jada_proposal/refine-logs/NONLINEAR_ORACLE_RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "archive/jada_proposal/refine-logs/POSTERIOR_ALLOCATOR_RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "archive/jada_proposal/refine-logs/PILOT_INFORMATION_RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "archive/jada_proposal/refine-logs/POSTERIOR_CREDIT_CONVERGENCE_RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "archive/jada_proposal/idea-stage/docs/ADVANTAGE_TARGET_CONTRACT.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "refine-logs/sequential-feasibility/20261011_run02/DECISION.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "refine-logs/sequential-feasibility/20261011_run02/RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "refine-logs/sequential-feasibility/20261011_run02/mechanism-diagnostic/RESULTS.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "experiments/sequential_sampling/README.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "refine-logs/information-control-k4/20261011_run01/DECISION.md"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "refine-logs/information-control-k4/20261011_run01/control_stability.png"
+    },
+    {
+      "file": "refine-logs\\gradient-headroom\\20261011_run02\\SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md",
+      "target": "refine-logs/information-control-k4/20261011_run01/PROPOSAL_BEFORE_K4_CONTROL.md"
+    }
+  ],
+  "GPU_cost": 0
+}

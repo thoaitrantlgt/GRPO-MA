@@ -1,0 +1,6 @@
+{
+  "stage": "posthoc exploratory diagnosis after candidate failure; cannot rescue primary verdict",
+  "one_action_identity": "if B=K*t, all n_i<=t and n_j+1<=t, one step j followed by balanced completion gives the same terminal counts t and identical terminal-credit law",
+  "control": "full Bayes Bellman recursion, K2/B16/m0=1,2, unchanged frozen finite prior and vectors; no reliability gate",
+  "GPU_cost": 0
+}

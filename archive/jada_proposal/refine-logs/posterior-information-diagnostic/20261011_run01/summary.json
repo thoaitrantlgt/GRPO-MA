@@ -1,0 +1,24 @@
+[
+  {
+    "m0": 1,
+    "pilot_fraction": 0.25,
+    "uniform_mse": 0.7906804656177956,
+    "policy_mse": 0.7906804656177956,
+    "oracle_mse": 0.6967667886321373,
+    "policy_reduction_pct": 0.0,
+    "oracle_reduction_pct": 11.877576476140614,
+    "fraction_oracle_gain_recovered": 0.0,
+    "probability_nonuniform_allocation": 0.0
+  },
+  {
+    "m0": 2,
+    "pilot_fraction": 0.5,
+    "uniform_mse": 0.7906804656177956,
+    "policy_mse": 0.7904829610718203,
+    "oracle_mse": 0.7293481368032451,
+    "policy_reduction_pct": 0.024979059754702205,
+    "oracle_reduction_pct": 7.756904524842267,
+    "fraction_oracle_gain_recovered": 0.0032202355559108834,
+    "probability_nonuniform_allocation": 0.09080319288514849
+  }
+]

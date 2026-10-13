@@ -1,0 +1,124 @@
+{
+  "decision": "STOP_POSTERIOR_CREDIT_AFTER_CONVERGENCE",
+  "highest_level_stable": true,
+  "diagnostics": [
+    {
+      "points_per_scramble": 512,
+      "base_points": 4096,
+      "implicit_symmetrized_entries": 98304,
+      "half_difference": 0.023876356674095933,
+      "max_credit_change_vs_previous": null,
+      "max_stress_risk_change_vs_previous_normalized": null,
+      "mean_risks": {
+        "plugin": 0.5658574872255863,
+        "prior-scale": 0.5136409474661151,
+        "posterior-credit": 0.47288998042175967
+      },
+      "relative_reductions": {
+        "plugin": 0.16429491329989934,
+        "prior-scale": 0.07933745789814348
+      },
+      "stress_regressions": [
+        {
+          "level": 512,
+          "id": "sparse-extreme",
+          "gram": "paired-correlated",
+          "plugin_mse": 0.0354870947476703,
+          "posterior_mse": 0.04191444369767699,
+          "relative_reduction": -0.1811179245781635
+        }
+      ],
+      "mean_criteria_pass": true
+    },
+    {
+      "points_per_scramble": 2048,
+      "base_points": 16384,
+      "implicit_symmetrized_entries": 393216,
+      "half_difference": 0.006745200132003082,
+      "max_credit_change_vs_previous": 0.019396291709179336,
+      "max_stress_risk_change_vs_previous_normalized": 0.011954980168087772,
+      "mean_risks": {
+        "plugin": 0.5658574872255863,
+        "prior-scale": 0.5136409474661151,
+        "posterior-credit": 0.4728863131532281
+      },
+      "relative_reductions": {
+        "plugin": 0.16430139420474615,
+        "prior-scale": 0.07934459764926664
+      },
+      "stress_regressions": [
+        {
+          "level": 2048,
+          "id": "sparse-extreme",
+          "gram": "paired-correlated",
+          "plugin_mse": 0.0354870947476703,
+          "posterior_mse": 0.04164858727100703,
+          "relative_reduction": -0.1736262877293225
+        }
+      ],
+      "mean_criteria_pass": true
+    },
+    {
+      "points_per_scramble": 8192,
+      "base_points": 65536,
+      "implicit_symmetrized_entries": 1572864,
+      "half_difference": 0.0015245778954863787,
+      "max_credit_change_vs_previous": 0.00746767341168153,
+      "max_stress_risk_change_vs_previous_normalized": 0.0021811650021725517,
+      "mean_risks": {
+        "plugin": 0.5658574872255863,
+        "prior-scale": 0.5136409474661151,
+        "posterior-credit": 0.47284455566801714
+      },
+      "relative_reductions": {
+        "plugin": 0.1643751892611935,
+        "prior-scale": 0.07942589468256774
+      },
+      "stress_regressions": [
+        {
+          "level": 8192,
+          "id": "sparse-extreme",
+          "gram": "paired-correlated",
+          "plugin_mse": 0.0354870947476703,
+          "posterior_mse": 0.04172599048009943,
+          "relative_reduction": -0.17580745273149506
+        }
+      ],
+      "mean_criteria_pass": true
+    },
+    {
+      "points_per_scramble": 32768,
+      "base_points": 262144,
+      "implicit_symmetrized_entries": 6291456,
+      "half_difference": 0.0002565146782897987,
+      "max_credit_change_vs_previous": 0.0012784004746451139,
+      "max_stress_risk_change_vs_previous_normalized": 0.0004335939813205391,
+      "mean_risks": {
+        "plugin": 0.5658574872255863,
+        "prior-scale": 0.5136409474661151,
+        "posterior-credit": 0.47286079530153313
+      },
+      "relative_reductions": {
+        "plugin": 0.16434649010304395,
+        "prior-scale": 0.07939427797911738
+      },
+      "stress_regressions": [
+        {
+          "level": 32768,
+          "id": "sparse-extreme",
+          "gram": "paired-correlated",
+          "plugin_mse": 0.0354870947476703,
+          "posterior_mse": 0.04171060348940229,
+          "relative_reduction": -0.17537385875017453
+        }
+      ],
+      "mean_criteria_pass": true
+    }
+  ],
+  "fit_seconds": 31.26053860015236,
+  "evaluation_seconds": 1.8132961001247168,
+  "method_evaluations": 10836,
+  "fresh_confirmation": false,
+  "GPU_cost": 0,
+  "limits": "numerical stability diagnostic only, no rigorous continuous-prior error certificate or fresh inference"
+}

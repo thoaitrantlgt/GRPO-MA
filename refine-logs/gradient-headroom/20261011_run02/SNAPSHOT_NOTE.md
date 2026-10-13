@@ -1,0 +1,5 @@
+# Snapshot link origins
+
+Historical snapshots preserve source content rather than rewriting relative links. Resolve links in `EXPERIMENT_PLAN.md` from its original location, `refine-logs/gradient-headroom/EXPERIMENT_PLAN.md`. It is the protocol-era plan, before the final completion checklist was updated. Resolve links in `SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md` from the repository root, where its source `SEQUENTIAL_THOUGHT_SAMPLING_PROPOSAL.md` lived. `DERIVATION_PACKAGE.md` came from `refine-logs/gradient-headroom/DERIVATION_PACKAGE.md` and contains no relative links.
+
+Live links for readers are in [DECISION.md](DECISION.md), [RESULTS.md](RESULTS.md), and the [current plan](../EXPERIMENT_PLAN.md). The first document audit treated all snapshots as live run-local documents and reported relocated links as missing; its output is preserved in DOCUMENT_AUDIT_initial.json. The final audit explicitly checks snapshot links against these declared source locations. No frozen snapshot content or numerical output was changed.

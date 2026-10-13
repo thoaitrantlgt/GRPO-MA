@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_saved_oracle_minima": true,
+    "selected_moment_contraction": true,
+    "primary_ratios_match": true,
+    "frozen_source_and_code_hashes": true,
+    "selected_budget_and_coverage": true,
+    "primary_intervals_match": true
+  },
+  "maximum_lattice_reconstruction_error": 0.0,
+  "maximum_moment_contraction_error": 4.6074255521944e-15,
+  "scope": "separate saved-artifact and bootstrap reconstruction, no independent-family semantic review"
+}

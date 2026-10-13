@@ -1,0 +1,26 @@
+[
+  {
+    "K": 2,
+    "n_per_thought": 1,
+    "histories": 4,
+    "max_pointwise_absolute_one_action_gain": 8.881784197001252e-16
+  },
+  {
+    "K": 2,
+    "n_per_thought": 7,
+    "histories": 64,
+    "max_pointwise_absolute_one_action_gain": 8.881784197001252e-16
+  },
+  {
+    "K": 4,
+    "n_per_thought": 1,
+    "histories": 16,
+    "max_pointwise_absolute_one_action_gain": 3.552713678800501e-15
+  },
+  {
+    "K": 4,
+    "n_per_thought": 3,
+    "histories": 256,
+    "max_pointwise_absolute_one_action_gain": 5.329070518200751e-15
+  }
+]

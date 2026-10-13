@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "policy_reconstruction_residual": 0.0,
+  "positive_integer_allocations": "PASS via PilotPolicy validation",
+  "nested_component_balance": "PASS",
+  "oracle_dominance": "PASS",
+  "consumed_development_vectors": 96,
+  "methods_times_cells": 1224,
+  "new_confirmation": false,
+  "GPU_cost": 0
+}

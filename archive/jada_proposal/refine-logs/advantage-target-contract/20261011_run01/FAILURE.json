@@ -1,0 +1,8 @@
+{
+  "status": "AUDIT_EXPORT_FAILED",
+  "reason": "NumPy boolean check values required conversion to Python bool for JSON serialization",
+  "algebra_checks_completed": true,
+  "original_normalization_derivation_archived": true,
+  "successful_replacement": "../20261011_run02",
+  "GPU_cost": 0
+}

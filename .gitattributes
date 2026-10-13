@@ -1,0 +1,7 @@
+# Preserve frozen research snapshots and recorded hashes across platforms.
+archive/** -text
+experiments/sequential_sampling/** -text
+experiments/gradient_headroom/** -text
+experiments/score_geometry/** -text
+refine-logs/** -text
+implement-stage/** -text

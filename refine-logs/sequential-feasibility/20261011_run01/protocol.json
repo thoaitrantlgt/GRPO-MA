@@ -1,0 +1,77 @@
+{
+  "stage": "consumed-development CPU feasibility, not confirmation",
+  "source": "archive/jada_proposal/refine-logs/surrogate-diagnostic/20261011_run02/probability_vectors.json",
+  "include_kinds": [
+    "consumed",
+    "stress"
+  ],
+  "K": [
+    2,
+    4
+  ],
+  "B": 16,
+  "m0": [
+    1,
+    2
+  ],
+  "K2_projection": [
+    0,
+    3
+  ],
+  "target": "sample-std h_tau, tau=1e-4",
+  "terminal_estimator": "h_tau(all successes / all counts); identical for every method",
+  "methods": [
+    "uniform",
+    "variance-only",
+    "JADA",
+    "ungated",
+    "gated"
+  ],
+  "prior": "iid Beta(0.5,0.5), frozen finite quadrature approximation",
+  "quadrature": {
+    "seed": 2828422027,
+    "scrambles": 2,
+    "K2_nested_base_points": [
+      64,
+      128
+    ],
+    "K4_nested_base_points": [
+      8,
+      16
+    ],
+    "symmetry": "all coordinate permutations"
+  },
+  "posterior_reliability": 0.9,
+  "numerical_reference_risk_tolerance": 0.01,
+  "minimum_gain": 1e-12,
+  "numerical_check": "positive gains on high/low/half supports and <=1% reference-risk disagreement; shared by ungated and gated",
+  "tie_order": "identity precommitted coordinate order for exact evaluator; independent permutation randomization yields stochastic tie version",
+  "paired_mc": {
+    "seed": 3162272027,
+    "episodes_per_vector": 512,
+    "methods": [
+      "uniform",
+      "ungated",
+      "gated"
+    ]
+  },
+  "bootstrap": {
+    "seed": 3316622027,
+    "replicates": 2000,
+    "unit": "consumed vector, component-stratified and paired across all configurations",
+    "status": "descriptive development intervals only"
+  },
+  "resource_ceiling": {
+    "risk_cache_vectors": 30000,
+    "seconds_per_configuration": 600
+  },
+  "screening": "development mean gain >5%, no original K4 stress regression >10%, inspect integration and overhead; never a confirmation GO",
+  "GPU_cost": 0,
+  "frozen_utc": "2026-10-11T09:06:39.031757+00:00",
+  "code_sha256": {
+    "core.py": "cc0544d57f1fd1196b2499310df443b6422e77571dfda09d5e4904f0dc131184",
+    "evaluation.py": "b9c9407d2222a34c781d9cb81837f67cb2e12fdbb63c123a37fe5a13151b699a",
+    "run.py": "afe6a8a8825f9cf63a8b9dfd556db5f8820aaddac5959ccf518180093039d573",
+    "__init__.py": "9ffa26a2449ebe8ba6dd37689ac941fb1fa37ed416a96eedfda8db0add480167"
+  }
+}

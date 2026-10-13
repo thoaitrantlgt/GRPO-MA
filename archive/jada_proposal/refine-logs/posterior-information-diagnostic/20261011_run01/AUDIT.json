@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "decomposition": "PASS",
+  "oracle_dominance": "PASS",
+  "source_unchanged": true,
+  "vectors": 96,
+  "settings": 2,
+  "GPU_cost": 0
+}

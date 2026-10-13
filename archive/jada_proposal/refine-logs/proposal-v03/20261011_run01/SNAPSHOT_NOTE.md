@@ -1,0 +1,1 @@
+The root proposal is the readable canonical version. Relative source links in this byte-identical snapshot resolve from the repository root. This run is a document audit, not an experiment or fresh reviewer clearance.

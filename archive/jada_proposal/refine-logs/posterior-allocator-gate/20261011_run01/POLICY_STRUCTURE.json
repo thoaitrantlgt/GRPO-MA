@@ -1,0 +1,22 @@
+{
+  "posterior-Jeffreys": {
+    "1": {
+      "histories": 16,
+      "histories_nonuniform": 0
+    },
+    "2": {
+      "histories": 81,
+      "histories_nonuniform": 8
+    }
+  },
+  "posterior-mixture": {
+    "1": {
+      "histories": 16,
+      "histories_nonuniform": 0
+    },
+    "2": {
+      "histories": 81,
+      "histories_nonuniform": 8
+    }
+  }
+}

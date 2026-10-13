@@ -1,0 +1,80 @@
+{
+  "settings": [
+    {
+      "id": "fixed-main-m0-1",
+      "arm": "fixed-main",
+      "total": 12,
+      "m0": 1,
+      "lambda": 0.5,
+      "profile_points": 32,
+      "seconds": 0.024458900094032288,
+      "allocations": 35,
+      "pilot_histories": 16
+    },
+    {
+      "id": "fixed-main-m0-2",
+      "arm": "fixed-main",
+      "total": 16,
+      "m0": 2,
+      "lambda": 0.5,
+      "profile_points": 32,
+      "seconds": 0.05208129994571209,
+      "allocations": 35,
+      "pilot_histories": 81
+    },
+    {
+      "id": "fixed-main-m0-4",
+      "arm": "fixed-main",
+      "total": 24,
+      "m0": 4,
+      "lambda": 0.5,
+      "profile_points": 32,
+      "seconds": 0.33138930005952716,
+      "allocations": 35,
+      "pilot_histories": 625
+    },
+    {
+      "id": "fixed-total-m0-1",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 1,
+      "lambda": 0.16666666666666666,
+      "profile_points": 32,
+      "seconds": 5.503485499881208,
+      "allocations": 969,
+      "pilot_histories": 16
+    },
+    {
+      "id": "fixed-total-m0-2",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 2,
+      "lambda": 0.3333333333333333,
+      "profile_points": 32,
+      "seconds": 3.1035340998787433,
+      "allocations": 455,
+      "pilot_histories": 81
+    },
+    {
+      "id": "fixed-total-m0-4",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 4,
+      "lambda": 0.6666666666666666,
+      "profile_points": 32,
+      "seconds": 0.24461230007000268,
+      "allocations": 35,
+      "pilot_histories": 625
+    }
+  ],
+  "offline_integration": {
+    "seed": 5772152026,
+    "replicates": 4,
+    "Jeffreys_points_per_replicate": 256,
+    "mixture_points_per_component_per_replicate": 64
+  },
+  "rule": "halve power-of-two counts from Jeffreys256/mixture64 until estimated fit <=900s, floor32/8; runtime only",
+  "engine": "exact reward-state risk for every setting",
+  "confirmation_accessed": false,
+  "estimated_fit_seconds": 740.764911994338
+}

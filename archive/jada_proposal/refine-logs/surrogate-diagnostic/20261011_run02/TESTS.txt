@@ -1,0 +1,31 @@
+test_K2_equal_leverage_never_changes_variance_allocation (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_allocator_is_integer_feasible_and_globally_optimal (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_budget_weight_matches_uniform_pooling (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_exact_fixed_reuse_covariance_and_default_regression (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_jacobian_and_column_norms (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_paired_monte_carlo_agrees_with_exact (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_stratified_intervals_ignore_zero_variance_strata_df (test_cpu_estimator_gate.EstimatorGateTests) ... ok
+test_gram_psd_scalar_and_null_boundaries (test_gradient_gate.GradientGateTests) ... ok
+test_score_covariance_identity_and_local_coefficients (test_gradient_gate.GradientGateTests) ... ok
+test_weighted_nonlinear_risk_matches_direct_main_enumeration (test_gradient_gate.GradientGateTests) ... ok
+test_all_allocations_enumerated_without_duplicates (test_nonlinear_oracle.NonlinearOracleTests) ... ok
+test_deterministic_rewards_zero_error (test_nonlinear_oracle.NonlinearOracleTests) ... ok
+test_exact_uniform_anchor_and_oracle_dominance (test_nonlinear_oracle.NonlinearOracleTests) ... ok
+test_saved_table_audit_rejects_nonoptimal_oracle_policy (test_nonlinear_oracle.NonlinearOracleTests) ... ok
+test_vectorized_conditional_risk_matches_direct_enumeration (test_nonlinear_oracle.NonlinearOracleTests) ... ok
+test_fixed_lambda_conditional_risk_direct_and_old_default (test_pilot_information.PilotInformationTests) ... ok
+test_fixed_lambda_covariance_with_pilot_measurable_counts (test_pilot_information.PilotInformationTests) ... ok
+test_bayes_policy_dominates_uniform_under_finite_prior (test_posterior_allocator.PosteriorAllocatorTests) ... ok
+test_exchangeable_symmetry_preserved_by_randomized_ties (test_posterior_allocator.PosteriorAllocatorTests) ... ok
+test_policy_is_pilot_only_feasible_and_serializable (test_posterior_allocator.PosteriorAllocatorTests) ... ok
+test_posterior_risk_targets_true_advantage_integrated_over_p (test_posterior_allocator.PosteriorAllocatorTests) ... ok
+test_prior_quadrature_draws_match_declared_components (test_posterior_allocator.PosteriorAllocatorTests) ... ok
+test_chunked_component_prefixes_equal_direct_finite_prior_integral (test_posterior_convergence.ConvergenceTests) ... ok
+test_equal_probability_boundary (test_surrogate_diagnostic.SurrogateDiagnosticTests) ... ok
+test_independent_existing_exact_engine (test_surrogate_diagnostic.SurrogateDiagnosticTests) ... ok
+test_moment_and_taylor_identities (test_surrogate_diagnostic.SurrogateDiagnosticTests) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 2.758s
+
+OK

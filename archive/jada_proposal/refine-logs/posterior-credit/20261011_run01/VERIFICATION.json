@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "repository_tests": 32,
+  "command": "python -m unittest discover -s tests",
+  "audit": "PASS",
+  "figure_inspected": true,
+  "review": "local only",
+  "continuous_prior_stability": "FAIL",
+  "GPU_cost": 0
+}

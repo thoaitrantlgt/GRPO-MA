@@ -1,0 +1,19 @@
+{
+  "scope": "Numerical convergence diagnosis of the unchanged posterior-credit estimator; consumed data only",
+  "original_run": "refine-logs/posterior-credit/20261011_run01",
+  "seed": 2236062026,
+  "scrambles": 8,
+  "nested_points_per_scramble": [512, 2048, 8192, 32768],
+  "prior": "unchanged iid Jeffreys Beta(0.5,0.5); same original seed+replicate Sobol stream",
+  "target": "unchanged sample-std h_tau with tau=1e-4",
+  "budget": "unchanged K4 total16 uniform4 per thought",
+  "geometry": "all seven original fixed Grams; same four primary Grams",
+  "scalar_control": "retain original frozen coefficient; never refit on outcomes or at new levels",
+  "integration": "pool joint numerator/mass; exact24-permutation symmetrization of integrals equivalent to augmenting support; chunked nested prefixes",
+  "numerical_stability": "highest-level half-scramble max credit difference <=0.02 AND highest-vs-previous max credit difference <=0.01 AND max stress risk change normalized by plug-in risk <=0.01",
+  "mean_and_stress_rules": "retain original >5% development reductions against both controls and no >10% weighted risk regression vs plug-in in any of24 original primary stress cells",
+  "decision": "largest-level stability fails: NUMERICALLY_INCONCLUSIVE; stable but mean/stress rules fail: STOP_POSTERIOR_CREDIT_AFTER_CONVERGENCE; stable and all development rules pass: DEVELOPMENT_CRITERIA_MET_NOT_CONFIRMED",
+  "ceiling": "run all four declared levels; no adaptive extension or winner-level selection",
+  "uncertainty": "exact outcome-state risks for each numerical table; quadrature stability is diagnostic, not a rigorous continuous-prior error certificate; no fresh population intervals",
+  "GPU_cost": 0
+}

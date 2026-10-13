@@ -1,0 +1,29 @@
+{
+  "verdict": "NO_ROBUST_STABLE_DEVELOPMENT_SIGNAL",
+  "primary_reduction": 0.014865841602067276,
+  "development_ci": [
+    0.010203085742924816,
+    0.019955849252539706
+  ],
+  "maximum_original_stress_regression": 0.007027803113087483,
+  "numerically_stable": false,
+  "highest_vs_adjacent_aggregate_risk_change_over_uniform": 0.0009224835678879718,
+  "maximum_stress_risk_change_over_uniform": 0.05569520210180399,
+  "prior_value_change_over_uniform": 0.0062125875486317384,
+  "lower_policy_regret_on_highest_support": {
+    "base16_m1": 0.0063594015789235625,
+    "base16_m2": 0.00646482696063011,
+    "base64_m1": 0.0012544701500971644,
+    "base64_m2": 0.0010853308947467166
+  },
+  "max_lower_policy_regret_over_uniform": 0.0077772082368766935,
+  "confirmation_GO": false,
+  "GPU_cost": 0,
+  "seconds": 22.509074799949303,
+  "vectors": 102,
+  "consumed_vectors": 96,
+  "stress_vectors": 6,
+  "levels": 3,
+  "evaluations": 612,
+  "maximum_Bellman_residual": 0.0
+}

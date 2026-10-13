@@ -1,0 +1,51 @@
+{
+  "round": 2,
+  "undeclared": [],
+  "stale_rows": [],
+  "semantic_undeclared": 0,
+  "verdict": "provisional_no_additional_gaps_identified",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "resolved_round01": [
+    {
+      "finding": "Ratio-of-mean-risks estimand and consumed-vector weighting",
+      "declarations": [
+        "K15",
+        "PROTOCOL_CLARIFICATION.md"
+      ],
+      "assessment": "The declaration matches the frozen implementation. All six consumed components contain 16 vectors, so equal component weights and equal vector weights coincide in this run."
+    },
+    {
+      "finding": "Equal-m0 pooling for the primary screen and aggregate stability",
+      "declarations": [
+        "K15",
+        "K17",
+        "PROTOCOL_CLARIFICATION.md"
+      ],
+      "assessment": "The declaration matches the frozen implementation: primary and aggregate stability use the equal mixture, the aggregate absolute difference is taken after pooling, and stress checks maximize over coverage settings and stress vectors."
+    },
+    {
+      "finding": "Two-sided percentile interval and screening endpoint",
+      "declarations": [
+        "K16",
+        "K17",
+        "PROTOCOL_CLARIFICATION.md"
+      ],
+      "assessment": "The declaration matches the frozen 2,000 paired component-stratified resamples, 2.5th/97.5th percentile interval, linear quantile interpolation, and use of the 2.5th-percentile endpoint for screening."
+    }
+  ],
+  "verification": {
+    "frozen_code_equals_current": true,
+    "independently_recomputed_summary_fields": [
+      "primary_reduction",
+      "development_ci",
+      "highest_vs_adjacent_aggregate_risk_change_over_uniform",
+      "maximum_stress_risk_change_over_uniform",
+      "maximum_original_stress_regression"
+    ],
+    "maximum_recomputed_summary_discrepancy": 0.0,
+    "saved_audit_read": "refine-logs/information-control-k4/20261011_run01/SAVED_AUDIT.json",
+    "saved_audit_scope": "Local deterministic saved-table reconstruction, with no semantic or continuous-prior certification."
+  },
+  "scope_note": "The three round-1 omissions are resolved by explicitly identified retrospective sweep declarations. This does not make them prospectively declared in the original local ledger. No additional material undeclared decision or ledger/code contradiction was identified in the inspected artifacts. This same-family review does not certify clean status, method success, continuous-prior accuracy, or cross-family correctness."
+}

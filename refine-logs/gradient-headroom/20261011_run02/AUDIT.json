@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "direct_squared_update_error": true,
+    "saved_selected_moment_contraction": true,
+    "unchanged_uniform_credit_risk": true,
+    "exact_global_oracle_minimum": true,
+    "oracle_bounds": true,
+    "orthogonal_credit_update_equivalence": true,
+    "null_geometry": true,
+    "PSD_error_moments": true,
+    "centered_error_moments": true,
+    "budget_and_coverage": true
+  },
+  "maximum_direct_error_discrepancy": 1.2434497875801753e-14,
+  "uniform_risk_discrepancy": 1.0658141036401503e-14,
+  "global_search_discrepancy": 0.0,
+  "selected_moment_contraction_discrepancy": 4.6074255521944e-15,
+  "maximum_raw_null_risk": 6.9111383282915995e-15,
+  "minimum_second_moment_eigenvalue": -1.896247365062282e-15,
+  "maximum_centering_residual": 2.6423307986078726e-14,
+  "evaluated_allocations": 455,
+  "total_labelled_probability_vectors": 2448,
+  "scope": "deterministic numerical checks; no external semantic certification"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "active_tests": 19,
+  "test_exit_code": 0,
+  "missing_local_document_links": [],
+  "historical_snapshot_link_origins": {
+    "EXPERIMENT_PLAN.md": "refine-logs\\gradient-headroom",
+    "SEQUENTIAL_PROPOSAL_BEFORE_GRADIENT_ANNOTATION.md": "."
+  },
+  "GPU_cost": 0
+}

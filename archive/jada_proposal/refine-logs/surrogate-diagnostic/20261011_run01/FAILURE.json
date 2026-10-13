@@ -1,0 +1,7 @@
+{
+  "status": "EXPORT_FAILED",
+  "reason": "CSV fieldnames derived from first row omitted path-only amplitude column",
+  "raw_moments_completed": true,
+  "successful_replacement": "../20261011_run02",
+  "GPU_cost": 0
+}

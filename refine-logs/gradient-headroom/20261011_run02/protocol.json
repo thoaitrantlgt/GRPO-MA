@@ -1,0 +1,70 @@
+{
+  "stage": "synthetic fixed-score fixed-allocation oracle headroom; consumed development only",
+  "K": 4,
+  "B": 16,
+  "m0": [
+    1,
+    2
+  ],
+  "source": "refine-logs/sequential-feasibility/20261011_run02/probability_vectors.json",
+  "data": "unchanged 96 consumed heterogeneous vectors and six original stress vectors; all retained",
+  "target": "sample-std h_tau, tau=1e-4; all observations",
+  "allocation": "all integer count vectors summing B, each >=m0; fixed before any outcomes; minimum coverage is not an adaptive pilot",
+  "comparators": [
+    "uniform",
+    "exact-credit-oracle",
+    "exact-update-oracle"
+  ],
+  "oracle_information": "true p and fixed score Gram; no sampled-outcome access for selection",
+  "geometries": {
+    "orthogonal": "Q=I4",
+    "aligned-null": "Q=ones(4,4); structural null, ratios NA, excluded from pooled relative endpoint",
+    "opposed": "Q=vv^T, v=(1,1,-1,-1)",
+    "unequal-norm": "Q=diag(4*(0.5,1,2,4)^2/sum((0.5,1,2,4)^2))"
+  },
+  "geometry_normalization": "trace Q=K; artificial score vectors only",
+  "coordinate_orders": "all24 permutations of each p; solve each labelled oracle separately, then average risks and second moments; Gram stays fixed",
+  "outcome_evaluation": "exact product Binomial success count sum, no reward Monte Carlo or prior quadrature",
+  "ties": "lexicographic first allocation with strict floating-point minimum; report deterministic roundoff tolerance for invariants",
+  "primary": "one minus ratio of mean update risks, equal weights on m0=1/2, all96 consumed vectors, and three informative geometries; report update-oracle versus uniform and versus credit-oracle",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 1414212027,
+    "unit": "six-component stratified consumed vector, paired across m0/geometries/methods",
+    "interval": "two-sided95 percentile, NumPy linear quantiles; development descriptive only"
+  },
+  "diagnostics": {
+    "dispersion_bins_sample_std": [
+      0,
+      0.1,
+      0.25,
+      "infinity"
+    ],
+    "minimum_coverage_fractions": [
+      0.25,
+      0.5
+    ],
+    "leverage": "diag(P Q P); average optimal counts and update error by fixed geometry",
+    "stress": "all six cases, all informative geometries, both m0; no cherry-picking"
+  },
+  "screen": {
+    "pooled_lower_interval_headroom_vs_uniform": 0.05,
+    "pooled_lower_interval_advantage_vs_credit_oracle": 0.05,
+    "informative_geometries_with_point_headroom_and_advantage_above5percent": 2,
+    "require_exact_oracle_and_null_invariants": true,
+    "meaning": "permission to investigate a deployable method only, never confirmation GO or training GO"
+  },
+  "numerical_tolerance": 1e-10,
+  "resource_ceiling": {
+    "CPU_wall_seconds": 600,
+    "BLAS_threads": 1
+  },
+  "no_rescue": "no benchmark/geometry/threshold modification after results; no score-vector search for winners",
+  "GPU_cost": 0,
+  "source_sha256": "9e3fb17dfa2c6f07cb1bf73076a76cf53a6281d258678a97025963aa0f2b3743",
+  "code_sha256": {
+    "core.py": "ff628665e4906c88886de06dbc2594e75767660ef56adb50e4abcc1fc260665f",
+    "run.py": "e8ac5a9cc41bee6a8ff44325dda55494d20464b3f2560a72f0f6b9630e46b475"
+  },
+  "target_code_sha256": "0533e89cd6295542577684cc733fa48132f403fc4cd875ad8d5cdc4fd22b9a43"
+}

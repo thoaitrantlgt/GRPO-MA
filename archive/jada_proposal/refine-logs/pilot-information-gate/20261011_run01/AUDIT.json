@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "exact_cells": 612,
+  "methods_per_cell": 6,
+  "max_direct_residual": 4.440892098500626e-16,
+  "max_saved_metric_residual": 0.0,
+  "max_raw_value_bias": 4.440892098500626e-16,
+  "posterior_minimizers_and_permutation_equivariance": "PASS",
+  "prior_rule_and_freeze": "PASS",
+  "matched_total_uniform_pooling_invariant": "PASS",
+  "GPU_cost": 0
+}

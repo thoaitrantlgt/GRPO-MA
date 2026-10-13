@@ -1,0 +1,256 @@
+[
+  {
+    "K": 2,
+    "m0": 1,
+    "method": "uniform",
+    "seconds": 0.01664709998294711,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "uniform": 441
+    }
+  },
+  {
+    "K": 2,
+    "m0": 1,
+    "method": "variance-only",
+    "seconds": 0.0065870999824255705,
+    "mass_error": 1.9984014443252818e-15,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 2,
+    "m0": 1,
+    "method": "JADA",
+    "seconds": 0.005831599934026599,
+    "mass_error": 1.9984014443252818e-15,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 2,
+    "m0": 1,
+    "method": "ungated",
+    "seconds": 0.2550688001792878,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.9049797446103363,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "numerical-fallback": 404,
+      "no-positive-gain": 37
+    }
+  },
+  {
+    "K": 2,
+    "m0": 1,
+    "method": "gated",
+    "seconds": 0.0155005999840796,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.9049797446103363,
+    "reliability_fallback_fraction": 0.09502025538966363,
+    "history_counts": {
+      "numerical-fallback": 404,
+      "reliability-fallback": 37
+    }
+  },
+  {
+    "K": 2,
+    "m0": 2,
+    "method": "uniform",
+    "seconds": 0.010870200116187334,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "uniform": 431
+    }
+  },
+  {
+    "K": 2,
+    "m0": 2,
+    "method": "variance-only",
+    "seconds": 0.009857600089162588,
+    "mass_error": 1.9984014443252818e-15,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 2,
+    "m0": 2,
+    "method": "JADA",
+    "seconds": 0.008869299897924066,
+    "mass_error": 1.7763568394002505e-15,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 2,
+    "m0": 2,
+    "method": "ungated",
+    "seconds": 0.2256207000464201,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.8891430353787256,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "numerical-fallback": 394,
+      "no-positive-gain": 37
+    }
+  },
+  {
+    "K": 2,
+    "m0": 2,
+    "method": "gated",
+    "seconds": 0.014397499850019813,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.8891430353787256,
+    "reliability_fallback_fraction": 0.11085696462127424,
+    "history_counts": {
+      "numerical-fallback": 394,
+      "reliability-fallback": 37
+    }
+  },
+  {
+    "K": 4,
+    "m0": 1,
+    "method": "uniform",
+    "seconds": 0.07785250013694167,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "uniform": 2131
+    }
+  },
+  {
+    "K": 4,
+    "m0": 1,
+    "method": "variance-only",
+    "seconds": 0.1854775999672711,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 4,
+    "m0": 1,
+    "method": "JADA",
+    "seconds": 0.15940279979258776,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 4,
+    "m0": 1,
+    "method": "ungated",
+    "seconds": 1.7615945001598448,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0008399880356875421,
+    "numerical_fallback_fraction": 0.9868797830099957,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "numerical-fallback": 2120,
+      "no-positive-gain": 14,
+      "preferred": 1
+    }
+  },
+  {
+    "K": 4,
+    "m0": 1,
+    "method": "gated",
+    "seconds": 0.07968710013665259,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.9876629325730207,
+    "reliability_fallback_fraction": 0.012337067426978793,
+    "history_counts": {
+      "numerical-fallback": 2117,
+      "reliability-fallback": 14
+    }
+  },
+  {
+    "K": 4,
+    "m0": 2,
+    "method": "uniform",
+    "seconds": 0.08155600004829466,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "uniform": 2001
+    }
+  },
+  {
+    "K": 4,
+    "m0": 2,
+    "method": "variance-only",
+    "seconds": 0.36247669998556376,
+    "mass_error": 8.881784197001252e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 4,
+    "m0": 2,
+    "method": "JADA",
+    "seconds": 0.33197599998675287,
+    "mass_error": 7.771561172376096e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.0,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {}
+  },
+  {
+    "K": 4,
+    "m0": 2,
+    "method": "ungated",
+    "seconds": 1.722665400011465,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.001259982053531313,
+    "numerical_fallback_fraction": 0.9873560837948577,
+    "reliability_fallback_fraction": 0.0,
+    "history_counts": {
+      "numerical-fallback": 1993,
+      "no-positive-gain": 11,
+      "preferred": 1
+    }
+  },
+  {
+    "K": 4,
+    "m0": 2,
+    "method": "gated",
+    "seconds": 0.08639509999193251,
+    "mass_error": 6.661338147750939e-16,
+    "preferred_fraction": 0.0,
+    "numerical_fallback_fraction": 0.9885308081393956,
+    "reliability_fallback_fraction": 0.011469191860604196,
+    "history_counts": {
+      "numerical-fallback": 1990,
+      "reliability-fallback": 11
+    }
+  }
+]

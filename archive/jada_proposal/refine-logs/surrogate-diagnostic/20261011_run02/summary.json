@@ -1,0 +1,59 @@
+{
+  "scope": "Posthoc mechanism diagnosis, not a new confirmation or allocator gate",
+  "consumed_vectors": 96,
+  "stress_vectors": 6,
+  "path_vectors": 27,
+  "method_evaluations": 645,
+  "elapsed_seconds": 8.200668300036341,
+  "aggregates": {
+    "uniform": {
+      "mse": 0.7420039851691271,
+      "bias_squared": 0.23501261535607165,
+      "variance": 0.5069913698130556,
+      "linear": 5.275466474153071,
+      "cross": -8.604771174794912,
+      "remainder": 4.071308685810968,
+      "bias_share": 0.31672689103213447
+    },
+    "JADA": {
+      "mse": 0.7534005499912705,
+      "bias_squared": 0.23769612777397797,
+      "variance": 0.5157044222172926,
+      "linear": 5.589634892755821,
+      "cross": -9.213501306824034,
+      "remainder": 4.377266964059487,
+      "bias_share": 0.3154976828417926
+    },
+    "local-surrogate-oracle": {
+      "mse": 0.7710111481054612,
+      "bias_squared": 0.24465128243465714,
+      "variance": 0.5263598656708042,
+      "linear": 5.172295612267306,
+      "cross": -8.447166897232512,
+      "remainder": 4.045882433070668,
+      "bias_share": 0.3173122503297358
+    },
+    "fixed-nonlinear-oracle": {
+      "mse": 0.7047579595705423,
+      "bias_squared": 0.20695090463688828,
+      "variance": 0.49780705493365396,
+      "linear": 5.8675455449417555,
+      "cross": -9.718362611497675,
+      "remainder": 4.555575026126461,
+      "bias_share": 0.29364819769186823
+    },
+    "adaptive-nonlinear-oracle": {
+      "mse": 0.6800174688131767,
+      "bias_squared": 0.1928992929428888,
+      "variance": 0.4871181758702879,
+      "linear": 6.066346196136678,
+      "cross": -10.130607693258177,
+      "remainder": 4.7442789659346785,
+      "bias_share": 0.28366814352512554
+    }
+  },
+  "median_fixed_regret": 0.07261016174433471,
+  "calibration_and_regret_pass_count": 10,
+  "GPU_cost": 0,
+  "fresh_confirmation": false
+}

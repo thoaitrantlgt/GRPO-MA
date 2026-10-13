@@ -1,0 +1,47 @@
+{
+  "prepared_utc": "2026-10-11T06:56:24.684615+00:00",
+  "settings": [
+    {
+      "id": "fixed-main-m0-4",
+      "arm": "fixed-main",
+      "total": 24,
+      "m0": 4,
+      "lambda": 0.5
+    },
+    {
+      "id": "fixed-total-m0-4",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 4,
+      "lambda": 0.6666666666666666
+    }
+  ],
+  "offline_integration": {
+    "seed": 1414212026,
+    "replicates": 8,
+    "Jeffreys_points_per_replicate": 4096,
+    "mixture_points_per_component_per_replicate": 1024
+  },
+  "nested_levels_per_component": {
+    "posterior-Jeffreys": [
+      1024,
+      2048,
+      4096
+    ],
+    "posterior-mixture": [
+      256,
+      512,
+      1024
+    ]
+  },
+  "chunk_points": 256,
+  "evaluation_source": "refine-logs\\pilot-information-gate\\20261011_run01",
+  "evaluation_status": "consumed confirmation reclassified as development",
+  "new_confirmation": false,
+  "new_outcome_sampling": false,
+  "population_distribution_changed": false,
+  "policy_inputs": "committed prior and pilot counts only; evaluation vectors never fit inputs",
+  "decision": "recommend stop current allocation family if all largest-level half-policy TV<=.01 and every largest-level consumed-development reduction<5%; otherwise numerical diagnosis inconclusive. Not an impossibility certificate or new GO.",
+  "limits": "exact finite reward risks; approximate continuous prior integration; development comparisons descriptive without fresh confidence claims",
+  "GPU_cost": 0
+}

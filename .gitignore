@@ -231,3 +231,6 @@ pretrained_weights/
 .aris/traces/
 .aris/meta/
 tmp/
+
+# Reassembled locally from checked-in parts; original exceeds GitHub blob limit.
+/archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/exact_B24-m0-4.npz

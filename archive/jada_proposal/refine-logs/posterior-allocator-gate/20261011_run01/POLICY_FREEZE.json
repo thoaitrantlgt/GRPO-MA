@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-10-11T03:18:40.444499+00:00",
+  "methods": [
+    "posterior-Jeffreys",
+    "posterior-mixture"
+  ],
+  "information": "no evaluation p accessed during fitting",
+  "evaluation_started": false
+}

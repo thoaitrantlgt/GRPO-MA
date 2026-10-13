@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "K": 4,
+  "total_budgets": [
+    16
+  ],
+  "m0": [
+    1,
+    2
+  ],
+  "reuse": "budget-precommitted",
+  "lambda": "K*m0/B_total, committed before pilots",
+  "epsilon": 1e-06,
+  "reward_model": "independent Bernoulli pilot and fresh main streams; fixed probabilities and policy",
+  "objective": "exact E[mean((A_hat-A_true)^2)]",
+  "allocation_space": "every positive integer four-vector summing to B_main=B_total-K*m0; first computed numerical minimum in lexicographic allocation order; mathematically equivalent floating ties may differ by roundoff",
+  "comparators": [
+    "uniform",
+    "variance-only",
+    "JADA",
+    "local-surrogate-oracle",
+    "fixed-nonlinear-oracle",
+    "adaptive-nonlinear-oracle"
+  ],
+  "fixed_nonlinear_oracle": "knows true p; chooses one allocation minimizing unconditional nonlinear risk before pilots",
+  "adaptive_nonlinear_oracle": "knows true p and realized pilot counts; chooses allocation minimizing conditional nonlinear risk before fresh main sampling",
+  "development": "all 96 original K4 heterogeneous vectors and original six regimes from CPU gate 20261011_run01; outcomes previously seen, development only",
+  "confirmation": {
+    "seed": 2718282026,
+    "vectors": 96,
+    "components": "16 independent vectors each from Beta(.5,.5), Beta(2,2), Beta(8,8), Beta(.5,3), Beta(3,.5), and logistic-normal with shared location N(0,1) and scale exp(Uniform(log(.15),log(3)))",
+    "declared_before_outcomes": true,
+    "no_selection": "every generated vector is retained; distribution unchanged from original mixture"
+  },
+  "primary_estimand": "adaptive-nonlinear-oracle versus matched uniform and variance-only, confirmation distribution; equal components, equal pilot settings, vector clusters",
+  "secondary": "fixed nonlinear oracle, old local oracle, JADA and development/stress results; no tuning on confirmation",
+  "uncertainty": "no Monte Carlo reward error: all pilot/main count states summed exactly. Population uncertainty uses stratified vector-cluster paired covariance and contrast-specific Welch-Satterthwaite Student-t delta-method intervals",
+  "headroom_rule": "HEADROOM if both primary relative-reduction lower 95% limits exceed 5%; LIMITED_HEADROOM if both upper limits are at most 5%; otherwise INCONCLUSIVE. Headroom is an unattainable-information diagnostic, not a deployable method or an online-training GO.",
+  "limits": "Only K4/B16 and declared pilot/reuse settings. A negative result cannot rule out larger budgets; a positive result does not establish that pilot-only allocation can attain the oracle.",
+  "GPU_hours": 0,
+  "GPU_cost": 0,
+  "prepared_utc": "2026-10-11T02:58:04.368843+00:00"
+}

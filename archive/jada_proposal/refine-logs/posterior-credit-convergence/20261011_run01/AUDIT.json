@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "bias_variance_residual": 0,
+  "centering_residual": 6.661338147750939e-16,
+  "finite_prior_bayes_max_excess": 0,
+  "original_first4_prefix_reproduction_residual": 1.1102230246251565e-15,
+  "predictive_mass_residual": 2.220446049250313e-16,
+  "constant_scalar_preserved": true,
+  "null_update_max": 0.0,
+  "all_declared_levels_evaluated": true
+}

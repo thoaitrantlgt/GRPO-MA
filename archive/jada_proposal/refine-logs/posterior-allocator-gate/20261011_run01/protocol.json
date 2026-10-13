@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "K": 4,
+  "total_budgets": [
+    16
+  ],
+  "m0": [
+    1,
+    2
+  ],
+  "reuse": "budget-precommitted",
+  "lambda": "K*m0/B_total fixed before current pilots",
+  "epsilon": 1e-06,
+  "primary_method": "posterior-Jeffreys",
+  "secondary_method": "posterior-mixture",
+  "priors": {
+    "posterior-Jeffreys": "independent Beta(.5,.5) coordinates, matching the original allocation prior",
+    "posterior-mixture": "known equal-weight synthetic benchmark population prior: five independent-coordinate Beta components (.5,.5),(2,2),(8,8),(.5,3),(3,.5), plus shared-location/log-scale logistic-normal component. Benchmark-informed sensitivity, not distribution-free evidence."
+  },
+  "allocation_objective": "E_p|pilot E_fresh-main mean((A_hat-A_true(p))^2); integrate squared error to f(p), not f(posterior mean)",
+  "offline_integration": {
+    "seed": 4242422026,
+    "replicates": 8,
+    "Jeffreys_points_per_replicate": 1024,
+    "mixture_points_per_component_per_replicate": 256,
+    "rule": "independent scrambled Sobol replicates; prior-weighted pilot likelihood gives posterior; exact finite reward-state risk for each integration point. Same prior points used for both m0 settings. Pool numerators and likelihood masses before division.",
+    "convergence": "compare policies from first four versus last four scrambles; report disagreement and posterior-risk uncertainty; never increase samples or switch primary method after confirmation outcomes"
+  },
+  "policy": "exchangeability symmetrization of joint risk numerators and pilot masses over all 24 coordinate permutations; uniform randomization among allocations within 1e-12 of the minimum approximate posterior risk; positive integer counts, exact main budget; fixed policy tables before evaluation",
+  "deployment_inputs": "pilot success counts, m0, total budget, frozen policy table and independent tie RNG only; no true p, main outcomes or confirmation examples",
+  "development": "all 198 previously seen nonlinear-oracle vectors, including original six stress regimes; development diagnostics only; none used as posterior integration points or for prior tuning",
+  "confirmation": {
+    "seed": 3141592026,
+    "vectors": 96,
+    "components": "16 independent vectors from each of the unchanged six benchmark components",
+    "declared_before_outcomes": true,
+    "no_filtering": true
+  },
+  "comparators": [
+    "uniform",
+    "variance-only",
+    "JADA",
+    "local-surrogate-oracle",
+    "fixed-nonlinear-oracle",
+    "adaptive-nonlinear-oracle",
+    "posterior-Jeffreys",
+    "posterior-mixture"
+  ],
+  "evaluation": "exact all pilot/main count probabilities and exact policy tie randomization; oracle diagnostic policies know true p, posterior policies do not",
+  "primary_estimand": "posterior-Jeffreys relative MSE reduction versus matched uniform/variance-only on confirmation, equal components and m0; vector-cluster paired intervals. These two baselines coincide in this scope.",
+  "intervals": "stratified paired vector-cluster Welch-Satterthwaite Student-t delta-method intervals, conditional on frozen policy construction; offline integration variation is separately diagnosed across scrambles, not included as reward Monte Carlo error",
+  "decision": "PASS_CPU_SIGNAL only if primary lower 95% reduction limit >5% and point estimates positive at both m0 settings; otherwise NO_CLEAR_SIGNAL. Secondary prior cannot replace failed primary. No GPU or online-training GO follows from this small scope.",
+  "limits": "only K4/B16/m0=1,2. Approximate posterior integration does not certify exact Bayes optimality. Population-prior assumptions must be separated from pilot-only information access. New method development after confirmation consumes this holdout.",
+  "GPU_hours": 0,
+  "GPU_cost": 0,
+  "prepared_utc": "2026-10-11T03:14:32.015636+00:00"
+}

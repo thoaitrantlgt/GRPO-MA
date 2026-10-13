@@ -1,0 +1,36 @@
+{
+  "status": "MISSING_CAPABILITIES",
+  "checks": {
+    "base_config": false,
+    "base_weights": false,
+    "tokenizer": false,
+    "multimodal_processor": false,
+    "manifest": false,
+    "image_root": false
+  },
+  "package_versions": {
+    "torch": "2.12.1",
+    "transformers": "5.13.0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "PIL": "12.3.0"
+  },
+  "missing_packages": [
+    "peft",
+    "trl",
+    "accelerate",
+    "qwen_vl_utils"
+  ],
+  "torch_error": null,
+  "devices": [],
+  "platform": "Windows-10-10.0.22631-SP0",
+  "paths": {
+    "checkpoint": "pretrained_weights\\Qwen2.5-VL-3B-Instruct",
+    "adapter": null,
+    "manifest": "metadata\\grpo_sharerobot_trajectory_test.json",
+    "images": "data\\ShareRobot\\trajectory\\images"
+  },
+  "scope": "file/package existence and CUDA inventory only; does not certify complete shards, adapter scope, data independence or executable score exporter",
+  "real_score_measurement_started": false,
+  "GPU_job_started": false
+}

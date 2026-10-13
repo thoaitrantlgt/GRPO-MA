@@ -1,0 +1,62 @@
+{
+  "scope": "Posthoc mechanism diagnosis, not a new confirmation or allocator gate",
+  "source": "refine-logs/pilot-information-gate/20261011_run01/probability_vectors.json",
+  "settings": [
+    {
+      "total": 16,
+      "m0": 2
+    }
+  ],
+  "reuse": "budget-precommitted",
+  "directions": {
+    "balanced": [
+      -1,
+      -0.3333333333333333,
+      0.3333333333333333,
+      1
+    ],
+    "one-outlier": [
+      -1,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "paired": [
+      -1,
+      -1,
+      1,
+      1
+    ]
+  },
+  "amplitudes": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "path_definition": "p=0.5+amplitude*direction; all paths retained, no new benchmark distribution",
+  "methods": [
+    "uniform",
+    "JADA",
+    "local-surrogate-oracle",
+    "fixed-nonlinear-oracle",
+    "adaptive-nonlinear-oracle"
+  ],
+  "dispersion_bins": [
+    0,
+    0.001,
+    0.01,
+    0.05,
+    0.25
+  ],
+  "descriptive_calibration_tolerance": 0.1,
+  "descriptive_fixed_allocation_regret_tolerance": 0.01,
+  "intervals": "None: reward-state risks exact; consumed vectors and deterministic paths descriptive only",
+  "GPU_cost": 0,
+  "frozen_utc": "2026-10-11T07:28:35.551997+00:00"
+}

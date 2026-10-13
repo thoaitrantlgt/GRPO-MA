@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "max_taylor_identity_residual": 1.4551915228366852e-11,
+  "max_linear_formula_residual": 1.4551915228366852e-11,
+  "max_raw_bias": 1.1904539853890839e-16,
+  "max_linear_mean": 2.6867397195928788e-14,
+  "max_oracle_excess": 0.0
+}

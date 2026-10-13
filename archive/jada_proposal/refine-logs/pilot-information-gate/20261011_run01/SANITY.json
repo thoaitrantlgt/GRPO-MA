@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "finite_exchangeable_prior_vectors": 24,
+  "settings": [
+    {
+      "m0": 1,
+      "uniform_mse": 0.37941027363871305,
+      "policy_mse": 0.37560835291202216,
+      "oracle_mse": 0.3720199621171448
+    },
+    {
+      "m0": 4,
+      "uniform_mse": 0.20372871013749996,
+      "policy_mse": 0.20369849083517977,
+      "oracle_mse": 0.2036131702761527
+    }
+  ],
+  "holdout_accessed": false,
+  "GPU_cost": 0
+}

@@ -1,0 +1,36 @@
+{
+  "undeclared": [
+    {
+      "site": "experiments/sequential_sampling/evaluation.py:107; experiments/sequential_sampling/run.py:125",
+      "decision": "When a paired Monte Carlo gain has estimated standard error at most 1e-15, assign z=0 even if its discrepancy from the exact gain is nonzero; include these rows as zero discrepancies in the standardized-discrepancy summaries.",
+      "why_it_matters": "This silently treats an unresolved rare-event simulation check as perfect standardized agreement. The completed run contains 129 rows with se=0 and absolute_discrepancy>1e-12. For K=4, m0=2, vector_index=54, ungated, exact_gain=-0.006866181923905312 while mc_gain=0, se=0 and z=0. A07 does not declare this interpretation. Record zero-SE checks as undefined/inconclusive unless exact equality is established within an explicitly declared numerical tolerance. The existing maximum absolute z=123.689 also means the 512-episode check cannot be described as blanket empirical validation; this observation does not invalidate the exact reward-state risk calculation.",
+      "class": "semantic"
+    },
+    {
+      "site": "experiments/sequential_sampling/core.py:104; experiments/sequential_sampling/run.py:106",
+      "decision": "Label every gated state with an empty eligible set as reliability-fallback, including states rejected by the shared positive-mean-gain screen before the posterior reliability requirement is applied.",
+      "why_it_matters": "The reported reliability fallback fraction is not the fraction attributable specifically to the c>=0.90 gate. For the actual K2 support at n=(8,7), s=(0,0), reference disagreement is only 0.0019075642 and the only deviation has negative mean gain on every subset; it is nevertheless counted as reliability-fallback. A12 promises separation of reliability and numerical failure, and A14 makes the positive-gain screen shared by gated and ungated. The ledger should declare diagnostic categories that distinguish no positive estimated gain, disagreement in gain signs across supports, and an additional reliability rejection, or explicitly describe the existing combined category.",
+      "class": "semantic"
+    },
+    {
+      "site": "experiments/sequential_sampling/evaluation.py:59; experiments/sequential_sampling/evaluation.py:66",
+      "decision": "The variance-only and JADA fixed-pilot comparators retain a main-sample allocation surrogate: require at least one new observation per thought and minimize sum_j c_j/m_j over the remaining main counts. JADA evaluates the target Jacobian at the Jeffreys posterior mean, while the reported terminal estimator uses total pilot-plus-main counts.",
+      "why_it_matters": "A06 names the comparators and common terminal estimator but does not specify this consequential inherited allocation objective. It differs from minimizing the corresponding total-count surrogate sum_j c_j/(m0+m_j). With K=4, B=16, m0=2 and pilot successes (0,0,1,1), the implemented JADA returns total counts (4,4,4,4), whereas the total-count surrogate with the same coefficients and coverage gives (3,3,5,5). Declare which comparator is being evaluated; the observed difference cannot be attributed solely to sequential versus fixed-pilot information without retaining this definition.",
+      "class": "semantic"
+    }
+  ],
+  "stale_rows": [
+    {
+      "id": "A05",
+      "site": "implement-stage/sequential_sampling/ASSUMPTIONS.md:A05; experiments/sequential_sampling/core.py:109; experiments/sequential_sampling/evaluation.py:89; tests/test_sequential_sampling.py:67",
+      "declared": "Work in coordinates ordered by a precommitted independent random permutation, with identity order reported for exact evaluation and stochastic tie semantics under permutation randomization.",
+      "implemented": "Both the exact evaluator and every paired Monte Carlo episode use the original identity coordinate order. simulate has no permutation input or coordinate randomization, and paired_mc never permutes streams. The relabelling test expressly excludes unresolved ties, so it does not verify the proposal's distributional tie equivariance.",
+      "why_it_matters": "Identity-conditioned risks are valid conditional-policy risks, as the second sentence of A05 partly declares, but they are not the proposal's permutation-averaged risks. This affects the actual development data: for K4/B16/m0=1 ungated, consumed vector_index=60 has identity-order risk 2.648338833252711 and reversed-coordinate risk 2.6248826833315206. The near-equal original stress vector also changes risk by 0.0076308630746071415 under reversal. Correct the ledger and report to state that both evaluators condition on identity and that stochastic tie evaluation is deferred, or implement and evaluate the declared randomization under a new run.",
+      "class": "semantic"
+    }
+  ],
+  "semantic_undeclared": 3,
+  "verdict": "gaps",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional"
+}

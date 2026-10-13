@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "review": "local document consistency; no independent scientific review",
+  "checks": {
+    "local_links_exist": true,
+    "26_feasible_configurations": true,
+    "fixed_target": true,
+    "adaptive_bias_boundary": true,
+    "prior_reliability_not_frequentist": true,
+    "not_execution_ready": true,
+    "cpu_only": true,
+    "no_success_claim": true
+  },
+  "missing_links": [],
+  "feasible_configurations": [
+    [
+      2,
+      16,
+      1
+    ],
+    [
+      2,
+      16,
+      2
+    ],
+    [
+      2,
+      16,
+      4
+    ],
+    [
+      2,
+      32,
+      1
+    ],
+    [
+      2,
+      32,
+      2
+    ],
+    [
+      2,
+      32,
+      4
+    ],
+    [
+      2,
+      64,
+      1
+    ],
+    [
+      2,
+      64,
+      2
+    ],
+    [
+      2,
+      64,
+      4
+    ],
+    [
+      4,
+      16,
+      1
+    ],
+    [
+      4,
+      16,
+      2
+    ],
+    [
+      4,
+      32,
+      1
+    ],
+    [
+      4,
+      32,
+      2
+    ],
+    [
+      4,
+      32,
+      4
+    ],
+    [
+      4,
+      64,
+      1
+    ],
+    [
+      4,
+      64,
+      2
+    ],
+    [
+      4,
+      64,
+      4
+    ],
+    [
+      8,
+      16,
+      1
+    ],
+    [
+      8,
+      32,
+      1
+    ],
+    [
+      8,
+      32,
+      2
+    ],
+    [
+      8,
+      64,
+      1
+    ],
+    [
+      8,
+      64,
+      2
+    ],
+    [
+      8,
+      64,
+      4
+    ],
+    [
+      16,
+      32,
+      1
+    ],
+    [
+      16,
+      64,
+      1
+    ],
+    [
+      16,
+      64,
+      2
+    ]
+  ],
+  "proposal_sha256": "9f44f50df215e7892b22121fae09a507d83ec5538e54265541316d779812b6af",
+  "new_experiments": false,
+  "GPU_cost": 0,
+  "audit_note": "Initial string checks failed because Unicode literals were corrupted by PowerShell stdin encoding. Rechecked with ASCII literals against accent-normalized UTF-8 file; proposal unchanged."
+}

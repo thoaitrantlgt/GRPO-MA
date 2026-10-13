@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "saved_policy_direct_error_reconstruction": true,
+    "finite_prior_Bellman_value_equals_outcome_mean": true,
+    "saved_policy_Bellman_check_independent_weights": true,
+    "exact_budget_and_coverage": true,
+    "frozen_evaluator_code_matches": true
+  },
+  "maximum_saved_metric_discrepancy": 2.220446049250313e-15,
+  "maximum_prior_value_discrepancy": 1.9984014443252818e-15,
+  "sampled_saved_Bellman_states": 512,
+  "maximum_independent_Bellman_residual": 8.881784197001252e-16,
+  "maximum_independent_terminal_error": 1.942890293094024e-14,
+  "code_mismatches": [],
+  "implementation_tests": 15,
+  "scope": "local deterministic saved-table reconstruction; no semantic or continuous-prior certification",
+  "GPU_cost": 0
+}

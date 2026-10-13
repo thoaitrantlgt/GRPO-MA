@@ -1,0 +1,28 @@
+{
+  "scope": "synthetic fixed score-Gram information-headroom gate; not measured LLM gradients",
+  "K": 4,
+  "settings": [
+    {"id": "B16-m0-1", "total": 16, "m0": 1},
+    {"id": "B16-m0-2", "total": 16, "m0": 2},
+    {"id": "B24-m0-4", "total": 24, "m0": 4}
+  ],
+  "reuse": "budget-precommitted lambda=4*m0/total, fixed before pilots",
+  "epsilon": 0.000001,
+  "gram_definition": "deterministic fixed PSD matrices, each trace 1, independent of p and outcomes; known synthetic geometry",
+  "grams": ["isotropic", "aligned-null", "equicorrelated-control", "contrast-rank1", "heterogeneous-diagonal", "paired-correlated", "dense-correlated"],
+  "primary_grams": ["contrast-rank1", "heterogeneous-diagonal", "paired-correlated", "dense-correlated"],
+  "controls": "isotropic=I/4 matches previous scalar objective; aligned-null annihilates centered credits; equicorrelated-control is exactly .5 times scalar risk",
+  "methods": ["uniform", "variance-only", "JADA", "gradient-JADA", "gradient-surrogate-oracle", "fixed-gradient-oracle", "adaptive-gradient-oracle", "fixed-scalar-oracle", "adaptive-scalar-oracle"],
+  "gradient_JADA": "observed fixed synthetic G plus Jeffreys posterior mean and posterior E[p(1-p)] from current pilots; coefficients variance_j*[J(mean)^T G J(mean)]_jj; positive integer separable allocator; no current true p or main outcomes",
+  "oracle_information": "gradient nonlinear oracles know true p and fixed G; adaptive additionally uses observed pilots; scalar oracles optimize I/4 then are scored on G",
+  "development": "96 consumed confirmation vectors and six stress regimes from pilot-information gate; never fresh evidence",
+  "confirmation": {"seed": 1732052026, "vectors": 96, "components": "16 per unchanged six-component mixture", "no_filtering": true},
+  "engine": "exact all positive main allocations and all pilot/main count states; vector batches32",
+  "primary_estimand": "equal weight four primary Grams and three settings within each probability-vector cluster; relative reduction of mean gradient-MSE, not mean of individual relative ratios",
+  "primary_gate": "HEADROOM_FOR_GRADIENT_CPU only if adaptive-gradient-oracle lower95 reduction vs uniform >5% AND lower95 reduction vs adaptive-scalar-oracle >5%; otherwise NO_OBJECTIVE_SPECIFIC_SIGNAL",
+  "intervals": "stratified paired vector-cluster Welch-Satterthwaite t delta intervals on fresh confirmation; fixed synthetic Grams and settings are repeated measurements, not independent vectors",
+  "null_handling": "aligned-null is reported as exact zero-loss boundary; relative ratios undefined and excluded by predeclared primary design",
+  "diagnostic_bins": {"dispersion": [0, 0.01, 0.05, 0.25], "max_leverage": [0.25, 0.4, 0.6, 0.75]},
+  "limits": "headroom only; G supplied by toy model, not estimated from real pilot score gradients; no reward-score dependence or training inference; no winner-selected Gram, distribution change or primary method switch",
+  "GPU_cost": 0
+}

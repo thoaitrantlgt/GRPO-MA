@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "local finite-support and outcome-propagation checks; scientific interpretation not certified",
+  "checks": [
+    {
+      "base_points": 16,
+      "sampled_states": 276,
+      "maximum_Bellman_residual": 0.0,
+      "maximum_terminal_direct_error": 3.552713678800501e-15,
+      "minimum_action_margin": 0.0
+    },
+    {
+      "base_points": 64,
+      "sampled_states": 276,
+      "maximum_Bellman_residual": 0.0,
+      "maximum_terminal_direct_error": 6.217248937900877e-15,
+      "minimum_action_margin": 0.0
+    },
+    {
+      "base_points": 256,
+      "sampled_states": 276,
+      "maximum_Bellman_residual": 0.0,
+      "maximum_terminal_direct_error": 1.63202784619898e-14,
+      "minimum_action_margin": 0.0
+    }
+  ],
+  "GPU_cost": 0
+}

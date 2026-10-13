@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "bias_variance_residual": 4.3021142204224816e-16,
+  "quadratic_risk_residual": 0.0,
+  "reward_states": "complete finite enumeration",
+  "scope": "local numerical audit; no independent reviewer"
+}

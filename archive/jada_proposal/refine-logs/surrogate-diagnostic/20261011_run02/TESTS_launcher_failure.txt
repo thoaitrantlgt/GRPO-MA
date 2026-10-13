@@ -1,0 +1,218 @@
+test_K2_equal_leverage_never_changes_variance_allocation (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_allocator_is_integer_feasible_and_globally_optimal (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_budget_weight_matches_uniform_pooling (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_exact_fixed_reuse_covariance_and_default_regression (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_jacobian_and_column_norms (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_paired_monte_carlo_agrees_with_exact (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_stratified_intervals_ignore_zero_variance_strata_df (test_cpu_estimator_gate.EstimatorGateTests) ... FAIL
+test_gradient_gate (unittest.loader._FailedTest) ... ERROR
+test_all_allocations_enumerated_without_duplicates (test_nonlinear_oracle.NonlinearOracleTests) ... FAIL
+test_deterministic_rewards_zero_error (test_nonlinear_oracle.NonlinearOracleTests) ... FAIL
+test_exact_uniform_anchor_and_oracle_dominance (test_nonlinear_oracle.NonlinearOracleTests) ... FAIL
+test_saved_table_audit_rejects_nonoptimal_oracle_policy (test_nonlinear_oracle.NonlinearOracleTests) ... FAIL
+test_vectorized_conditional_risk_matches_direct_enumeration (test_nonlinear_oracle.NonlinearOracleTests) ... FAIL
+test_pilot_information (unittest.loader._FailedTest) ... ERROR
+test_bayes_policy_dominates_uniform_under_finite_prior (test_posterior_allocator.PosteriorAllocatorTests) ... FAIL
+test_exchangeable_symmetry_preserved_by_randomized_ties (test_posterior_allocator.PosteriorAllocatorTests) ... FAIL
+test_policy_is_pilot_only_feasible_and_serializable (test_posterior_allocator.PosteriorAllocatorTests) ... FAIL
+test_posterior_risk_targets_true_advantage_integrated_over_p (test_posterior_allocator.PosteriorAllocatorTests) ... FAIL
+test_prior_quadrature_draws_match_declared_components (test_posterior_allocator.PosteriorAllocatorTests) ... FAIL
+test_posterior_convergence (unittest.loader._FailedTest) ... ERROR
+test_surrogate_diagnostic (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_gradient_gate (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_gradient_gate
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Thoai\GRPO-MA\tests\test_gradient_gate.py", line 3, in <module>
+    from experiments.gradient_gate import core as g
+ModuleNotFoundError: No module named 'experiments'
+
+
+======================================================================
+ERROR: test_pilot_information (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_pilot_information
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Thoai\GRPO-MA\tests\test_pilot_information.py", line 3, in <module>
+    from experiments.cpu_gate import estimator as e
+ModuleNotFoundError: No module named 'experiments'
+
+
+======================================================================
+ERROR: test_posterior_convergence (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_posterior_convergence
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Thoai\GRPO-MA\tests\test_posterior_convergence.py", line 3, in <module>
+    from experiments.nonlinear_oracle.oracle import conditional_risk_grid
+ModuleNotFoundError: No module named 'experiments'
+
+
+======================================================================
+ERROR: test_surrogate_diagnostic (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_surrogate_diagnostic
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Thoai\GRPO-MA\tests\test_surrogate_diagnostic.py", line 3, in <module>
+    from experiments.surrogate_diagnostic.core import diagnose
+ModuleNotFoundError: No module named 'experiments'
+
+
+======================================================================
+FAIL: test_K2_equal_leverage_never_changes_variance_allocation (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_allocator_is_integer_feasible_and_globally_optimal (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_budget_weight_matches_uniform_pooling (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_exact_fixed_reuse_covariance_and_default_regression (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_jacobian_and_column_norms (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_paired_monte_carlo_agrees_with_exact (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_stratified_intervals_ignore_zero_variance_strata_df (test_cpu_estimator_gate.EstimatorGateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_cpu_estimator_gate.py", line 14, in setUp
+    self.assertIsNotNone(e, 'CPU estimator implementation is missing')
+AssertionError: unexpectedly None : CPU estimator implementation is missing
+
+======================================================================
+FAIL: test_all_allocations_enumerated_without_duplicates (test_nonlinear_oracle.NonlinearOracleTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_nonlinear_oracle.py", line 13, in setUp
+    self.assertIsNotNone(o, 'Exact nonlinear oracle implementation is missing')
+AssertionError: unexpectedly None : Exact nonlinear oracle implementation is missing
+
+======================================================================
+FAIL: test_deterministic_rewards_zero_error (test_nonlinear_oracle.NonlinearOracleTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_nonlinear_oracle.py", line 13, in setUp
+    self.assertIsNotNone(o, 'Exact nonlinear oracle implementation is missing')
+AssertionError: unexpectedly None : Exact nonlinear oracle implementation is missing
+
+======================================================================
+FAIL: test_exact_uniform_anchor_and_oracle_dominance (test_nonlinear_oracle.NonlinearOracleTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_nonlinear_oracle.py", line 13, in setUp
+    self.assertIsNotNone(o, 'Exact nonlinear oracle implementation is missing')
+AssertionError: unexpectedly None : Exact nonlinear oracle implementation is missing
+
+======================================================================
+FAIL: test_saved_table_audit_rejects_nonoptimal_oracle_policy (test_nonlinear_oracle.NonlinearOracleTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_nonlinear_oracle.py", line 13, in setUp
+    self.assertIsNotNone(o, 'Exact nonlinear oracle implementation is missing')
+AssertionError: unexpectedly None : Exact nonlinear oracle implementation is missing
+
+======================================================================
+FAIL: test_vectorized_conditional_risk_matches_direct_enumeration (test_nonlinear_oracle.NonlinearOracleTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_nonlinear_oracle.py", line 13, in setUp
+    self.assertIsNotNone(o, 'Exact nonlinear oracle implementation is missing')
+AssertionError: unexpectedly None : Exact nonlinear oracle implementation is missing
+
+======================================================================
+FAIL: test_bayes_policy_dominates_uniform_under_finite_prior (test_posterior_allocator.PosteriorAllocatorTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_posterior_allocator.py", line 13, in setUp
+    self.assertIsNotNone(b, 'Pilot-only posterior allocator is missing')
+AssertionError: unexpectedly None : Pilot-only posterior allocator is missing
+
+======================================================================
+FAIL: test_exchangeable_symmetry_preserved_by_randomized_ties (test_posterior_allocator.PosteriorAllocatorTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_posterior_allocator.py", line 13, in setUp
+    self.assertIsNotNone(b, 'Pilot-only posterior allocator is missing')
+AssertionError: unexpectedly None : Pilot-only posterior allocator is missing
+
+======================================================================
+FAIL: test_policy_is_pilot_only_feasible_and_serializable (test_posterior_allocator.PosteriorAllocatorTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_posterior_allocator.py", line 13, in setUp
+    self.assertIsNotNone(b, 'Pilot-only posterior allocator is missing')
+AssertionError: unexpectedly None : Pilot-only posterior allocator is missing
+
+======================================================================
+FAIL: test_posterior_risk_targets_true_advantage_integrated_over_p (test_posterior_allocator.PosteriorAllocatorTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_posterior_allocator.py", line 13, in setUp
+    self.assertIsNotNone(b, 'Pilot-only posterior allocator is missing')
+AssertionError: unexpectedly None : Pilot-only posterior allocator is missing
+
+======================================================================
+FAIL: test_prior_quadrature_draws_match_declared_components (test_posterior_allocator.PosteriorAllocatorTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Thoai\GRPO-MA\tests\test_posterior_allocator.py", line 13, in setUp
+    self.assertIsNotNone(b, 'Pilot-only posterior allocator is missing')
+AssertionError: unexpectedly None : Pilot-only posterior allocator is missing
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.004s
+
+FAILED (failures=17, errors=4)

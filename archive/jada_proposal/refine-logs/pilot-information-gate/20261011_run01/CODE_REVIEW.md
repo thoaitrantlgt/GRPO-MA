@@ -1,0 +1,9 @@
+# Implementation review before full CPU run
+
+Status: **local-only**, not fresh-agent clearance. The experiment-bridge requested GPT-6-Astra xhigh reviewer failed before review with an account usage-limit error. The skill explicitly permits its checklist to be run locally when reviewer delegation is unavailable.
+
+Local checklist: fixed-lambda exact conditional risk uses the true f(p) target; old default behavior is regression-checked. Counts cover complete positive integer compositions and are committed before independent main sampling. Posterior likelihood numerators/masses are pooled and symmetrized jointly, with pilot-only runtime tables and frozen policies before evaluation. Full-information oracle minimizes every conditional risk over the entire allocation space. Interval comparisons are stratified and paired by probability vector. Both prior methods, both arms, all settings and stress regimes are retained. The known mixture is secondary; no post-confirmation method switch or quadrature extension occurs.
+
+Sanity: all 19 unittest checks pass, including covariance/raw unbiasedness with pilot-measurable counts and separately fixed lambda. The finite exchangeable-prior end-to-end sanity run passes at m0=1 and m0=4, with policy risk between oracle and uniform. SANITY.json is saved without accessing fresh confirmation outcomes. FEASIBILITY.json commits exact evaluation at all six settings and runtime-only quadrature size selection before protocol preparation.
+
+Limitations: four integration scrambles provide a modest approximation diagnostic, not exact continuous Bayes optimality. The audit reconstructs saved policies and metrics, checks complete allocation/state spaces and permutation equivariance, and spots exact conditional risks by direct enumeration. No GPU cost or training inference. Independent review remains outstanding and must not be reported as completed.

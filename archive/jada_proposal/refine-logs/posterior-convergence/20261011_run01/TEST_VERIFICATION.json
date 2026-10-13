@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests": 20,
+  "failures": 0,
+  "errors": 0,
+  "command": "python -m unittest discover -s tests -v",
+  "phase": "before full numerical integration"
+}

@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-10-11T07:17:30.584173+00:00",
+  "evaluation_started": false,
+  "grams": [
+    "isotropic",
+    "aligned-null",
+    "equicorrelated-control",
+    "contrast-rank1",
+    "heterogeneous-diagonal",
+    "paired-correlated",
+    "dense-correlated"
+  ],
+  "primary_grams": [
+    "contrast-rank1",
+    "heterogeneous-diagonal",
+    "paired-correlated",
+    "dense-correlated"
+  ],
+  "methods": [
+    "uniform",
+    "variance-only",
+    "JADA",
+    "gradient-JADA",
+    "gradient-surrogate-oracle",
+    "fixed-gradient-oracle",
+    "adaptive-gradient-oracle",
+    "fixed-scalar-oracle",
+    "adaptive-scalar-oracle"
+  ],
+  "information": "fixed G is supplied by synthetic model; gradient-JADA runtime does not know current true p"
+}

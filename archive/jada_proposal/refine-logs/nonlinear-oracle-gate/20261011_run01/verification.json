@@ -1,0 +1,17 @@
+{
+  "coverage": "PASS",
+  "exact_probability_vectors": 198,
+  "exact_cells": 396,
+  "all_allocations_per_setting": {
+    "m0=1": 165,
+    "m0=2": 35
+  },
+  "max_adaptive_oracle_dominance_violation": 0.0,
+  "max_unbiased_raw_value_bias": 2.220446049250313e-16,
+  "GPU_cost": 0,
+  "environment": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  }
+}

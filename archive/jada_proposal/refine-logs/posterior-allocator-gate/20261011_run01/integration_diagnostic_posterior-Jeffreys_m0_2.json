@@ -1,0 +1,14 @@
+{
+  "prior": "posterior-Jeffreys",
+  "m0": 2,
+  "points": 8192,
+  "scrambles": 8,
+  "fit_completed_utc": "2026-10-11T03:17:36.226790+00:00",
+  "pilot_mass_weighted_half_policy_TV": 0.0,
+  "pilot_histories_with_half_policy_difference": 0,
+  "max_selected_posterior_risk_SE_across_scrambles": 0.0029613425412517093,
+  "max_selected_minus_uniform_paired_SE": 1.7099792495460948e-05,
+  "estimated_prior_expected_uniform_mse": 0.281950439038664,
+  "estimated_prior_expected_policy_mse": 0.2815500745409639,
+  "information_access": "offline declared prior and current pilot counts only; no evaluation vector used"
+}

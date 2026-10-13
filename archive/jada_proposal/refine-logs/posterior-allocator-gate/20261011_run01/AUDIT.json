@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "vectors": 294,
+  "exact_cells": 588,
+  "method_evaluations": 4704,
+  "policy_prior_rule_and_freeze": "PASS",
+  "posterior_minimum_and_permutation_equivariance": "PASS",
+  "max_policy_risk_reconstruction_residual": 0.0,
+  "max_saved_metric_residual": 0.0,
+  "max_direct_enumeration_residual": 1.27675647831893e-15,
+  "max_unbiased_raw_value_bias": 2.220446049250313e-16,
+  "GPU_cost": 0
+}

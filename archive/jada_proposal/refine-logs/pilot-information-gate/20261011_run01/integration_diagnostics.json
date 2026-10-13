@@ -1,0 +1,122 @@
+[
+  {
+    "prior": "posterior-Jeffreys",
+    "setting": "fixed-main-m0-1",
+    "fit_completed_utc": "2026-10-11T06:46:04.271661+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 6.373644370528883e-05,
+    "prior_expected_uniform_mse": 0.37217141363636275,
+    "prior_expected_policy_mse": 0.3691616254697052
+  },
+  {
+    "prior": "posterior-Jeffreys",
+    "setting": "fixed-main-m0-2",
+    "fit_completed_utc": "2026-10-11T06:46:04.312853+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 7.090052232667862e-05,
+    "prior_expected_uniform_mse": 0.2816659064171653,
+    "prior_expected_policy_mse": 0.2812705638733942
+  },
+  {
+    "prior": "posterior-Jeffreys",
+    "setting": "fixed-main-m0-4",
+    "fit_completed_utc": "2026-10-11T06:46:04.515235+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.0002904891247545696,
+    "prior_expected_uniform_mse": 0.22926199544578135,
+    "prior_expected_policy_mse": 0.22870080153891442
+  },
+  {
+    "prior": "posterior-Jeffreys",
+    "setting": "fixed-total-m0-1",
+    "fit_completed_utc": "2026-10-11T06:46:04.827790+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.0,
+    "prior_expected_uniform_mse": 0.20889701862137589,
+    "prior_expected_policy_mse": 0.20889701862137589
+  },
+  {
+    "prior": "posterior-Jeffreys",
+    "setting": "fixed-total-m0-2",
+    "fit_completed_utc": "2026-10-11T06:46:05.073856+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 8.502260243232851e-05,
+    "prior_expected_uniform_mse": 0.20889701862137586,
+    "prior_expected_policy_mse": 0.20747007376526055
+  },
+  {
+    "prior": "posterior-Jeffreys",
+    "setting": "fixed-total-m0-4",
+    "fit_completed_utc": "2026-10-11T06:46:05.426967+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.04990873708659142,
+    "half_policy_changed_histories": 16,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.0007461555365290541,
+    "prior_expected_uniform_mse": 0.20889701862137586,
+    "prior_expected_policy_mse": 0.20746903507697478
+  },
+  {
+    "prior": "posterior-mixture",
+    "setting": "fixed-main-m0-1",
+    "fit_completed_utc": "2026-10-11T06:50:26.660314+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 6.0389329839105756e-05,
+    "prior_expected_uniform_mse": 0.8695497238272569,
+    "prior_expected_policy_mse": 0.8663195696398879
+  },
+  {
+    "prior": "posterior-mixture",
+    "setting": "fixed-main-m0-2",
+    "fit_completed_utc": "2026-10-11T06:50:26.687606+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.00013061795875208553,
+    "prior_expected_uniform_mse": 0.7612422375986342,
+    "prior_expected_policy_mse": 0.7610505371235835
+  },
+  {
+    "prior": "posterior-mixture",
+    "setting": "fixed-main-m0-4",
+    "fit_completed_utc": "2026-10-11T06:50:26.815750+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.0003541077605461057,
+    "prior_expected_uniform_mse": 0.6892702284215106,
+    "prior_expected_policy_mse": 0.6892245411013815
+  },
+  {
+    "prior": "posterior-mixture",
+    "setting": "fixed-total-m0-1",
+    "fit_completed_utc": "2026-10-11T06:50:27.053461+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.0,
+    "prior_expected_uniform_mse": 0.6557813333396074,
+    "prior_expected_policy_mse": 0.6557813333396074
+  },
+  {
+    "prior": "posterior-mixture",
+    "setting": "fixed-total-m0-2",
+    "fit_completed_utc": "2026-10-11T06:50:27.194386+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 5.358447412167186e-05,
+    "prior_expected_uniform_mse": 0.6557813333396076,
+    "prior_expected_policy_mse": 0.6556701426911694
+  },
+  {
+    "prior": "posterior-mixture",
+    "setting": "fixed-total-m0-4",
+    "fit_completed_utc": "2026-10-11T06:50:27.416912+00:00",
+    "pilot_mass_weighted_half_policy_TV": 0.0,
+    "half_policy_changed_histories": 0,
+    "max_selected_vs_uniform_paired_scramble_SE": 0.00025927938576708593,
+    "prior_expected_uniform_mse": 0.6557813333396076,
+    "prior_expected_policy_mse": 0.6547851260456865
+  }
+]

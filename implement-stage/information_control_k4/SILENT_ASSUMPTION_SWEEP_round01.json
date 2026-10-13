@@ -1,0 +1,27 @@
+{
+  "undeclared": [
+    {
+      "site": "experiments/sequential_sampling/k4_control.py:98-106; implement-stage/information_control_k4/ASSUMPTIONS.md:K07,K09",
+      "decision": "Aggregate reduction is a ratio of mean risks, 1 - mean(control risk) / mean(uniform risk), with equal weights for the 96 consumed vectors. It is not the arithmetic mean of per-vector relative reductions. The bootstrap recomputes this ratio on each resample.",
+      "why_it_matters": "The ledger says aggregate reduction but does not define this estimand or its weighting. These choices differ materially on the actual saved results: pooling the highest-level m0 results gives a ratio-of-means reduction of 0.014865841602067276, versus 0.039612389529633994 for the mean per-vector relative reduction. This determines the meaning of the headline percentage and the 5% development screen. Declare the implemented formula without selecting a different metric after observing results.",
+      "class": "semantic"
+    },
+    {
+      "site": "experiments/sequential_sampling/k4_control.py:103-114; implement-stage/information_control_k4/ASSUMPTIONS.md:K08,K09",
+      "decision": "The primary effect and its bootstrap interval give m0=1 and m0=2 equal weight and test their pooled risk against the development threshold. The aggregate stability diagnostic also pools the two m0 settings before taking the absolute highest-versus-adjacent difference. Stress regression and stress stability instead use the maximum over both m0 settings.",
+      "why_it_matters": "Neither aggregate in K08 nor aggregate in K09 specifies pooling across the two distinct coverage policies. The reported 1.4866% is the effect of their equal mixture, rather than a result for either policy or a requirement that both pass individually. Taking an absolute value after pooling also measures stability of the mixture, rather than stability of each coverage policy. The current per-m0 aggregate changes have the same sign, so this audit does not claim cancellation occurred in this run.",
+      "class": "semantic"
+    },
+    {
+      "site": "experiments/sequential_sampling/k4_control.py:92-106,114; implement-stage/information_control_k4/ASSUMPTIONS.md:K07,K09",
+      "decision": "Development intervals are two-sided percentile bootstrap intervals using the 2.5th and 97.5th percentiles, with NumPy's default linear quantile interpolation. The development screen uses the 2.5th-percentile endpoint as its lower95% bound.",
+      "why_it_matters": "K07 declares bootstrap replicates, pairing and seed, but not the interval construction; K09 does not distinguish a lower endpoint of a two-sided 95% interval from a one-sided 95% lower bound. The implemented choice defines the reported interval and the numerical endpoint compared with 5%. Record the existing percentile convention so the screen can be reproduced without inferring its meaning from code.",
+      "class": "semantic"
+    }
+  ],
+  "stale_rows": [],
+  "semantic_undeclared": 3,
+  "verdict": "gaps",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional"
+}

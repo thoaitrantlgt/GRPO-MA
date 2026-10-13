@@ -1,0 +1,76 @@
+{
+  "settings": [
+    {
+      "id": "fixed-main-m0-1",
+      "arm": "fixed-main",
+      "total": 12,
+      "m0": 1,
+      "lambda": 0.5
+    },
+    {
+      "id": "fixed-main-m0-2",
+      "arm": "fixed-main",
+      "total": 16,
+      "m0": 2,
+      "lambda": 0.5
+    },
+    {
+      "id": "fixed-main-m0-4",
+      "arm": "fixed-main",
+      "total": 24,
+      "m0": 4,
+      "lambda": 0.5
+    },
+    {
+      "id": "fixed-total-m0-1",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 1,
+      "lambda": 0.16666666666666666
+    },
+    {
+      "id": "fixed-total-m0-2",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 2,
+      "lambda": 0.3333333333333333
+    },
+    {
+      "id": "fixed-total-m0-4",
+      "arm": "fixed-total",
+      "total": 24,
+      "m0": 4,
+      "lambda": 0.6666666666666666
+    }
+  ],
+  "offline_integration": {
+    "seed": 5772152026,
+    "replicates": 4,
+    "Jeffreys_points_per_replicate": 256,
+    "mixture_points_per_component_per_replicate": 64
+  },
+  "confirmation_seed": 1618032026,
+  "confirmation_vectors": 96,
+  "primary": "posterior-Jeffreys",
+  "secondary": "posterior-mixture",
+  "engine": "exact all positive main compositions and reward count states",
+  "tie_tolerance": 1e-12,
+  "dispersion_edges": [
+    0,
+    0.01,
+    0.05,
+    0.25
+  ],
+  "leverage_edges": [
+    0.25,
+    0.4,
+    0.6,
+    0.75
+  ],
+  "primary_gate": "fixed-main-m0-4 primary lower CI95 >5%",
+  "practical_gate": "primary gate AND fixed-total-m0-4 lower CI95 >5% AND positive primary points in all fixed-total settings",
+  "intervals": "stratified paired vector-cluster t delta intervals conditional on frozen approximate prior policies",
+  "trend": "paired absolute MSE gain difference m0=4 minus m0=1 at fixed main/lambda",
+  "GPU_cost": 0,
+  "prepared_utc": "2026-10-11T03:30:49.755111+00:00"
+}

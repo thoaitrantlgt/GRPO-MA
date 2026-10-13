@@ -1,0 +1,11 @@
+{
+  "deliverable": "SERVER_RUN_PLAN.md",
+  "status": "PLAN_READY_MEASUREMENT_NOT_IMPLEMENTED",
+  "CLI_help_exit_codes": [
+    0,
+    0
+  ],
+  "real_target_geometry_measured": false,
+  "server_job_started": false,
+  "selection_smoke_status": "PASS"
+}

@@ -1,0 +1,57 @@
+{
+  "scope": "Numerical convergence diagnosis of the unchanged posterior-credit estimator; consumed data only",
+  "original_run": "refine-logs/posterior-credit/20261011_run01",
+  "seed": 2236062026,
+  "scrambles": 8,
+  "nested_points_per_scramble": [
+    512,
+    2048,
+    8192,
+    32768
+  ],
+  "prior": "unchanged iid Jeffreys Beta(0.5,0.5); same original seed+replicate Sobol stream",
+  "target": "unchanged sample-std h_tau with tau=1e-4",
+  "budget": "unchanged K4 total16 uniform4 per thought",
+  "geometry": "all seven original fixed Grams; same four primary Grams",
+  "scalar_control": "retain original frozen coefficient; never refit on outcomes or at new levels",
+  "integration": "pool joint numerator/mass; exact24-permutation symmetrization of integrals equivalent to augmenting support; chunked nested prefixes",
+  "numerical_stability": "highest-level half-scramble max credit difference <=0.02 AND highest-vs-previous max credit difference <=0.01 AND max stress risk change normalized by plug-in risk <=0.01",
+  "mean_and_stress_rules": "retain original >5% development reductions against both controls and no >10% weighted risk regression vs plug-in in any of24 original primary stress cells",
+  "decision": "largest-level stability fails: NUMERICALLY_INCONCLUSIVE; stable but mean/stress rules fail: STOP_POSTERIOR_CREDIT_AFTER_CONVERGENCE; stable and all development rules pass: DEVELOPMENT_CRITERIA_MET_NOT_CONFIRMED",
+  "ceiling": "run all four declared levels; no adaptive extension or winner-level selection",
+  "uncertainty": "exact outcome-state risks for each numerical table; quadrature stability is diagnostic, not a rigorous continuous-prior error certificate; no fresh population intervals",
+  "GPU_cost": 0,
+  "frozen_utc": "2026-10-11T08:00:16.455617+00:00",
+  "fixed_scalar_control": 0.8626101794136685,
+  "original_protocol": {
+    "scope": "Development feasibility of a concrete credit estimator; previous allocator gates unchanged",
+    "source": "refine-logs/surrogate-diagnostic/20261011_run02/probability_vectors.json",
+    "K": 4,
+    "total": 16,
+    "allocation": "uniform 4 reward samples per thought, all samples used; no pilot allocation",
+    "target": "sample-std normalized conditional Bernoulli values with floor tau=1e-4; h_tau(p)",
+    "candidate": "posterior-credit=E[h_tau(p)|count vector] under iid Beta(0.5,0.5)",
+    "runtime_information": "count vector, fixed count per group, frozen prior lookup only; no true p, score-Gram or unavailable outcomes",
+    "prior_fit": {
+      "seed": 2236062026,
+      "scrambles": 4,
+      "points_per_scramble": 512,
+      "exchangeability": "augment each support point with all24 coordinate permutations; equal weights"
+    },
+    "baseline": "uniform sample-mean plug-in h_tau(count/4)",
+    "scale_control": "single clipped scalar minimizing frozen finite-prior predictive update risk averaged over the same four primary fixed Grams; fit before reading development outcomes",
+    "grams": "all seven frozen matrices from experiments.gradient_gate.core.grams; no new geometry",
+    "primary_grams": [
+      "contrast-rank1",
+      "heterogeneous-diagonal",
+      "paired-correlated",
+      "dense-correlated"
+    ],
+    "primary_estimand": "mean fixed-Gram update MSE over four primary geometries and96 consumed vectors; equal mixture components; ratio of means",
+    "development_rule": "Candidate requires >5% reduction vs both plug-in and frozen scale control, no >10% weighted exact-risk regression vs plug-in in any six stress regimes and four primary Grams, and half-support maximum credit-table difference <=0.02; otherwise stop this prototype",
+    "uncertainty": "No fresh intervals. Outcome risks exact; continuous prior integration approximate. Bayes optimality holds only for the frozen finite support and fixed score geometry independent of unknown p",
+    "no_rescue": "one prior, one estimator, one budget; no hyperparameter tuning, winner-selected geometry, distribution change or new confirmation",
+    "GPU_cost": 0,
+    "frozen_utc": "2026-10-11T07:55:03.483872+00:00"
+  }
+}

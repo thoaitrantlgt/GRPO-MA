@@ -1,0 +1,25 @@
+# K4 information-control assumptions
+
+ASK: never. Assurance: draft. Declared before dependent implementation and outcomes.
+
+| ID | Decision | Chosen | Class | Source |
+|---|---|---|---|---|
+| K01 | Scope | K4/B16, m0=1/2; all 96 consumed heterogeneous vectors plus six unchanged original stress cases. | semantic | user / previous proposal |
+| K02 | Objective | Exact finite-prior posterior MSE of full-sample h_tau plug-in, tau=1e-4; no gradient proxy, true-p access or reliability gate. | semantic | proposal |
+| K03 | Quadrature ladder | Two independently scrambled Sobol streams, seeds2828422027,+1; nested base points16,64,256 per scramble, augment with all24 coordinate permutations. No new prior; lowest level reproduces previous frozen K4 support. All levels run irrespective of winners, subject to resource ceiling. | semantic | default |
+| K04 | Symmetry | Sort thought (count,success) pairs for Bellman values; exchangeable finite support and permutation-equivariant target make this an exact finite-prior quotient. Policies map the selected canonical pair back to the first matching ordered thought. | semantic | default |
+| K05 | Ties | Precommitted coordinate permutation, averaged over all24 permutations for exact benchmark risk. Finite-prior argmin ties choose first canonical index; equivalent identical pairs use first ordered occurrence. | semantic | default |
+| K06 | Evaluation | Exact finite reward-state propagation of each fixed policy; same uniform full-sample estimator as run02. Block evaluator probability vectors to avoid large delta tensors. Bias computed after permutation averaging. | semantic | default |
+| K07 | Uncertainty | 2,000 stratified bootstrap replicates of consumed vectors, paired across m0 and quadrature levels, seed3316622027. Development intervals only; no fresh generalization claim. | semantic | default |
+| K08 | Stability | Highest-versus-adjacent aggregate risk change and per-stress risk change normalized by uniform <=1%; prior Bayes-value change normalized by prior uniform <=1%; lower policy regret on highest finite support <=1% of uniform. Report trajectory-weighted action disagreement too, without choosing a winner. These are numerical diagnostics, not rigorous continuous-prior error bounds. | semantic | default |
+| K09 | Decision | Development screening requires aggregate lower95% reduction>5%, no >10% original stress regression for either m0, and numerical stability. Otherwise do not escalate current control to full sweep. Finite-prior/consumed-data screening can never set confirmation GO. | semantic | default |
+| K10 | Resources | 600 CPU wall seconds per quadrature level,2GiB process RSS ceiling, single BLAS thread where available. Preserve partial results and mark incomplete rather than silently use fewer levels/budget. | interface | default |
+| K11 | Support approximation | Posterior likelihood reweights frozen finite support; conditional predictive probabilities are finite-support moments. The exact Beta predictive probability is not substituted into an inconsistent finite-support terminal objective. | semantic | default |
+| K12 | Shared solve | Solve m0=1 reachable canonical states once per level; m0=2 is a subset. All pilot outcomes are included in unconditional exact risk and prior expected value. | interface | default |
+| K13 | Disagreement interpretation | Compare adjacent policies at histories visited by the higher-resolution policy; probability-weighted action-disagreement fraction is not total variation of complete policy path laws. | semantic | default |
+| K14 | Numeric evaluation | Moment-based terminal MSE avoids allocating an evaluator-vector by terminal-state by thought error tensor. Tiny negative risks from cancellation are clamped at zero; independent direct-error tests/audits must agree within1e-10. | semantic | default |
+| K15 | Primary aggregation | Reduction is one minus ratio of mean risks, not mean per-vector percentage reduction. Equal weights across m0=1/2 and equal component weights (16 consumed vectors/component). Stress vectors excluded from primary mean, evaluated separately. This matches the broader proposal's metric; made explicit in local ledger after review. | semantic | sweep |
+| K16 | Interval definition | Two-sided95% percentile bootstrap, empirical2.5th/97.5th quantiles with NumPy default linear interpolation; the same vector draw is used across all m0 and quadrature levels. It measures consumed-vector variation, not prior integration uncertainty. | semantic | sweep |
+| K17 | Pooling in stability and screen | Primary screen and aggregate risk stability refer to an equal mixture of m0=1/2; stability takes the absolute difference after pooling risks. Stress regression/stability instead take the maximum over both m0 and all six stresses. The lower bound used for screening is the2.5th percentile endpoint of the two-sided95% interval, not a one-sided95% bound. | semantic | sweep |
+
+All reward observations count toward B. Adaptive sample means can be biased. Optimization under an iid Jeffreys finite support need not minimize risk under the heterogeneous benchmark.

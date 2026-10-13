@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests": 29,
+  "command": "python -m unittest discover -s tests",
+  "numerical_audit": "PASS",
+  "figure_visually_inspected": true,
+  "review": "local only"
+}

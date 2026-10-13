@@ -1,0 +1,158 @@
+{
+  "decision": "REJECT_FIXED_HALF_AS_GENERAL_FOLLOWUP",
+  "aggregates": {
+    "8": {
+      "plugin": {
+        "mse": 0.9018045051228243,
+        "bias_squared": 0.34941234478902006,
+        "variance": 0.5523921603338042,
+        "coefficient": 1.0,
+        "relative_reduction": 0.0
+      },
+      "fixed-half": {
+        "mse": 0.743923269797496,
+        "bias_squared": 0.605825229714045,
+        "variance": 0.13809804008345106,
+        "coefficient": 0.5,
+        "relative_reduction": 0.1750725732999361
+      },
+      "zero": {
+        "mse": 0.9996895310400813,
+        "bias_squared": 0.9996895310400813,
+        "variance": 0.0,
+        "coefficient": 0.0,
+        "relative_reduction": -0.10854350955357583
+      },
+      "oracle-scalar": {
+        "mse": 0.6922501798352432,
+        "bias_squared": 0.5380483885504043,
+        "variance": 0.15420179128483893,
+        "coefficient": 0.5580504226166543,
+        "relative_reduction": 0.23237223156147369
+      }
+    },
+    "16": {
+      "plugin": {
+        "mse": 0.7420039851691271,
+        "bias_squared": 0.23501261535607162,
+        "variance": 0.5069913698130555,
+        "coefficient": 1.0,
+        "relative_reduction": 0.0
+      },
+      "fixed-half": {
+        "mse": 0.6418738342076727,
+        "bias_squared": 0.515125991754409,
+        "variance": 0.12674784245326387,
+        "coefficient": 0.5,
+        "relative_reduction": 0.1349455703241694
+      },
+      "zero": {
+        "mse": 0.9996895310400813,
+        "bias_squared": 0.9996895310400813,
+        "variance": 0.0,
+        "coefficient": 0.0,
+        "relative_reduction": -0.34728323704652225
+      },
+      "oracle-scalar": {
+        "mse": 0.5693632364412154,
+        "bias_squared": 0.4029511374045039,
+        "variance": 0.16641209903671156,
+        "coefficient": 0.6363330222998465,
+        "relative_reduction": 0.2326682230534937
+      }
+    },
+    "32": {
+      "plugin": {
+        "mse": 0.5654753328964931,
+        "bias_squared": 0.147279713859906,
+        "variance": 0.41819561903658703,
+        "coefficient": 1.0,
+        "relative_reduction": 0.0
+      },
+      "fixed-half": {
+        "mse": 0.5404998257592483,
+        "bias_squared": 0.4359509210001016,
+        "variance": 0.10454890475914676,
+        "coefficient": 0.5,
+        "relative_reduction": 0.044167279604071526
+      },
+      "zero": {
+        "mse": 0.9996895310400813,
+        "bias_squared": 0.9996895310400813,
+        "variance": 0.0,
+        "coefficient": 0.0,
+        "relative_reduction": -0.7678746938782359
+      },
+      "oracle-scalar": {
+        "mse": 0.43930421415031934,
+        "bias_squared": 0.2792571843394509,
+        "variance": 0.16004702981086846,
+        "coefficient": 0.7209311577360249,
+        "relative_reduction": 0.22312400100619179
+      }
+    }
+  },
+  "stress_regressions_over10pct": [
+    {
+      "id": "symmetric-wide",
+      "total": 8,
+      "relative_reduction": -0.1905722704502755
+    },
+    {
+      "id": "asymmetric",
+      "total": 8,
+      "relative_reduction": -0.17127925557729462
+    },
+    {
+      "id": "sparse-extreme",
+      "total": 8,
+      "relative_reduction": -1.425146071230361
+    },
+    {
+      "id": "symmetric-wide",
+      "total": 16,
+      "relative_reduction": -0.7312136107379208
+    },
+    {
+      "id": "symmetric-mid",
+      "total": 16,
+      "relative_reduction": -0.39254266555803513
+    },
+    {
+      "id": "asymmetric",
+      "total": 16,
+      "relative_reduction": -0.7431195812139146
+    },
+    {
+      "id": "sparse-extreme",
+      "total": 16,
+      "relative_reduction": -3.1749050546571107
+    },
+    {
+      "id": "symmetric-wide",
+      "total": 32,
+      "relative_reduction": -1.798926623632217
+    },
+    {
+      "id": "symmetric-mid",
+      "total": 32,
+      "relative_reduction": -1.1717182121894165
+    },
+    {
+      "id": "asymmetric",
+      "total": 32,
+      "relative_reduction": -1.9649983266918751
+    },
+    {
+      "id": "sparse-extreme",
+      "total": 32,
+      "relative_reduction": -6.607627169140078
+    }
+  ],
+  "mean_criteria_pass": true,
+  "vectors": 129,
+  "method_evaluations": 1548,
+  "elapsed_seconds": 0.30939870001748204,
+  "GPU_cost": 0,
+  "fresh_confirmation": false
+}

@@ -1,0 +1,37 @@
+{
+  "reason": "GitHub public fork rejects new LFS objects; this original exceeds normal Git file limit",
+  "artifacts": [
+    {
+      "path": "archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/exact_B24-m0-4.npz",
+      "bytes": 196740111,
+      "sha256": "4e5c58e09b3f5f0e0de8b9b33ac4415d473e0f91a2ee4dc7184bbd70ec948267",
+      "parts": [
+        {
+          "path": "archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/raw_parts/exact_B24-m0-4.npz.part01",
+          "bytes": 49000000,
+          "sha256": "c17767840871b5171377d2f80babe59503ff9a5641057ff53f3c12f80b1b1aa5"
+        },
+        {
+          "path": "archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/raw_parts/exact_B24-m0-4.npz.part02",
+          "bytes": 49000000,
+          "sha256": "51830e8f6d7b9c034fab2646c7b92d1624f7f8b4cf12ba7a6c27670735698736"
+        },
+        {
+          "path": "archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/raw_parts/exact_B24-m0-4.npz.part03",
+          "bytes": 49000000,
+          "sha256": "bcdd68669e42a11221474c3803b6a01b914cbdeb04160558623c6fe67eb3fb27"
+        },
+        {
+          "path": "archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/raw_parts/exact_B24-m0-4.npz.part04",
+          "bytes": 49000000,
+          "sha256": "6b8a3a9c593cce27103f9c871a374faf6bab8a700ad1d4c81ad34913e8164b3d"
+        },
+        {
+          "path": "archive/jada_proposal/refine-logs/gradient-objective-gate/20261011_run01/raw_parts/exact_B24-m0-4.npz.part05",
+          "bytes": 740111,
+          "sha256": "ef982b5882502b028a9bce1ccf5b4e30b20217b66876d48164f3edc2f1fdc0ed"
+        }
+      ]
+    }
+  ]
+}

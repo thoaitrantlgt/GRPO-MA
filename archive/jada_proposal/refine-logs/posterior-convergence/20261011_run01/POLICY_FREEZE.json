@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-10-11T07:05:04.538247+00:00",
+  "development_evaluation_started": false,
+  "new_confirmation": false,
+  "priors": [
+    "posterior-Jeffreys",
+    "posterior-mixture"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "stage": "K4 information-constrained finite-prior Bellman diagnostic; consumed development only",
+  "K": 4,
+  "B": 16,
+  "m0": [1,2],
+  "source": "refine-logs/sequential-feasibility/20261011_run02/probability_vectors.json",
+  "baseline": "refine-logs/sequential-feasibility/20261011_run02/exact_K4_m1_uniform.npz",
+  "target": "sample-std h_tau(p), tau=1e-4",
+  "terminal_estimator": "h_tau(all successes / all counts)",
+  "prior": "iid Beta(0.5,0.5), unchanged from sequential proposal",
+  "quadrature": {"nested_base_points_per_scramble": [16,64,256],"scrambles":2,"seed":2828422027,"coordinate_permutations":24},
+  "policy": "full finite-prior posterior Bellman optimum, no true p or reliability gate",
+  "symmetry": "sort(count,success) pairs; verify finite-support closure under adjacent transpositions",
+  "ties": "first canonical argmin, first ordered matching pair; exact evaluator averages24 independently precommitted coordinate orders",
+  "outcome_risk": "exact labelled state-graph propagation, evaluator-vector blocks256; moment-based MSE, bias after permutation averaging",
+  "bootstrap": {"replicates":2000,"seed":3316622027,"unit":"component-stratified consumed vector, paired across m0 and levels","status":"descriptive development intervals"},
+  "resource_ceiling": {"CPU_wall_seconds_per_level":600,"process_RSS_bytes":2147483648,"BLAS_threads":1},
+  "stability": {"highest_vs_adjacent_aggregate_risk_change_over_uniform":0.01,"maximum_stress_risk_change_over_uniform":0.01,"prior_value_change_over_uniform":0.01,"lower_policy_regret_on_highest_support_over_uniform":0.01},
+  "development_screen": {"aggregate_lower95_reduction_vs_uniform":0.05,"maximum_original_stress_regression":0.10,"require_numerical_stability":true,"can_set_confirmation_GO":false},
+  "no_rescue": "no prior change, threshold tuning, budget shrinkage, benchmark redesign or extra ladder levels after outcomes",
+  "GPU_cost":0
+}

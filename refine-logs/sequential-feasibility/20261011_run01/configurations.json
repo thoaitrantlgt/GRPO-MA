@@ -1,0 +1,74 @@
+[
+  {
+    "K": 2,
+    "m0": 1,
+    "seconds": 14.995034100022167,
+    "mc_seconds": 14.6674015999306,
+    "risk_cache": {
+      "hits": 2034,
+      "misses": 1033,
+      "maxsize": 30000,
+      "currsize": 1033
+    },
+    "score_cache": {
+      "hits": 441,
+      "misses": 441,
+      "maxsize": 30000,
+      "currsize": 441
+    }
+  },
+  {
+    "K": 2,
+    "m0": 2,
+    "seconds": 15.704876000061631,
+    "mc_seconds": 15.40693990001455,
+    "risk_cache": {
+      "hits": 1980,
+      "misses": 1009,
+      "maxsize": 30000,
+      "currsize": 1009
+    },
+    "score_cache": {
+      "hits": 431,
+      "misses": 431,
+      "maxsize": 30000,
+      "currsize": 431
+    }
+  },
+  {
+    "K": 4,
+    "m0": 1,
+    "seconds": 17.638200799934566,
+    "mc_seconds": 15.346141299931332,
+    "risk_cache": {
+      "hits": 20821,
+      "misses": 10752,
+      "maxsize": 30000,
+      "currsize": 10752
+    },
+    "score_cache": {
+      "hits": 2129,
+      "misses": 2137,
+      "maxsize": 30000,
+      "currsize": 2137
+    }
+  },
+  {
+    "K": 4,
+    "m0": 2,
+    "seconds": 16.892136399867013,
+    "mc_seconds": 14.271722400095314,
+    "risk_cache": {
+      "hits": 19239,
+      "misses": 10080,
+      "maxsize": 30000,
+      "currsize": 10080
+    },
+    "score_cache": {
+      "hits": 1999,
+      "misses": 2007,
+      "maxsize": 30000,
+      "currsize": 2007
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "base_points": 16,
+    "support_points": 768,
+    "canonical_states": 23987,
+    "seconds": 3.636813099961728,
+    "process_peak_RSS": 120143872,
+    "prior_uniform": 0.8896858230511032,
+    "prior_values": {
+      "1": 0.835065125341781,
+      "2": 0.836689089765867
+    },
+    "evaluation": [
+      {
+        "m0": 1,
+        "terminal_labelled_states": 2747,
+        "mass_error": 8.881784197001252e-16,
+        "adjacent_policy_action_disagreement_on_current_trajectory": null
+      },
+      {
+        "m0": 2,
+        "terminal_labelled_states": 2593,
+        "mass_error": 8.881784197001252e-16,
+        "adjacent_policy_action_disagreement_on_current_trajectory": null
+      }
+    ]
+  },
+  {
+    "base_points": 64,
+    "support_points": 3072,
+    "canonical_states": 23987,
+    "seconds": 5.547986000077799,
+    "process_peak_RSS": 134074368,
+    "prior_uniform": 0.8432301128985394,
+    "prior_values": {
+      "1": 0.7975073697404781,
+      "2": 0.7993167568315694
+    },
+    "evaluation": [
+      {
+        "m0": 1,
+        "terminal_labelled_states": 2360,
+        "mass_error": 7.771561172376096e-16,
+        "adjacent_policy_action_disagreement_on_current_trajectory": 0.2691901821728812
+      },
+      {
+        "m0": 2,
+        "terminal_labelled_states": 2210,
+        "mass_error": 8.881784197001252e-16,
+        "adjacent_policy_action_disagreement_on_current_trajectory": 0.1893214937034248
+      }
+    ]
+  },
+  {
+    "base_points": 256,
+    "support_points": 12288,
+    "canonical_states": 23987,
+    "seconds": 11.824132499983534,
+    "process_peak_RSS": 216240128,
+    "prior_uniform": 0.8312529076920239,
+    "prior_values": {
+      "1": 0.7924567598145653,
+      "2": 0.794152525367478
+    },
+    "evaluation": [
+      {
+        "m0": 1,
+        "terminal_labelled_states": 2163,
+        "mass_error": 8.881784197001252e-16,
+        "adjacent_policy_action_disagreement_on_current_trajectory": 0.2612239114702037
+      },
+      {
+        "m0": 2,
+        "terminal_labelled_states": 2066,
+        "mass_error": 8.881784197001252e-16,
+        "adjacent_policy_action_disagreement_on_current_trajectory": 0.22749267627546552
+      }
+    ]
+  }
+]

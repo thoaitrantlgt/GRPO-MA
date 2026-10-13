@@ -1,0 +1,4130 @@
+[
+  {
+    "K": 4,
+    "id": "symmetric-wide",
+    "kind": "stress",
+    "component": "symmetric-wide",
+    "p": [
+      0.95,
+      0.55,
+      0.45,
+      0.05
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.1025,
+    "local_allocation": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.2020752126638576,
+    "exact_optimal_mse": 0.2020752126638576,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.036049605594131805,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "symmetric-mid",
+    "kind": "stress",
+    "component": "symmetric-mid",
+    "p": [
+      0.9,
+      0.52,
+      0.48,
+      0.1
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.08020000000000002,
+    "local_allocation": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.3057164563854806,
+    "exact_optimal_mse": 0.2802239844241682,
+    "fixed_regret": 0.09097177036325736,
+    "local_calibration_error": 0.03309274776212124,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "all-equal",
+    "kind": "stress",
+    "component": "all-equal",
+    "p": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9723469588388484,
+    "exact_optimal_mse": 0.9723469588388484,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 48207.10058991383,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "near-equal",
+    "kind": "stress",
+    "component": "near-equal",
+    "p": [
+      0.55,
+      0.52,
+      0.48,
+      0.45
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0014500000000000012,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.6493566499352725,
+    "exact_optimal_mse": 1.6493566499352725,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 12.001865447514087,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "asymmetric",
+    "kind": "stress",
+    "component": "asymmetric",
+    "p": [
+      0.9,
+      0.8,
+      0.7,
+      0.1
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.096875,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.2132698490202133,
+    "exact_optimal_mse": 0.20116147235536655,
+    "fixed_regret": 0.06019232471840531,
+    "local_calibration_error": 0.1190237228913566,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "sparse-extreme",
+    "kind": "stress",
+    "component": "sparse-extreme",
+    "p": [
+      0.99,
+      0.99,
+      0.5,
+      0.01
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.16506875,
+    "local_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.055178352445590106,
+    "exact_optimal_mse": 0.055178352445590106,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.003021275204402552,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-00",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.8765832672161324,
+      0.939129868180663,
+      0.9213812818737614,
+      0.9997127102026846
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0019500565541917462,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      5,
+      1,
+      1,
+      1
+    ],
+    "exact_local_mse": 1.0332013711310266,
+    "exact_optimal_mse": 0.9256539118688669,
+    "fixed_regret": 0.1161853883867078,
+    "local_calibration_error": 2.7787414290732064,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-01",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.9826813960713594,
+      0.022136942272299974,
+      0.2611059776357923,
+      0.8237554509027369
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.15530294070445944,
+    "local_allocation": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "exact_local_mse": 0.08753746075541868,
+    "exact_optimal_mse": 0.08753746075541868,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.0912315042037903,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-02",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.16024125879006293,
+      0.888797665353304,
+      0.6516318394679513,
+      0.0013026112716174492
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.129021489939504,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.12178056281825975,
+    "exact_optimal_mse": 0.12178056281825975,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.04727158777235048,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-03",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.491458989745741,
+      0.8378669212514575,
+      0.9019620361723126,
+      0.9097840383000295
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.029553030723880918,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      4,
+      2,
+      1,
+      1
+    ],
+    "exact_local_mse": 0.6551693027477588,
+    "exact_optimal_mse": 0.5220723584023944,
+    "fixed_regret": 0.2549396500375108,
+    "local_calibration_error": 0.36545220701019665,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-04",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.28846140066746984,
+      0.966875075278103,
+      0.23954792512523743,
+      0.8268509510216269
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.1028773333043257,
+    "local_allocation": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.1898850860304362,
+    "exact_optimal_mse": 0.1898850860304362,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.0949607095850922,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-05",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.9476213331101041,
+      0.04483025272043401,
+      0.49030344989356994,
+      0.009963737914645089
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.14586008932043032,
+    "local_allocation": [
+      1,
+      2,
+      4,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.08379452775672475,
+    "exact_optimal_mse": 0.08208112042447882,
+    "fixed_regret": 0.02087456071975037,
+    "local_calibration_error": 0.0700956656715764,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-06",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      3.797781855584123e-07,
+      0.9343583668187366,
+      0.9032763296048877,
+      0.5192945040438852
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.14245530140992407,
+    "local_allocation": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "exact_local_mse": 0.10046944551288718,
+    "exact_optimal_mse": 0.10046944551288718,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.03849455915723489,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-07",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.6856809510214035,
+      0.9852478036518532,
+      0.318467531099074,
+      0.5708062214227638
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.057363423127919484,
+    "local_allocation": [
+      2,
+      1,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      1,
+      3,
+      2
+    ],
+    "exact_local_mse": 0.35351118507128176,
+    "exact_optimal_mse": 0.3517030304522641,
+    "fixed_regret": 0.0051411402872830626,
+    "local_calibration_error": 0.16662378497717142,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-08",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.9228778834927819,
+      0.8218442090605623,
+      0.8454215963845012,
+      0.2561819298051787
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0705264916550768,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.30856556523913914,
+    "exact_optimal_mse": 0.25910466304121493,
+    "fixed_regret": 0.1908915942205819,
+    "local_calibration_error": 0.3614854280754591,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-09",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.0271341044565703,
+      0.9978442861670475,
+      0.21893218123440739,
+      0.13121638011160505
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.14720874598555292,
+    "local_allocation": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "exact_local_mse": 0.08024485329437878,
+    "exact_optimal_mse": 0.08024485329437878,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.005758942033565477,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-10",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.0881766641359842,
+      0.17918649716871776,
+      0.1099398047499669,
+      0.6583456941198016
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.05431167541749883,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "exact_local_mse": 0.40533480732216465,
+    "exact_optimal_mse": 0.331592806740174,
+    "fixed_regret": 0.22238721432751898,
+    "local_calibration_error": 0.413730118587757,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-11",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.944590876965146,
+      0.9879941897508231,
+      0.41821217389603377,
+      0.8939091271863943
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.05258238514532245,
+    "local_allocation": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      4,
+      2
+    ],
+    "exact_local_mse": 0.2968392452188486,
+    "exact_optimal_mse": 0.2040488305089575,
+    "fixed_regret": 0.4547461236530718,
+    "local_calibration_error": 0.5908066281233652,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-12",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.8443247285130744,
+      0.8400974779477566,
+      0.23727362185480028,
+      0.9171668020838152
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.07533911888399727,
+    "local_allocation": [
+      2,
+      3,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.2817773319525092,
+    "exact_optimal_mse": 0.23724891645530052,
+    "fixed_regret": 0.18768648625460915,
+    "local_calibration_error": 0.3611753245661239,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-13",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.29378070522688954,
+      0.9995864868833069,
+      0.7255006048565572,
+      0.7276664027483993
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.06386681032702678,
+    "local_allocation": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.3312671285185743,
+    "exact_optimal_mse": 0.2829866977404435,
+    "fixed_regret": 0.17061024833900082,
+    "local_calibration_error": 0.13776893141418006,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-14",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.030987931250009128,
+      0.43734774810839105,
+      0.9883948001037103,
+      0.35028316678908267
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.11888282575799242,
+    "local_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_local_mse": 0.14843663732758972,
+    "exact_optimal_mse": 0.14843663732758972,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.1026756430474006,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-0-15",
+    "kind": "consumed",
+    "component": "0",
+    "p": [
+      0.06493582881362524,
+      0.22598093054910878,
+      0.18398761126084306,
+      0.949300408508886
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.12080423407555638,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.1353543456427572,
+    "exact_optimal_mse": 0.1351743116304182,
+    "fixed_regret": 0.0013318655754003008,
+    "local_calibration_error": 0.06707658812636921,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-00",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.2965129512562997,
+      0.2426857993691673,
+      0.7959850818229794,
+      0.20367875861482956
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.05746727403257273,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.44741552558611375,
+    "exact_optimal_mse": 0.3957820799106403,
+    "fixed_regret": 0.13045928124671854,
+    "local_calibration_error": 0.15367321579395254,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-01",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.4864686089288622,
+      0.6123241000488464,
+      0.7069502284830728,
+      0.2693691391605412
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.026852084255814323,
+    "local_allocation": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.8170742159881225,
+    "exact_optimal_mse": 0.753231896500931,
+    "fixed_regret": 0.08475785449841544,
+    "local_calibration_error": 0.28278974195017453,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-02",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.5324598961806315,
+      0.2045078457757045,
+      0.32402446899453,
+      0.6173957348897876
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.026814956451498513,
+    "local_allocation": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.7829860592723578,
+    "exact_optimal_mse": 0.7430708315419484,
+    "fixed_regret": 0.053716585332223496,
+    "local_calibration_error": 0.32564457545980025,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-03",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.5261492528660554,
+      0.4921883148118823,
+      0.48478326343238604,
+      0.6153053536021168
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0026913722964055607,
+    "local_allocation": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.5811386802668286,
+    "exact_optimal_mse": 1.5343412331845963,
+    "fixed_regret": 0.030500025724461602,
+    "local_calibration_error": 5.978534298987578,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-04",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.6428161973646866,
+      0.23715209335579993,
+      0.7334496250437255,
+      0.6016558288516304
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.03568848608093627,
+    "local_allocation": [
+      2,
+      1,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.6851965175849783,
+    "exact_optimal_mse": 0.6190139995730852,
+    "fixed_regret": 0.10691602784030273,
+    "local_calibration_error": 0.07702560036152871,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-05",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.584099624851157,
+      0.384615495674213,
+      0.7154999091204555,
+      0.6495857853480637
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.015336675681272074,
+    "local_allocation": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.0760002870296128,
+    "exact_optimal_mse": 0.9905819183804367,
+    "fixed_regret": 0.08623049448432474,
+    "local_calibration_error": 0.6610214473530431,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-06",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.4540465297883017,
+      0.8685460901991556,
+      0.5546258879529607,
+      0.7193409863991569
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.025015397600778453,
+    "local_allocation": [
+      2,
+      1,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.7609718908537914,
+    "exact_optimal_mse": 0.7347197869158815,
+    "fixed_regret": 0.03573077029558142,
+    "local_calibration_error": 0.36301789742094515,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-07",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.7593545187375166,
+      0.08586921475180188,
+      0.4333435786977223,
+      0.1295044209721149
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.07322108949714778,
+    "local_allocation": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.3183528616646817,
+    "exact_optimal_mse": 0.28125634578616326,
+    "fixed_regret": 0.1318957471868833,
+    "local_calibration_error": 0.18350591907089728,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-08",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.4234573206716192,
+      0.43416484378536563,
+      0.6781278652538555,
+      0.18828503481930442
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.030012411011962566,
+    "local_allocation": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.788221463682176,
+    "exact_optimal_mse": 0.6896905568300108,
+    "fixed_regret": 0.1428624850324728,
+    "local_calibration_error": 0.17420555033176321,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-09",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.7858917528337042,
+      0.6737671877324105,
+      0.6351574918953732,
+      0.17167209524151164
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.055060464169994355,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.4680205538351308,
+    "exact_optimal_mse": 0.4235518120930167,
+    "fixed_regret": 0.10499008733398665,
+    "local_calibration_error": 0.04810563086431993,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-10",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.2101969803490775,
+      0.7626713516226417,
+      0.6849650049838348,
+      0.7326086261212126
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.050797405885979176,
+    "local_allocation": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.5102977087731944,
+    "exact_optimal_mse": 0.45352738145114957,
+    "fixed_regret": 0.12517508235202254,
+    "local_calibration_error": 0.10364601120617158,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-11",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.338461351495253,
+      0.8019981364039718,
+      0.33746512062360434,
+      0.6860141176495538
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.04289936796157444,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.5421422763073621,
+    "exact_optimal_mse": 0.5421422763073621,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.1268314612850351,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-12",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.6681279250841389,
+      0.8665123895295322,
+      0.09308372644256498,
+      0.3904034678473337
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.08502710819318572,
+    "local_allocation": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.2910486992168239,
+    "exact_optimal_mse": 0.26330319935357577,
+    "fixed_regret": 0.10537471603598025,
+    "local_calibration_error": 0.08976062726718999,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-13",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.3811569907095492,
+      0.4785399243012433,
+      0.2709724402108927,
+      0.22674521527402838
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.009619246917998675,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.1390239272627127,
+    "exact_optimal_mse": 1.1390239272627127,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 1.4273837973045824,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-14",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.5350251734454666,
+      0.29253312617445654,
+      0.7688375937755464,
+      0.28517221512072666
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.03979684181572054,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.6285719421824897,
+    "exact_optimal_mse": 0.5750187845232079,
+    "fixed_regret": 0.09313288383037233,
+    "local_calibration_error": 0.05899957755331766,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-1-15",
+    "kind": "consumed",
+    "component": "1",
+    "p": [
+      0.7572840862676876,
+      0.7707555715794597,
+      0.25407310038929753,
+      0.27842566969990007
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.062040669768434545,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.38900568986469874,
+    "exact_optimal_mse": 0.38900568986469874,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.026736789337330747,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-00",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.3422630690912808,
+      0.42082065415688835,
+      0.5589983147707305,
+      0.47630395944657056
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.006257640039960689,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.3170377451544653,
+    "exact_optimal_mse": 1.3170377451544653,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 2.692169986918594,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-01",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.6594428092885385,
+      0.5196956152023754,
+      0.4773512177972238,
+      0.1956273726819969
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.02837456149310456,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.7712972565161138,
+    "exact_optimal_mse": 0.7182596259597992,
+    "fixed_regret": 0.07384186530802318,
+    "local_calibration_error": 0.30255769344409245,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-02",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.5482556975371732,
+      0.4232303991743307,
+      0.6668587247714081,
+      0.5200249546188419
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.007548692574982255,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.31069958013264,
+    "exact_optimal_mse": 1.2580494456888998,
+    "fixed_regret": 0.041850608196810066,
+    "local_calibration_error": 2.0513538498615422,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-03",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.33875561257390746,
+      0.5756690150577412,
+      0.61274361197872,
+      0.37825419810062555
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.014255621454055421,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.030673423801534,
+    "exact_optimal_mse": 1.030673423801534,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 1.0068991084869492,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-04",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.4344714623190331,
+      0.5574252324297179,
+      0.5925516252586522,
+      0.6819357212525586
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.007879485554105618,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.3152600185563128,
+    "exact_optimal_mse": 1.2412781901819652,
+    "fixed_regret": 0.059601327856652564,
+    "local_calibration_error": 1.8519654396238123,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-05",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.696828790003761,
+      0.4590486546392142,
+      0.2991421677955952,
+      0.5141461761793168
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.02018122029291572,
+    "local_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9855500488125114,
+    "exact_optimal_mse": 0.8800725291178841,
+    "fixed_regret": 0.11985093978600796,
+    "local_calibration_error": 0.480685335110526,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-06",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.31912847534005395,
+      0.48198508489896713,
+      0.43631638375767245,
+      0.49058605151324286
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00467236158202738,
+    "local_allocation": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.4410145787745319,
+    "exact_optimal_mse": 1.3955715679884846,
+    "fixed_regret": 0.03256229334877239,
+    "local_calibration_error": 3.3730310258923697,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-07",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.38520699269660164,
+      0.44577332302636813,
+      0.6208112960900055,
+      0.5787764614612212
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.009171366347183693,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.1965556426970185,
+    "exact_optimal_mse": 1.1965556426970185,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 1.7559370186980423,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-08",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.5520080055876919,
+      0.5379972430545931,
+      0.6173140672111461,
+      0.43601202413080736
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.004217426572749391,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.49314470648787,
+    "exact_optimal_mse": 1.4298155365384915,
+    "fixed_regret": 0.04429184627738424,
+    "local_calibration_error": 3.76194519862759,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-09",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.6999883133441942,
+      0.7325706690259757,
+      0.5192041909588639,
+      0.4372693361010908
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.015137951340163236,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9908482576151594,
+    "exact_optimal_mse": 0.9908482576151594,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.8800966109310489,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-10",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.25871548405961264,
+      0.40549423533491663,
+      0.8059798544143476,
+      0.5517748287495841
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.04083331316051393,
+    "local_allocation": [
+      2,
+      2,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.6061723135654239,
+    "exact_optimal_mse": 0.5598968078366299,
+    "fixed_regret": 0.08265006172761852,
+    "local_calibration_error": 0.10215012999261322,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-11",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.45569918844255186,
+      0.3377488620807874,
+      0.6743217444116005,
+      0.7142565601688105
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0240746348306783,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.8039660481105426,
+    "exact_optimal_mse": 0.8039660481105426,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.46058991404868005,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-12",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.3755816255712419,
+      0.6146784620177959,
+      0.5597497541897166,
+      0.4574200561312527
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00850009136153016,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.2222356224369917,
+    "exact_optimal_mse": 1.2222356224369917,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 1.9301850675128303,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-13",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.3844236632672757,
+      0.4794950021678118,
+      0.5234814872494303,
+      0.6559780541825698
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.009547115242732253,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.2407001193155311,
+    "exact_optimal_mse": 1.1800434209100479,
+    "fixed_regret": 0.051402090237243056,
+    "local_calibration_error": 1.5398705159965391,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-14",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.57814475375361,
+      0.3802663727383993,
+      0.48028459849925736,
+      0.339896422671253
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.008552309324263988,
+    "local_allocation": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.2861357627720817,
+    "exact_optimal_mse": 1.2166102229990179,
+    "fixed_regret": 0.057146930429105874,
+    "local_calibration_error": 1.7076699118947358,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-2-15",
+    "kind": "consumed",
+    "component": "2",
+    "p": [
+      0.45569628596783535,
+      0.6273228765311482,
+      0.27224125075161454,
+      0.6069067071737654
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.020279798542222453,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9413896373636007,
+    "exact_optimal_mse": 0.8786714257464303,
+    "fixed_regret": 0.07137845818064625,
+    "local_calibration_error": 0.5083356995242497,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-00",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.004990864020245535,
+      0.029705546774673363,
+      0.30860057993339457,
+      0.02741071647044203
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.015634235625340435,
+    "local_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.5413107485196296,
+    "exact_optimal_mse": 0.2613723925760884,
+    "fixed_regret": 1.0710326105388044,
+    "local_calibration_error": 0.7212854980658844,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-01",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.17344680730502018,
+      0.2753146680000321,
+      0.11315551406353636,
+      0.0015228989399583637
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.009830581007537559,
+    "local_allocation": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      4,
+      1,
+      1
+    ],
+    "exact_local_mse": 0.7893131917796246,
+    "exact_optimal_mse": 0.7441545893124589,
+    "fixed_regret": 0.06068443723351713,
+    "local_calibration_error": 0.757175314083749,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-02",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.000584899744578493,
+      0.016323704477574055,
+      0.0803156380504546,
+      0.0434480495222905
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0009144916846545525,
+    "local_allocation": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.9702630521905347,
+    "exact_optimal_mse": 0.8290599803267666,
+    "fixed_regret": 0.17031707622422454,
+    "local_calibration_error": 2.5476838966686155,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-03",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.33683848481303885,
+      0.2868289024636264,
+      0.1450798231582135,
+      0.07874079655139381
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.01085506794310193,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "exact_local_mse": 0.9427839895101253,
+    "exact_optimal_mse": 0.9236193368902761,
+    "fixed_regret": 0.020749514279740495,
+    "local_calibration_error": 0.8958136478089873,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-04",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.5503035620815998,
+      0.055428065638339616,
+      0.1353100586437994,
+      0.003979814791731477
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.04636666812502063,
+    "local_allocation": [
+      1,
+      2,
+      4,
+      1
+    ],
+    "exact_allocation": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "exact_local_mse": 0.34659217642488743,
+    "exact_optimal_mse": 0.23770750120706136,
+    "fixed_regret": 0.4580615868868994,
+    "local_calibration_error": 0.5505703958198029,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-05",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.06650673868947084,
+      0.1023433669638491,
+      0.0367657189929775,
+      0.06199115262900777
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0005471396445859327,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      5,
+      1,
+      1
+    ],
+    "exact_local_mse": 1.30697001174064,
+    "exact_optimal_mse": 1.1508532204675286,
+    "fixed_regret": 0.1356530863333638,
+    "local_calibration_error": 9.097399760660366,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-06",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.07916059508106753,
+      0.14481037971549196,
+      0.1428123363459836,
+      0.37145633386477567
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.012340543475664684,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      1,
+      5
+    ],
+    "exact_local_mse": 1.0157465955101153,
+    "exact_optimal_mse": 0.8225661962174629,
+    "fixed_regret": 0.23485088517007457,
+    "local_calibration_error": 0.07038179748884762,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-07",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.5194452192407943,
+      0.00031978578635203834,
+      0.012424904367849012,
+      0.5846704154474162
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.07499326617532404,
+    "local_allocation": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "exact_local_mse": 0.17140885943213346,
+    "exact_optimal_mse": 0.17140885943213346,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.042880278530383724,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-08",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.0019522597449350154,
+      0.04650973456767237,
+      0.001138978046306274,
+      0.24917653438656784
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.010485052413323967,
+    "local_allocation": [
+      1,
+      4,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      1,
+      5
+    ],
+    "exact_local_mse": 0.4877047476385733,
+    "exact_optimal_mse": 0.29771579652065044,
+    "fixed_regret": 0.6381554265453451,
+    "local_calibration_error": 0.6124868662237615,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-09",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.3257980116524146,
+      0.004080440410825234,
+      0.6650018473079835,
+      0.023008667403699837
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.07247334072970192,
+    "local_allocation": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.17871128014502166,
+    "exact_optimal_mse": 0.17100433419078007,
+    "fixed_regret": 0.045068717063296085,
+    "local_calibration_error": 0.12879086719425184,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-10",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      6.080642123199148e-05,
+      0.29260672761559253,
+      0.23727932831911103,
+      0.0008968409510539926
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.017868056344854152,
+    "local_allocation": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.4197822678795155,
+    "exact_optimal_mse": 0.4197822678795155,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.3200582960631237,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-11",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.22653333582947582,
+      0.016786312789955484,
+      0.5564551383271106,
+      0.0029265061513771076
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.05004191911568557,
+    "local_allocation": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.2328714120543445,
+    "exact_optimal_mse": 0.21390230238328492,
+    "fixed_regret": 0.08868118510042693,
+    "local_calibration_error": 0.22788386296097685,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-12",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.15501293576076006,
+      0.05435928042699993,
+      0.6084870807316939,
+      0.04995399381648245
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0528652234107058,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.3541274782551203,
+    "exact_optimal_mse": 0.26869586543457,
+    "fixed_regret": 0.31794911574980556,
+    "local_calibration_error": 0.49824291426485673,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-13",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.0020911873637907436,
+      0.01129541416261679,
+      0.3982357619375373,
+      0.0007615094088879368
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.029052286694211758,
+    "local_allocation": [
+      2,
+      4,
+      1,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.2603629011564169,
+    "exact_optimal_mse": 0.06292759735256015,
+    "fixed_regret": 3.137499477339004,
+    "local_calibration_error": 0.9342125125604618,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-14",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.1590217410816423,
+      0.0009181122425909945,
+      0.17396728299959738,
+      0.0714445629355903
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.004895049542730348,
+    "local_allocation": [
+      3,
+      1,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "exact_local_mse": 0.90257972067544,
+    "exact_optimal_mse": 0.8568654130507891,
+    "fixed_regret": 0.05335062768129406,
+    "local_calibration_error": 1.556507298396173,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-3-15",
+    "kind": "consumed",
+    "component": "3",
+    "p": [
+      0.05870726660312679,
+      0.0038826951179648616,
+      0.10051658376216696,
+      0.00041388982662353326
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0017201600496029115,
+    "local_allocation": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.8099857785077066,
+    "exact_optimal_mse": 0.7389757039820042,
+    "fixed_regret": 0.09609256994927085,
+    "local_calibration_error": 1.397999682057117,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-00",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9854499878124955,
+      0.8053536231290167,
+      0.8568966450097955,
+      0.815594995767303
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0051424234930558775,
+    "local_allocation": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_local_mse": 0.9989974370186325,
+    "exact_optimal_mse": 0.9941310708384044,
+    "fixed_regret": 0.004895095146884513,
+    "local_calibration_error": 2.1746013499083623,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-01",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9599303249661992,
+      0.998776385221587,
+      0.7610959292006114,
+      0.9968539971376852
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.009655315765697807,
+    "local_allocation": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.49784845729976324,
+    "exact_optimal_mse": 0.3003523537966268,
+    "fixed_regret": 0.6575480465082825,
+    "local_calibration_error": 0.6303983180316846,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-02",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9743365197568526,
+      0.8222144926467101,
+      0.9845383507155125,
+      0.9575896366907932
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.004307959018144961,
+    "local_allocation": [
+      2,
+      1,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      5,
+      1,
+      1
+    ],
+    "exact_local_mse": 0.9173244782456512,
+    "exact_optimal_mse": 0.5811034187040649,
+    "fixed_regret": 0.5785907442971208,
+    "local_calibration_error": 0.15288289354993065,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-03",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9799870619804715,
+      0.9946986916842976,
+      0.7949517771072079,
+      0.9992928785392391
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0072814015887533775,
+    "local_allocation": [
+      4,
+      2,
+      1,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.6308505606682028,
+    "exact_optimal_mse": 0.3013198153300323,
+    "fixed_regret": 1.0936245430033833,
+    "local_calibration_error": 0.7860594092048881,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-04",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9781085183291254,
+      0.9835111911716627,
+      0.9895486050473443,
+      0.8252544672321115
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.004724914384598045,
+    "local_allocation": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      1,
+      5
+    ],
+    "exact_local_mse": 0.7908812978802371,
+    "exact_optimal_mse": 0.46009569502979536,
+    "fixed_regret": 0.7189495716299201,
+    "local_calibration_error": 0.49315768888879047,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-05",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9217603563723553,
+      0.9439225872376373,
+      0.9463922451276595,
+      0.9864775241516232
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0005443786053891078,
+    "local_allocation": [
+      2,
+      3,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      5,
+      1,
+      1,
+      1
+    ],
+    "exact_local_mse": 1.1919644037054362,
+    "exact_optimal_mse": 1.1039101530317827,
+    "fixed_regret": 0.07976577661852367,
+    "local_calibration_error": 8.721190899275909,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-06",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.994263511923723,
+      0.9999850366866186,
+      0.9584168370438358,
+      0.9651403586678192
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00032207190949549004,
+    "local_allocation": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.9528483267137016,
+    "exact_optimal_mse": 0.9367384794568405,
+    "fixed_regret": 0.017197806655921934,
+    "local_calibration_error": 6.114557685657679,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-07",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.4146015363079139,
+      0.8298191273032669,
+      0.9220123740629776,
+      0.9993451227511154
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.05093846749563008,
+    "local_allocation": [
+      1,
+      4,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_local_mse": 0.3400771835199281,
+    "exact_optimal_mse": 0.2479655300534586,
+    "fixed_regret": 0.37146958872312325,
+    "local_calibration_error": 0.47175038161642013,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-08",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.8500505318779872,
+      0.7652621575645947,
+      0.9528322662067072,
+      0.9984764346385078
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.008214889796222214,
+    "local_allocation": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      4,
+      1,
+      1
+    ],
+    "exact_local_mse": 0.750674225560126,
+    "exact_optimal_mse": 0.676255483075517,
+    "fixed_regret": 0.11004530735360961,
+    "local_calibration_error": 0.5299170770631717,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-09",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9103245575853566,
+      0.9999269201926141,
+      0.9330914269317165,
+      0.9521031565467438
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0010879941529657227,
+    "local_allocation": [
+      2,
+      1,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      5,
+      1,
+      1,
+      1
+    ],
+    "exact_local_mse": 1.0680020114739484,
+    "exact_optimal_mse": 0.9905333313156426,
+    "fixed_regret": 0.0782090594118732,
+    "local_calibration_error": 4.563150942707269,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-10",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9580018034337191,
+      0.8734332380149002,
+      0.9968745916273452,
+      0.8029093705906891
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.005659405579628282,
+    "local_allocation": [
+      2,
+      3,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      1,
+      5
+    ],
+    "exact_local_mse": 0.8268959312108073,
+    "exact_optimal_mse": 0.7371431181426386,
+    "fixed_regret": 0.12175764903607415,
+    "local_calibration_error": 0.7842132969753702,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-11",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.8766262451413862,
+      0.9939452112354819,
+      0.8955691370425646,
+      0.9986422210492264
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.003083402866072192,
+    "local_allocation": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "exact_local_mse": 0.7687863199590352,
+    "exact_optimal_mse": 0.7670846157627492,
+    "fixed_regret": 0.002218404803483025,
+    "local_calibration_error": 1.3232047864033958,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-12",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.7634985211139309,
+      0.9647176789931751,
+      0.994501934574912,
+      0.5382822563923112
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.033465297419611705,
+    "local_allocation": [
+      4,
+      1,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "exact_local_mse": 0.3669733809840504,
+    "exact_optimal_mse": 0.33898516142734225,
+    "fixed_regret": 0.08256473362686445,
+    "local_calibration_error": 0.10031230554223343,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-13",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9872714733371788,
+      0.9779188377657869,
+      0.9995016795064521,
+      0.864076358363663
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0029487520543165693,
+    "local_allocation": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      1,
+      5
+    ],
+    "exact_local_mse": 0.832806114268212,
+    "exact_optimal_mse": 0.5128923531743044,
+    "fixed_regret": 0.6237444545896481,
+    "local_calibration_error": 0.4157794539404013,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-14",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.999681465435108,
+      0.9456719328369068,
+      0.6079406325878455,
+      0.8718599971870312
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.022617518843698628,
+    "local_allocation": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 0.4591724314377472,
+    "exact_optimal_mse": 0.3947452016457109,
+    "fixed_regret": 0.16321219237988507,
+    "local_calibration_error": 0.27731048609712483,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-4-15",
+    "kind": "consumed",
+    "component": "4",
+    "p": [
+      0.9895863072364718,
+      0.4563326760420961,
+      0.18174034787372656,
+      0.8650152831133974
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.10386122040187941,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.16518985424971974,
+    "exact_optimal_mse": 0.16518985424971974,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.050238944298593415,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-00",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.5137117950704815,
+      0.6086567476847141,
+      0.2772143077118391,
+      0.8572505023149594
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.04319121136469259,
+    "local_allocation": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.6034132051800105,
+    "exact_optimal_mse": 0.5240468402548325,
+    "fixed_regret": 0.1514489904883004,
+    "local_calibration_error": 0.026888156613292996,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-01",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.5482601805930764,
+      0.5636030207806219,
+      0.5377218183391462,
+      0.5252323494192229
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00019842954543937316,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.846599648167631,
+    "exact_optimal_mse": 1.846599648167631,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 83.19472292699778,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-02",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.6909713088905458,
+      0.6762104056901961,
+      0.7812073937170259,
+      0.7721003710904263
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.002202784426363678,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      4,
+      1,
+      1
+    ],
+    "exact_local_mse": 1.5185424463931478,
+    "exact_optimal_mse": 1.4958145956152928,
+    "fixed_regret": 0.015194296702597728,
+    "local_calibration_error": 6.271275347578111,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-03",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.8211596800648062,
+      0.8933665053220182,
+      0.8904415211244017,
+      0.7861107611599952
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0021024677183615528,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      1,
+      1,
+      4
+    ],
+    "exact_local_mse": 1.395056707329326,
+    "exact_optimal_mse": 1.2956442553579928,
+    "fixed_regret": 0.07672820032213638,
+    "local_calibration_error": 4.27807863235899,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-04",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.19665669751766515,
+      0.13274456399658,
+      0.5448275647787826,
+      0.36325416819674
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.025561150397859986,
+    "local_allocation": [
+      2,
+      1,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.7274342484254241,
+    "exact_optimal_mse": 0.707021704529923,
+    "fixed_regret": 0.028871170099470784,
+    "local_calibration_error": 0.2311784382992322,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-05",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.035859801532154775,
+      0.2731771560675354,
+      0.9836364744930151,
+      0.8124991964631282
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.14891734829104494,
+    "local_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_local_mse": 0.09814447731374394,
+    "exact_optimal_mse": 0.09814447731374394,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.0949673642325459,
+    "passes_descriptive_tolerances": true
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-06",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.8923377836370788,
+      0.7563778590138699,
+      0.3131427302454352,
+      0.6108688407515367
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.046215491714570775,
+    "local_allocation": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.5470957203944139,
+    "exact_optimal_mse": 0.46976263809847263,
+    "fixed_regret": 0.16462161105228326,
+    "local_calibration_error": 0.10141118015180021,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-07",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.13283336993876765,
+      0.1850724517433868,
+      0.13735738902929018,
+      0.167120675861776
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0004631159046353529,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      4,
+      1,
+      2
+    ],
+    "exact_local_mse": 1.66731847549598,
+    "exact_optimal_mse": 1.5512720759099663,
+    "fixed_regret": 0.07480725102199859,
+    "local_calibration_error": 19.882670937755467,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-08",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.6495701291853639,
+      0.6737699374391882,
+      0.23280828628762967,
+      0.7617372989836779
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0418005545844141,
+    "local_allocation": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.6078959673777652,
+    "exact_optimal_mse": 0.5435859172378473,
+    "fixed_regret": 0.1183070570825308,
+    "local_calibration_error": 0.0203780805855271,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-09",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.8555350372909648,
+      0.853484815151316,
+      0.810562686570346,
+      0.8632860419178863
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00042530744875255377,
+    "local_allocation": [
+      2,
+      3,
+      1,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      1,
+      5,
+      1
+    ],
+    "exact_local_mse": 1.804232789410712,
+    "exact_optimal_mse": 1.5269603432829502,
+    "fixed_regret": 0.1815845757537021,
+    "local_calibration_error": 17.90742334154022,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-10",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.4542112418779944,
+      0.47605478188883965,
+      0.43923474542146845,
+      0.39446518670661046
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0008929948318650927,
+    "local_allocation": [
+      2,
+      2,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.7429461636583554,
+    "exact_optimal_mse": 1.7149261633966866,
+    "fixed_regret": 0.016338896017640044,
+    "local_calibration_error": 18.268038953345787,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-11",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.6938145185872071,
+      0.6469645609311437,
+      0.6877016911078422,
+      0.6427419770960295
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0005337130974898306,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      2,
+      1,
+      4
+    ],
+    "exact_local_mse": 1.756421325669764,
+    "exact_optimal_mse": 1.7417329744059622,
+    "fixed_regret": 0.008433182054678322,
+    "local_calibration_error": 28.463743673258204,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-12",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.7673265033077425,
+      0.8813007291882143,
+      0.6523123030805345,
+      0.6751005198317718
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.008137346931230102,
+    "local_allocation": [
+      2,
+      1,
+      2,
+      3
+    ],
+    "exact_allocation": [
+      2,
+      1,
+      3,
+      2
+    ],
+    "exact_local_mse": 1.1183024704219136,
+    "exact_optimal_mse": 1.1148627915342098,
+    "fixed_regret": 0.003085293467342572,
+    "local_calibration_error": 1.607320361046499,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-13",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.07674634465811449,
+      0.3383885917657103,
+      0.23532186450323447,
+      0.2195477340125038
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.008686863793753762,
+    "local_allocation": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.035863659180796,
+    "exact_optimal_mse": 1.0195116023634354,
+    "fixed_regret": 0.01603910811750756,
+    "local_calibration_error": 1.3088307832864392,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-14",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.1966665148262601,
+      0.586446829594836,
+      0.48780801841224186,
+      0.3239805482946367
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0223974084915993,
+    "local_allocation": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.8539355602336347,
+    "exact_optimal_mse": 0.8149184164296044,
+    "fixed_regret": 0.04787858884693737,
+    "local_calibration_error": 0.4526669863217685,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "K": 4,
+    "id": "confirm4-hetero-5-15",
+    "kind": "consumed",
+    "component": "5",
+    "p": [
+      0.27996466311694745,
+      0.3751565480452923,
+      0.29645885758138996,
+      0.35356759971634016
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0015419852053646815,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      1,
+      4,
+      1,
+      2
+    ],
+    "exact_local_mse": 1.6127428100334835,
+    "exact_optimal_mse": 1.6060347573486822,
+    "fixed_regret": 0.0041767792721219285,
+    "local_calibration_error": 9.957847480870269,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0,
+    "p": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9723469588388484,
+    "exact_optimal_mse": 0.9723469588388484,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 48207.10058991383,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.001",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.001,
+    "p": [
+      0.499,
+      0.49966666666666665,
+      0.5003333333333333,
+      0.501
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 5.555555555555535e-07,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.3256765230993353,
+    "exact_optimal_mse": 1.3256765230993353,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 18284.262061710542,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.005",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.005,
+    "p": [
+      0.495,
+      0.49833333333333335,
+      0.5016666666666667,
+      0.505
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 1.3888888888888929e-05,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.8743788643233927,
+    "exact_optimal_mse": 1.8743788643233927,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 1121.2570677452643,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.01",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.01,
+    "p": [
+      0.49,
+      0.49666666666666665,
+      0.5033333333333333,
+      0.51
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 5.5555555555555626e-05,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.8914814734665257,
+    "exact_optimal_mse": 1.8914814734665257,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 291.12915005844917,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.025",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.025,
+    "p": [
+      0.475,
+      0.49166666666666664,
+      0.5083333333333333,
+      0.525
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0003472222222222227,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.810741754786683,
+    "exact_optimal_mse": 1.810741754786683,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 48.514049925125455,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.05",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.05,
+    "p": [
+      0.45,
+      0.48333333333333334,
+      0.5166666666666667,
+      0.55
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00138888888888889,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.6560498414502096,
+    "exact_optimal_mse": 1.6560498414502096,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 12.525485777867932,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.1",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.1,
+    "p": [
+      0.4,
+      0.4666666666666667,
+      0.5333333333333333,
+      0.6
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.005555555555555553,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.3558356383425152,
+    "exact_optimal_mse": 1.3558356383425152,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 3.085305704157204,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.2",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.2,
+    "p": [
+      0.3,
+      0.43333333333333335,
+      0.5666666666666667,
+      0.7
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.02222222222222222,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.8396803875311196,
+    "exact_optimal_mse": 0.8396803875311196,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.5734445716020108,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-balanced-0.4",
+    "kind": "path",
+    "component": "balanced",
+    "amplitude": 0.4,
+    "p": [
+      0.09999999999999998,
+      0.3666666666666667,
+      0.6333333333333333,
+      0.9
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0888888888888889,
+    "local_allocation": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.27056896926552565,
+    "exact_optimal_mse": 0.24821635186954305,
+    "fixed_regret": 0.0900529607643683,
+    "local_calibration_error": 0.08546374111872972,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0,
+    "p": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9723469588388484,
+    "exact_optimal_mse": 0.9723469588388484,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 48207.10058991383,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.001",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.001,
+    "p": [
+      0.499,
+      0.5003333333333333,
+      0.5003333333333333,
+      0.5003333333333333
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 3.333333333333155e-07,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.2198756359787797,
+    "exact_optimal_mse": 1.2198756359787797,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 24615.661784893444,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.005",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.005,
+    "p": [
+      0.495,
+      0.5016666666666667,
+      0.5016666666666667,
+      0.5016666666666667
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 8.33333333333344e-06,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.8671225740049444,
+    "exact_optimal_mse": 1.8418577414594315,
+    "fixed_regret": 0.013717037954024533,
+    "local_calibration_error": 1706.6130948319676,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.01",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.01,
+    "p": [
+      0.49,
+      0.5033333333333333,
+      0.5033333333333333,
+      0.5033333333333333
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 3.3333333333333206e-05,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.9217984591117994,
+    "exact_optimal_mse": 1.8945504882551483,
+    "fixed_regret": 0.014382288054907448,
+    "local_calibration_error": 446.5573053303922,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.025",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.025,
+    "p": [
+      0.475,
+      0.5083333333333333,
+      0.5083333333333333,
+      0.5083333333333333
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0002083333333333332,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.877552803225499,
+    "exact_optimal_mse": 1.8445866899886372,
+    "fixed_regret": 0.01787181562990937,
+    "local_calibration_error": 74.07275668531027,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.05",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.05,
+    "p": [
+      0.45,
+      0.5166666666666667,
+      0.5166666666666667,
+      0.5166666666666667
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0008333333333333344,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.7677621115082065,
+    "exact_optimal_mse": 1.7258127053182883,
+    "fixed_regret": 0.02430704447860784,
+    "local_calibration_error": 18.988520512788153,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.1",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.1,
+    "p": [
+      0.4,
+      0.5333333333333333,
+      0.5333333333333333,
+      0.5333333333333333
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0033333333333333322,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.545340972451111,
+    "exact_optimal_mse": 1.4881667991333645,
+    "fixed_regret": 0.03841919692808755,
+    "local_calibration_error": 4.702412525684339,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.2",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.2,
+    "p": [
+      0.3,
+      0.5666666666666667,
+      0.5666666666666667,
+      0.5666666666666667
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.013333333333333336,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.1238535921144452,
+    "exact_optimal_mse": 1.0522133607437334,
+    "fixed_regret": 0.06808527057675313,
+    "local_calibration_error": 0.9344394908891716,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-one-outlier-0.4",
+    "kind": "path",
+    "component": "one-outlier",
+    "amplitude": 0.4,
+    "p": [
+      0.09999999999999998,
+      0.6333333333333333,
+      0.6333333333333333,
+      0.6333333333333333
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.053333333333333344,
+    "local_allocation": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.4613881278162707,
+    "exact_optimal_mse": 0.43339785037804035,
+    "fixed_regret": 0.06458333241342855,
+    "local_calibration_error": 0.1140813903542288,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0,
+    "p": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.9723469588388484,
+    "exact_optimal_mse": 0.9723469588388484,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 48207.10058991383,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.001",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.001,
+    "p": [
+      0.499,
+      0.499,
+      0.501,
+      0.501
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 1.0000000000000019e-06,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.4662936637244754,
+    "exact_optimal_mse": 1.4662936637244754,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 11987.086099240616,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.005",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.005,
+    "p": [
+      0.495,
+      0.495,
+      0.505,
+      0.505
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 2.5000000000000045e-05,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.8919346544101674,
+    "exact_optimal_mse": 1.8919346544101674,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 634.6941500441887,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.01",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.01,
+    "p": [
+      0.49,
+      0.49,
+      0.51,
+      0.51
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.00010000000000000018,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.8773846474614428,
+    "exact_optimal_mse": 1.8773846474614428,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 163.74905024972855,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.025",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.025,
+    "p": [
+      0.475,
+      0.475,
+      0.525,
+      0.525
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0006250000000000011,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.7581230406320358,
+    "exact_optimal_mse": 1.7581230406320358,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 27.323041027141674,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.05",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.05,
+    "p": [
+      0.45,
+      0.45,
+      0.55,
+      0.55
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.0025000000000000014,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.5516485638373831,
+    "exact_optimal_mse": 1.5516485638373831,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 6.9722001852203395,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.1",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.1,
+    "p": [
+      0.4,
+      0.4,
+      0.6,
+      0.6
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.009999999999999995,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 1.166827663061155,
+    "exact_optimal_mse": 1.166827663061155,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 1.5708167023764548,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.2",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.2,
+    "p": [
+      0.3,
+      0.3,
+      0.7,
+      0.7
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.039999999999999994,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.58005016285311,
+    "exact_optimal_mse": 0.58005016285311,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.13133938474799015,
+    "passes_descriptive_tolerances": false
+  },
+  {
+    "id": "path-paired-0.4",
+    "kind": "path",
+    "component": "paired",
+    "amplitude": 0.4,
+    "p": [
+      0.09999999999999998,
+      0.09999999999999998,
+      0.9,
+      0.9
+    ],
+    "total": 16,
+    "m0": 2,
+    "dispersion": 0.16000000000000003,
+    "local_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_allocation": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_local_mse": 0.08505289241917335,
+    "exact_optimal_mse": 0.08505289241917335,
+    "fixed_regret": 0.0,
+    "local_calibration_error": 0.1733137045537507,
+    "passes_descriptive_tolerances": false
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "frozen_utc": "2026-10-11T06:50:27.475003+00:00",
+  "evaluation_started": false,
+  "methods": [
+    "posterior-Jeffreys",
+    "posterior-mixture"
+  ]
+}

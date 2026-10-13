@@ -1,0 +1,41 @@
+{
+  "decision": "STOP_POSTERIOR_CREDIT_PROTOTYPE",
+  "aggregates": {
+    "plugin": {
+      "mse": 0.5658574872255863,
+      "bias_squared": 0.19081511223978098,
+      "variance": 0.3750423749858054
+    },
+    "prior-scale": {
+      "mse": 0.5136409474661151,
+      "bias_squared": 0.2345732957845177,
+      "variance": 0.2790676516815974
+    },
+    "posterior-credit": {
+      "mse": 0.47293640976963996,
+      "bias_squared": 0.27377842133521585,
+      "variance": 0.19915798843442412
+    }
+  },
+  "candidate_reduction_vs": {
+    "plugin": 0.1642128619902879,
+    "prior-scale": 0.0792470652841797
+  },
+  "mean_criteria_pass": true,
+  "quadrature_stability_pass": false,
+  "half_support_max_credit_difference": 0.04249883024233214,
+  "stress_regressions_over10pct": [
+    {
+      "id": "sparse-extreme",
+      "gram": "paired-correlated",
+      "relative_reduction": -0.17814895851274692
+    }
+  ],
+  "scalar_control": 0.8626101794136685,
+  "vectors": 129,
+  "method_evaluations": 2709,
+  "fit_seconds": 5.677116600098088,
+  "evaluation_seconds": 0.6690250998362899,
+  "GPU_cost": 0,
+  "fresh_confirmation": false
+}

@@ -1,0 +1,444 @@
+{
+  "decision": "NO_CLEAR_SIGNAL",
+  "comparisons": {
+    "confirmation": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.8091410727993548,
+        "JADA_mse": 0.8091410727993548,
+        "relative_reduction": -0.023347746636354527,
+        "relative_ci95": [
+          -0.026506494293315388,
+          -0.020188998979393667
+        ],
+        "difference": -0.018460607181559174,
+        "difference_ci95": [
+          -0.02017902797539928,
+          -0.016742186387719068
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 76.89585205559088,
+        "df_difference": 70.6426515456204
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.8091410727993548,
+        "JADA_mse": 0.8091410727993548,
+        "relative_reduction": -0.023347746636354527,
+        "relative_ci95": [
+          -0.026506494293315388,
+          -0.020188998979393667
+        ],
+        "difference": -0.018460607181559174,
+        "difference_ci95": [
+          -0.02017902797539928,
+          -0.016742186387719068
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 76.89585205559088,
+        "df_difference": 70.6426515456204
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7905817133448078,
+        "relative_reduction": 0.00012489529877368621,
+        "relative_ci95": [
+          8.522471877979532e-05,
+          0.0001645658787675771
+        ],
+        "difference": 9.875227298783429e-05,
+        "difference_ci95": [
+          6.781732270137183e-05,
+          0.00012968722327429675
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.13338732498142,
+        "df_difference": 55.23594566561478
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7905817133448078,
+        "relative_reduction": 0.00012489529877368621,
+        "relative_ci95": [
+          8.522471877979532e-05,
+          0.0001645658787675771
+        ],
+        "difference": 9.875227298783429e-05,
+        "difference_ci95": [
+          6.781732270137183e-05,
+          0.00012968722327429675
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.13338732498142,
+        "df_difference": 55.23594566561478
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7905817133448078,
+        "relative_reduction": 0.00012489529877368621,
+        "relative_ci95": [
+          8.522471877979532e-05,
+          0.0001645658787675771
+        ],
+        "difference": 9.875227298783429e-05,
+        "difference_ci95": [
+          6.781732270137183e-05,
+          0.00012968722327429675
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.13338732498142,
+        "df_difference": 55.23594566561478
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7905817133448078,
+        "relative_reduction": 0.00012489529877368621,
+        "relative_ci95": [
+          8.522471877979532e-05,
+          0.0001645658787675771
+        ],
+        "difference": 9.875227298783429e-05,
+        "difference_ci95": [
+          6.781732270137183e-05,
+          0.00012968722327429675
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.13338732498142,
+        "df_difference": 55.23594566561478
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7130574627176912,
+        "relative_reduction": 0.0981724050049142,
+        "relative_ci95": [
+          0.08684329139384803,
+          0.10950151861598037
+        ],
+        "difference": 0.07762300290010438,
+        "difference_ci95": [
+          0.06686414916509827,
+          0.08838185663511049
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 40.230203859826695,
+        "df_difference": 47.43244596186595
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7130574627176912,
+        "relative_reduction": 0.0981724050049142,
+        "relative_ci95": [
+          0.08684329139384803,
+          0.10950151861598037
+        ],
+        "difference": 0.07762300290010438,
+        "difference_ci95": [
+          0.06686414916509827,
+          0.08838185663511049
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 40.230203859826695,
+        "df_difference": 47.43244596186595
+      }
+    },
+    "development": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.7599411696898275,
+        "JADA_mse": 0.7599411696898275,
+        "relative_reduction": -0.024339261234459286,
+        "relative_ci95": [
+          -0.026896799406499472,
+          -0.0217817230624191
+        ],
+        "difference": -0.018056914688216352,
+        "difference_ci95": [
+          -0.019523851010683563,
+          -0.01658997836574914
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 169.0320835514335,
+        "df_difference": 169.69721666766367
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.7599411696898275,
+        "JADA_mse": 0.7599411696898275,
+        "relative_reduction": -0.024339261234459286,
+        "relative_ci95": [
+          -0.026896799406499472,
+          -0.0217817230624191
+        ],
+        "difference": -0.018056914688216352,
+        "difference_ci95": [
+          -0.019523851010683563,
+          -0.01658997836574914
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 169.0320835514335,
+        "df_difference": 169.69721666766367
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.7417774851493086,
+        "relative_reduction": 0.00014391712936712153,
+        "relative_ci95": [
+          0.00010956990805452684,
+          0.00017826435067971622
+        ],
+        "difference": 0.0001067698523025129,
+        "difference_ci95": [
+          8.27385360075489e-05,
+          0.0001308011685974769
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 153.9640901927363,
+        "df_difference": 142.94319668357713
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.7417774851493086,
+        "relative_reduction": 0.00014391712936712153,
+        "relative_ci95": [
+          0.00010956990805452684,
+          0.00017826435067971622
+        ],
+        "difference": 0.0001067698523025129,
+        "difference_ci95": [
+          8.27385360075489e-05,
+          0.0001308011685974769
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 153.9640901927363,
+        "df_difference": 142.94319668357713
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.7417774851493086,
+        "relative_reduction": 0.00014391712936712153,
+        "relative_ci95": [
+          0.00010956990805452684,
+          0.00017826435067971622
+        ],
+        "difference": 0.0001067698523025129,
+        "difference_ci95": [
+          8.27385360075489e-05,
+          0.0001308011685974769
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 153.9640901927363,
+        "df_difference": 142.94319668357713
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.7417774851493086,
+        "relative_reduction": 0.00014391712936712153,
+        "relative_ci95": [
+          0.00010956990805452684,
+          0.00017826435067971622
+        ],
+        "difference": 0.0001067698523025129,
+        "difference_ci95": [
+          8.27385360075489e-05,
+          0.0001308011685974769
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 153.9640901927363,
+        "df_difference": 142.94319668357713
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.6664638160448978,
+        "relative_reduction": 0.10166065454044382,
+        "relative_ci95": [
+          0.09315067234363021,
+          0.11017063673725742
+        ],
+        "difference": 0.07542043895671335,
+        "difference_ci95": [
+          0.06768912016198209,
+          0.08315175775144462
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 95.51627228484234,
+        "df_difference": 106.82779713991329
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.7418842550016111,
+        "candidate_mse": 0.6664638160448978,
+        "relative_reduction": 0.10166065454044382,
+        "relative_ci95": [
+          0.09315067234363021,
+          0.11017063673725742
+        ],
+        "difference": 0.07542043895671335,
+        "difference_ci95": [
+          0.06768912016198209,
+          0.08315175775144462
+        ],
+        "vector_clusters": 192,
+        "strata": 6,
+        "df_relative": 95.51627228484234,
+        "df_difference": 106.82779713991329
+      }
+    }
+  },
+  "by_m0": {
+    "1": {
+      "posterior-Jeffreys": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7906804656177956,
+        "relative_reduction": 0.0,
+        "relative_ci95": [
+          -1.550539209047449e-17,
+          1.550539209047449e-17
+        ],
+        "difference": 0.0,
+        "difference_ci95": [
+          0.0,
+          0.0
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 62.5,
+        "df_difference": null
+      },
+      "posterior-mixture": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7906804656177956,
+        "relative_reduction": 0.0,
+        "relative_ci95": [
+          -1.550539209047449e-17,
+          1.550539209047449e-17
+        ],
+        "difference": 0.0,
+        "difference_ci95": [
+          0.0,
+          0.0
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 62.5,
+        "df_difference": null
+      }
+    },
+    "2": {
+      "posterior-Jeffreys": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7904829610718203,
+        "relative_reduction": 0.00024979059754692834,
+        "relative_ci95": [
+          0.00017044943754547986,
+          0.0003291317575483768
+        ],
+        "difference": 0.0001975045459753355,
+        "difference_ci95": [
+          0.0001356346453937598,
+          0.00025937444655691123
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.13338735824485,
+        "df_difference": 55.23594570648534
+      },
+      "posterior-mixture": {
+        "baseline_mse": 0.7906804656177956,
+        "candidate_mse": 0.7904829610718203,
+        "relative_reduction": 0.00024979059754692834,
+        "relative_ci95": [
+          0.00017044943754547986,
+          0.0003291317575483768
+        ],
+        "difference": 0.0001975045459753355,
+        "difference_ci95": [
+          0.0001356346453937598,
+          0.00025937444655691123
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.13338735824485,
+        "df_difference": 55.23594570648534
+      }
+    }
+  },
+  "integration_diagnostics": [
+    {
+      "prior": "posterior-Jeffreys",
+      "m0": 1,
+      "points": 8192,
+      "scrambles": 8,
+      "fit_completed_utc": "2026-10-11T03:17:36.192479+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "pilot_histories_with_half_policy_difference": 0,
+      "max_selected_posterior_risk_SE_across_scrambles": 0.0016147121755514984,
+      "max_selected_minus_uniform_paired_SE": 0.0,
+      "estimated_prior_expected_uniform_mse": 0.281950439038664,
+      "estimated_prior_expected_policy_mse": 0.281950439038664,
+      "information_access": "offline declared prior and current pilot counts only; no evaluation vector used"
+    },
+    {
+      "prior": "posterior-Jeffreys",
+      "m0": 2,
+      "points": 8192,
+      "scrambles": 8,
+      "fit_completed_utc": "2026-10-11T03:17:36.226790+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "pilot_histories_with_half_policy_difference": 0,
+      "max_selected_posterior_risk_SE_across_scrambles": 0.0029613425412517093,
+      "max_selected_minus_uniform_paired_SE": 1.7099792495460948e-05,
+      "estimated_prior_expected_uniform_mse": 0.281950439038664,
+      "estimated_prior_expected_policy_mse": 0.2815500745409639,
+      "information_access": "offline declared prior and current pilot counts only; no evaluation vector used"
+    },
+    {
+      "prior": "posterior-mixture",
+      "m0": 1,
+      "points": 12288,
+      "scrambles": 8,
+      "fit_completed_utc": "2026-10-11T03:18:40.394937+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "pilot_histories_with_half_policy_difference": 0,
+      "max_selected_posterior_risk_SE_across_scrambles": 0.0013326200278433874,
+      "max_selected_minus_uniform_paired_SE": 0.0,
+      "estimated_prior_expected_uniform_mse": 0.7568286432288136,
+      "estimated_prior_expected_policy_mse": 0.7568286432288136,
+      "information_access": "offline declared prior and current pilot counts only; no evaluation vector used"
+    },
+    {
+      "prior": "posterior-mixture",
+      "m0": 2,
+      "points": 12288,
+      "scrambles": 8,
+      "fit_completed_utc": "2026-10-11T03:18:40.427325+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "pilot_histories_with_half_policy_difference": 0,
+      "max_selected_posterior_risk_SE_across_scrambles": 0.002317614827652164,
+      "max_selected_minus_uniform_paired_SE": 2.096281667547304e-05,
+      "estimated_prior_expected_uniform_mse": 0.756828643228814,
+      "estimated_prior_expected_policy_mse": 0.7566304823593738,
+      "information_access": "offline declared prior and current pilot counts only; no evaluation vector used"
+    }
+  ],
+  "interpretation": "The primary pilot-only method does not pass the declared CPU criterion. Keep the negative outcome; the secondary benchmark-informed prior cannot rescue this primary gate. Oracle headroom does not guarantee recoverable pilot-only gains.",
+  "cells": 588,
+  "method_evaluations": 4704,
+  "elapsed_cpu_wall_seconds": 110.79677479993552,
+  "GPU_cost": 0,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional"
+}

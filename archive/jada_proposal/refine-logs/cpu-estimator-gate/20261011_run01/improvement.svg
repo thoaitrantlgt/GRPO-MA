@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="420" viewBox="0 0 1080 420">
+<rect width="1080" height="420" fill="white"/>
+<style>text{font:13px sans-serif;fill:#172436}.axis{stroke:#748094}.ci{stroke:#1466a0;stroke-width:2}</style>
+<text x="24" y="25">JADA vs variance-only: budget-precommitted reuse, relative MSE reduction (%)</text>
+<text x="55" y="48">pilot_fraction</text>
+<path class="axis" fill="none" d="M55,60 V330 H335"/>
+<path stroke="#aaaaaa" stroke-dasharray="4 4" d="M55,102.40644934321588 H335"/>
+<text x="17" y="334.0">-26.8</text>
+<text x="17" y="266.5">-18.9</text>
+<text x="17" y="199.0">-10.9</text>
+<text x="17" y="131.5">-3.0</text>
+<text x="17" y="64.0">5.0</text>
+<path class="ci" d="M90.0,313.0374202627136 V229.9061618927143"/>
+<circle cx="90.0" cy="271.471791077714" r="4" fill="#1466a0"/>
+<text x="62.0" y="352">0-0.125</text>
+<path class="ci" d="M160.0,192.26831624087603 V163.27565062798638"/>
+<circle cx="160.0" cy="177.7719834344312" r="4" fill="#1466a0"/>
+<text x="132.0" y="352">0.125-0.25</text>
+<path class="ci" d="M230.0,125.80538573690052 V118.27177993758741"/>
+<circle cx="230.0" cy="122.03858283724395" r="4" fill="#1466a0"/>
+<text x="202.0" y="352">0.25-0.5</text>
+<path class="ci" d="M300.0,107.83364312334103 V105.46067988115556"/>
+<circle cx="300.0" cy="106.64716150224834" r="4" fill="#1466a0"/>
+<text x="272.0" y="352">0.5-1</text>
+<polyline points="90.0,271.471791077714 160.0,177.7719834344312 230.0,122.03858283724395 300.0,106.64716150224834" stroke="#1466a0" fill="none"/>
+<text x="410" y="48">dispersion_v</text>
+<path class="axis" fill="none" d="M410,60 V330 H690"/>
+<path stroke="#aaaaaa" stroke-dasharray="4 4" d="M410,143.94376154099436 H690"/>
+<text x="372" y="334.0">-11.1</text>
+<text x="372" y="266.5">-7.1</text>
+<text x="372" y="199.0">-3.0</text>
+<text x="372" y="131.5">1.0</text>
+<text x="372" y="64.0">5.0</text>
+<path class="ci" d="M445.0,159.14990005871022 V142.54574629813894"/>
+<circle cx="445.0" cy="150.84782317842456" r="4" fill="#1466a0"/>
+<text x="417.0" y="352">0-0.001</text>
+<path class="ci" d="M515.0,189.04048116574072 V162.39580182247695"/>
+<circle cx="515.0" cy="175.71814149410886" r="4" fill="#1466a0"/>
+<text x="487.0" y="352">0.001-0.01</text>
+<path class="ci" d="M585.0,251.79101484996207 V206.84810183707177"/>
+<circle cx="585.0" cy="229.31955834351692" r="4" fill="#1466a0"/>
+<text x="557.0" y="352">0.01-0.05</text>
+<path class="ci" d="M655.0,296.42249538360227 V204.43369155139965"/>
+<circle cx="655.0" cy="250.42809346750093" r="4" fill="#1466a0"/>
+<text x="627.0" y="352">0.05-0.25</text>
+<polyline points="445.0,150.84782317842456 515.0,175.71814149410886 585.0,229.31955834351692 655.0,250.42809346750093" stroke="#1466a0" fill="none"/>
+<text x="765" y="48">max_leverage</text>
+<path class="axis" fill="none" d="M765,60 V330 H1045"/>
+<path stroke="#aaaaaa" stroke-dasharray="4 4" d="M765,150.75904580100536 H1045"/>
+<text x="727" y="334.0">-9.9</text>
+<text x="727" y="266.5">-6.2</text>
+<text x="727" y="199.0">-2.4</text>
+<text x="727" y="131.49999999999997">1.3</text>
+<text x="727" y="64.0">5.0</text>
+<path class="ci" d="M800.0,157.99912020736497 V152.30463915107788"/>
+<circle cx="800.0" cy="155.1518796792214" r="4" fill="#1466a0"/>
+<text x="772.0" y="352">0-0.25</text>
+<path class="ci" d="M870.0,213.43489348876676 V181.3527406039543"/>
+<circle cx="870.0" cy="197.39381704636054" r="4" fill="#1466a0"/>
+<text x="842.0" y="352">0.25-0.5</text>
+<path class="ci" d="M940.0,255.24315722772047 V212.55424057607672"/>
+<circle cx="940.0" cy="233.89869890189863" r="4" fill="#1466a0"/>
+<text x="912.0" y="352">0.5-0.75</text>
+<path class="ci" d="M1010.0,293.69638167959783 V159.32998984906715"/>
+<circle cx="1010.0" cy="226.5131857643325" r="4" fill="#1466a0"/>
+<text x="982.0" y="352">0.75-1</text>
+<polyline points="800.0,155.1518796792214 870.0,197.39381704636054 940.0,233.89869890189863 1010.0,226.5131857643325" stroke="#1466a0" fill="none"/>
+<text x="24" y="395">Positive = lower JADA error. Descriptive bins; different K and budgets are mixed. 95% pointwise intervals.</text></svg>

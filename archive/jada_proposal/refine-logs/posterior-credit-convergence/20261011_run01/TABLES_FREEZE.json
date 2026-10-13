@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-10-11T08:00:48.082371+00:00",
+  "new_tables_frozen_before_risk_evaluation": true,
+  "levels": [
+    512,
+    2048,
+    8192,
+    32768
+  ],
+  "scalar_unchanged": 0.8626101794136685,
+  "fit_seconds": 31.26053860015236,
+  "GPU_cost": 0
+}

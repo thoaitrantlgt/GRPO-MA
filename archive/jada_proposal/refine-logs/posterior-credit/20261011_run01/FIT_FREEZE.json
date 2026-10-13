@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-10-11T07:55:09.178410+00:00",
+  "development_outcomes_read": false,
+  "scalar_control": 0.8626101794136685,
+  "half_support_max_credit_difference": 0.04249883024233214,
+  "base_points": 2048,
+  "symmetrized_support_entries": 49152,
+  "fit_seconds": 5.677116600098088,
+  "GPU_cost": 0
+}

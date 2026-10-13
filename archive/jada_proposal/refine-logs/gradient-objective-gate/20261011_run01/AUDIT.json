@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "cells": 4158,
+  "method_evaluations": 37422,
+  "exact_global_weighted_oracles": "PASS",
+  "scalar_and_null_controls": "PASS",
+  "gradient_JADA_pilot_only_given_fixed_G": "PASS",
+  "unfiltered_predeclared_confirmation": "PASS",
+  "max_direct_weighted_residual": 2.0872192862952943e-14,
+  "max_scalar_engine_residual": 2.6645352591003757e-15,
+  "max_saved_metric_residual": 0.0,
+  "max_raw_value_bias": 4.440892098500626e-16,
+  "GPU_cost": 0
+}

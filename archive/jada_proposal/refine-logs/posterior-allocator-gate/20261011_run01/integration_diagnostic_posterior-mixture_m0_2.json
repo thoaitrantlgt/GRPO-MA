@@ -1,0 +1,14 @@
+{
+  "prior": "posterior-mixture",
+  "m0": 2,
+  "points": 12288,
+  "scrambles": 8,
+  "fit_completed_utc": "2026-10-11T03:18:40.427325+00:00",
+  "pilot_mass_weighted_half_policy_TV": 0.0,
+  "pilot_histories_with_half_policy_difference": 0,
+  "max_selected_posterior_risk_SE_across_scrambles": 0.002317614827652164,
+  "max_selected_minus_uniform_paired_SE": 2.096281667547304e-05,
+  "estimated_prior_expected_uniform_mse": 0.756828643228814,
+  "estimated_prior_expected_policy_mse": 0.7566304823593738,
+  "information_access": "offline declared prior and current pilot counts only; no evaluation vector used"
+}

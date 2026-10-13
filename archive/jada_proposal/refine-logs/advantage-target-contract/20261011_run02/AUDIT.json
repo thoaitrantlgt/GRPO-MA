@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_normalizer_and_reduction_present": true,
+    "local_default_std_is_sample": true,
+    "numpy_target_matches_local_cpu_torch": true,
+    "equality_target_zero": true,
+    "old_policy_masked_update_identity": true,
+    "clipped_sign_dependent_update_identity": true,
+    "positive_scaling_scales_thought_branch": true,
+    "gram_identity": true,
+    "empty_thought_mask_zero_score": true,
+    "null_gram_absolute_error_zero": true,
+    "thought_only_scaling_not_full_update_scaling": true
+  },
+  "check_count": 11,
+  "old_policy_finite_difference_residual": 3.589470387588278e-11,
+  "clipped_finite_difference_residual": 7.282424663301867e-12,
+  "source_sha256": "73c5c85b2705375c713a8d096c3369193e7283f28f9aa9de8fb9294ee6f669b1",
+  "torch_version": "2.12.1+cpu",
+  "torch_device": "cpu",
+  "local_default_std": 0.3109126351029605,
+  "pinned_training_environment_executed": false,
+  "fresh_confirmation": false,
+  "GPU_cost": 0,
+  "scope": "source inspection and local deterministic algebra only; no trainer/model execution or independent review"
+}

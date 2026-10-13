@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "files_verified": 458,
+  "content_mismatches": [],
+  "root_documents_updated": [
+    "JADA_GRPO_research_proposal_v0.3.md",
+    "MANIFEST.md",
+    "RESEARCH_NOTES.md",
+    "SEQUENTIAL_THOUGHT_SAMPLING_PROPOSAL.md"
+  ],
+  "historical_content_rewritten": false,
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "working_directory": "archive/jada_proposal",
+    "count": 35,
+    "status": "PASS"
+  },
+  "experiments_launched": false,
+  "GPU_cost": 0,
+  "post_test_content_mismatches": [],
+  "updated_archive_links_checked": 32,
+  "missing_updated_archive_links": []
+}

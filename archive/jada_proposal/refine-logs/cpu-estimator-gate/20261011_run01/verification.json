@@ -1,0 +1,30 @@
+{
+  "coverage": "PASS",
+  "cells": 2652,
+  "method_evaluations": 42432,
+  "exact_cells": 924,
+  "paired_MC_cells": 1728,
+  "paired_MC_trials": 5184000,
+  "max_exact_unbiased_value_bias": 3.3306690738754696e-15,
+  "max_exact_covariance_residual": 2.7755575615628914e-16,
+  "max_exact_linear_surrogate_residual": 7.275957614183426e-12,
+  "max_analytic_jacobian_FD_error_over_408_vectors": 8.881778512659366e-07,
+  "K2_allocation_boundary": "PASS",
+  "pointwise_configuration_status": {
+    "positive": 0,
+    "negative": 15,
+    "inconclusive": 2,
+    "K2-equality": 9
+  },
+  "all_equal_default_nonlinear_MSE": 0.9889138313032698,
+  "all_equal_default_local_MSE": 50415.0390625,
+  "GPU_hours": 0,
+  "GPU_cost": 0,
+  "environment": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "review_independence": "same-family",
+  "acceptance_status": "provisional"
+}

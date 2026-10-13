@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": {
+    "joint_ratio_reconstruction": true,
+    "all_levels_and_cells_retained": true,
+    "same_consumed_vectors": true,
+    "highest_level_used": true,
+    "raw_metric_reconstruction": true,
+    "declared_decision_reconstructed": true
+  },
+  "joint_ratio_residual": 0
+}

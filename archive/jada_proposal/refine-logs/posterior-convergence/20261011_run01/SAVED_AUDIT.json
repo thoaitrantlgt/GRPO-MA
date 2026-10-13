@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "prior_samples_match_committed_rule": "PASS",
+  "permutation_equivariance": "PASS",
+  "policy_reconstruction_residual": 0.0,
+  "max_saved_metric_residual": 0.0,
+  "method_times_cells": 1224,
+  "development_only": "PASS",
+  "new_confirmation": false,
+  "GPU_cost": 0
+}

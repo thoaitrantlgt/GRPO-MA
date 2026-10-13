@@ -1,0 +1,23 @@
+{
+  "stage": "server plan only: independent target score geometry, no training",
+  "target": "repository Qwen2.5-VL-3B-Instruct / ShareRobot trajectory",
+  "checkpoint": "operator supplies frozen base model plus original trained LoRA adapter, if applicable; checkpoint and step recorded before measurement",
+  "parameter_scope": "exact original trainable thought-update parameter scope; do not silently create a random LoRA adapter or switch to full-model gradients",
+  "prompts": 128,
+  "selection": "unique independent holdout IDs sorted by salted SHA256, salt score-geometry-v1; no score/reward conditioning",
+  "smoke_prompts": "first4 of the frozen128; tooling verification only",
+  "score_seeds": [1732052027],
+  "replay": "reuse checkpoint-aligned complete processed replay if available; otherwise declare generation settings before generating one frozen replay per selected prompt",
+  "group": "four thoughts per prompt for standalone K4 diagnostic; also preserve actual full global normalization-group IDs if using training replay",
+  "continuations": "first stored continuation per thought for score; preserve M and original segment boundaries; extra answer samples not needed when exact replay already exists",
+  "gradient": "mean-log-prob over shifted thought-token mask, model.eval, ratio1, no optimizer step; excludes answer and KL and post-update clipping",
+  "generation_fallback": {"thoughts": 4, "answers_per_thought": 4, "max_completion_length": 1024, "max_pixels": 1003520, "temperature": "must be filled from actual frozen checkpoint training_args.json before generation; no implicit default"},
+  "metrics": ["raw_norm_CV", "centered_norm_CV", "contrast_trace_fraction", "raw_cancellation_ratio", "centered_effective_rank", "pairwise_cosines", "invalid_and_empty_thought_counts"],
+  "bootstrap": {"replicates": 2000, "seed": 1732052027, "unit": "independent prompt, paired metrics", "interval": "two-sided95 percentile, development descriptive"},
+  "invalid_handling": "retain selected IDs and report failures; do not replace invalid or high-cost samples; zero mask gives zero score with explicit flag; incomplete groups cannot enter primary geometry summary",
+  "decision": "descriptive problem-anchor audit only; no automatic method/training GO, synthetic5percent screen stays failed",
+  "execution_budget": "four-prompt smoke first; project128-prompt cost from measured time/peak VRAM; user uses their server; stop on incomplete replay or normalization mismatch",
+  "OOM_rule": "microbatch thought score forwards while preserving all selected sequences and parameter coordinates; never shorten thought/image limits or drop groups silently",
+  "GPU_cost_in_this_session": 0,
+  "implementation_status": "preflight and prompt-freeze CLIs available; target replay capture, score export and measurement analyzer are not yet implemented"
+}

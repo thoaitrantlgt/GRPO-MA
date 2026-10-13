@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "selection invariant to source order",
+    "128 unique IDs",
+    "insufficient cohort rejected",
+    "duplicate IDs rejected"
+  ],
+  "scope": "synthetic metadata fixture, no target gradients or measurement"
+}

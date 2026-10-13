@@ -1,0 +1,28 @@
+# Assumption ledger
+
+ASK: never. Assurance: draft. Declared before implementation.
+
+| ID | Underdetermined decision | Chosen | Class | Source |
+|---|---|---|---|---|
+| A01 | Trial dataset | All 96 already-consumed heterogeneous vectors and six original stress vectors; K2 projects coordinates 0 and 3. No fresh confirmation intervals or data selection. | semantic | default |
+| A02 | Trial grid | K=2/4, B=16, m0=1/2; all pilot observations count toward B. | semantic | proposal |
+| A03 | Integration | Frozen iid-Jeffreys prior approximated by two independently scrambled Sobol supports, all coordinate permutations; nested 8/16 base points per scramble for K4, 64/128 for K2. Posterior likelihood reweights the fixed support. Finite-support computations exact; continuous-prior posterior and risk approximate. | semantic | default |
+| A04 | Numerical fallback | Every preferred action must have positive mean gain and c>=0.90 at aggregate high, aggregate low and both high scramble halves. Conditional uniform reference-risk changes across low/high and halves must be <=1%; all individual mean gains positive. This is a conservative numerical diagnostic, not a rigorous error bound. | semantic | default |
+| A05 | Tie ordering | Run01 used identity order for exact and MC evaluations. Corrected run02 averages exact risks over all coordinate permutations and draws one shared independent permutation per paired MC episode, precommitted for that episode; deterministic ties in ordered coordinates. | semantic | sweep |
+| A06 | Comparators | Uniform, variance-only fixed-pilot, trainer-target Jacobian fixed-pilot JADA, ungated posterior lookahead and reliability-gated lookahead. Same full-sample terminal h_tau plug-in for all. Legacy f_epsilon JADA is not reused as a new-target gain. | semantic | default |
+| A07 | Trial uncertainty | Exact risks over finite reward states; 512 paired episodes/vector/config as simulation check; 2,000 component-stratified paired vector bootstrap replicates give descriptive development intervals only. MC validation discrepancy compared with paired standard errors. | semantic | default |
+| A08 | Resource ceiling | LRU cache at most 30,000 risk vectors; 600 seconds per configuration. If exceeded, retain partial diagnostic and mark incomplete, rather than simplify risk silently. | interface | default |
+| A09 | Integration seeds | Sobol seed 2828422027 and +1; MC 3162272027; bootstrap 3316622027, fixed before outcome evaluation. | interface | default |
+| A10 | Replanning semantics | Q_j is one observation then balanced completion; deployed sequential policy replans. No global risk improvement guarantee. Posterior reliability is model-based. | semantic | proposal |
+| A11 | Budget/acquisition accounting | All reward samples used in empirical means; adaptive means may be biased. Prior integration/caching CPU is reported separately from reward budget. No reuse covariance theorem transferred from fixed-stage sampling. | semantic | proposal |
+| A12 | Trial interpretation | A >5% mean development gain is a screening signal only. Any original K4 stress regression >10% or unstable acquisition prevents proceeding straight to confirmation. Numerical fallback can mask acquisition; report its frequency and separate reliability from numerical failure. | semantic | default |
+| A13 | Floating point zero | Preferred gains must exceed 1e-12; baseline action gain is set identically zero, avoiding roundoff-induced deviations. | semantic | default |
+| A14 | Ungated numerical fairness | Ungated and gated acquisition share numerical reference-risk convergence and positive-gain checks across integration subsets. Only gated requires posterior reliability >=0.90. | semantic | default |
+| A15 | Fixed-pilot objective | Variance-only and JADA optimize the inherited main-sample inverse-count surrogate sum(c_j/m_j), although all pilot observations enter the final plug-in estimate. These are heuristic comparators, not optimizers of the new terminal risk. | semantic | sweep |
+| A16 | Degenerate Jacobian/allocator | For K2 above the floor, h_tau is locally constant: J=0 exactly. Zero-coefficient allocator ties go to the least-sampled thought to avoid roundoff-driven allocation. Corrected run02, with run01 preserved. | semantic | default |
+| A17 | MC uncertainty | 512 episodes are unchanged after outcomes. Zero empirical SE with nonzero exact discrepancy is unresolved, not z=0. Report Hoeffding intervals for bounded paired losses alongside studentized diagnostics; rare-event precision may remain inconclusive even when exact outcome risk is available. | semantic | sweep |
+| A18 | Mechanism diagnostic | After run01 showed zero acquisition, independently test the terminal-count invariance of one-action then balanced completion. This is explanatory posthoc diagnosis, not a tuned acquisition variant. | semantic | default |
+| A19 | Fallback categories | Shared numerical failure, no positive gain and posterior-reliability rejection are separate reasons in corrected run02. Run01's reliability-fallback label also included no-positive-gain histories; it does not isolate H2. | semantic | sweep |
+| A20 | Small-case information control | After candidate failure, run the proposal's finite-prior Bayes Bellman diagnostic at K2/B16/m0=1/2 using unchanged frozen support and data. This exploratory control knows counts and the declared prior, not true p; it lacks candidate reliability gating and cannot rescue the primary verdict. | semantic | default |
+
+Implementation stages run locally without committing the user's other work. No GPU use, prior sweep, threshold tuning or benchmark redesign.

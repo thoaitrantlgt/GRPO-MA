@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "bias_variance_residual": 5.551115123125783e-17,
+  "centering_residual": 5.551115123125783e-16,
+  "exchangeability_residual": 6.661338147750939e-16,
+  "finite_prior_bayes_max_excess": 0.0,
+  "predictive_mass_sum": 0.9999999999999997,
+  "null_update_max": 0.0,
+  "scope": "local audit; exact finite-support Bayes control, approximate continuous prior; synthetic fixed scores only"
+}

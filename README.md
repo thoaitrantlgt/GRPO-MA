@@ -300,3 +300,10 @@ The trainer is built on top of the open-source GRPO implementation in [HuggingFa
 ## License
 
 Released under the [Apache License 2.0](LICENSE). Portions derived from third-party Apache-2.0 projects are attributed in [NOTICE](NOTICE).
+
+
+## Local research proposals
+
+After cloning, run `python -m experiments.restore_artifacts` from repository root if you need the large archived gradient lattice. Its original bytes are stored as checksum-verified parts to fit GitHub's file limit. Git LFS is not required.
+
+The [sequential thought-sampling proposal](SEQUENTIAL_THOUGHT_SAMPLING_PROPOSAL.md) records its completed CPU feasibility and K4 control STOP decisions. The subsequent [gradient-aware headroom diagnostic](refine-logs/gradient-headroom/20261011_run02/DECISION.md) evaluates fixed synthetic score geometries with exact true-p allocation oracles; its gradient-specific development screen also remains unmet. [Formulation and implementation](experiments/gradient_headroom/README.md). The next [server score-geometry plan](refine-logs/score-geometry/SERVER_RUN_PLAN.md) has runnable preflight/prompt-freeze commands; score export and target measurement are pending. CPU experiments and evidence from the previous JADA proposal are collected in [archive/jada_proposal](archive/jada_proposal/README.md), including instructions for running their checks.

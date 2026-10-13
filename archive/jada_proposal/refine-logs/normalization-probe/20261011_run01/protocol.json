@@ -1,0 +1,26 @@
+{
+  "scope": "CPU feasibility probe after allocator NO-GO; consumed development data only",
+  "source": "refine-logs/surrogate-diagnostic/20261011_run02/probability_vectors.json",
+  "K": 4,
+  "total_budgets": [
+    8,
+    16,
+    32
+  ],
+  "allocation": "uniform; all budget pooled independently within each group, no allocation or reuse tuning",
+  "target": "unchanged f_epsilon(p), epsilon=1e-6",
+  "candidate": "fixed-half: 0.5*f_epsilon(V); coefficient fixed before this probe's outcomes",
+  "controls": [
+    "plugin: f_epsilon(V)",
+    "zero: 0",
+    "oracle-scalar: clipped exact-risk-minimizing scalar in [0,1], knows p"
+  ],
+  "primary_descriptive_estimand": "relative reduction of equally weighted six-component mean MSE at total16, all96 consumed vectors; ratios of means",
+  "hypothesis": "fixed-half achieves material mean reduction without unacceptable regression on high-signal stress cases",
+  "rejection_rule": "Reject fixed-half as a general follow-up if reduction <=5% at total16 OR nonpositive mean reduction at total8 or32 OR any of six stress regimes at any budget worsens >10% relative to plugin",
+  "paths": "all27 previously fixed deterministic dispersion probes retained, descriptive only; not included in primary mean",
+  "uncertainty": "exact reward-state risk; no fresh population interval on consumed data",
+  "no_tuning": "no scalar sweep, winner selection, estimator switch, distribution change, or confirmation access",
+  "GPU_cost": 0,
+  "frozen_utc": "2026-10-11T07:38:50.099295+00:00"
+}

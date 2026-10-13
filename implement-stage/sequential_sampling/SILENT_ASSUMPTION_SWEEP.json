@@ -1,0 +1,33 @@
+{
+  "round": 2,
+  "undeclared": [],
+  "stale_rows": [],
+  "semantic_undeclared": 0,
+  "verdict": "clean",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "assurance_note": "No additional undeclared semantic or interface decisions were identified. This is a provisional same-family finding, not a cross-family acquittal, proof of implementation correctness, or certification of method success.",
+  "resolved_round01_findings": [
+    {
+      "finding": "Zero-SE Monte Carlo discrepancies encoded as z=0.",
+      "resolution": "A17 declares unresolved cases and unchanged episode counts. Run02 records 120 unresolved zero-SE discrepancies, with null z values and INCONCLUSIVE_FOR_RARE_DEVIATIONS status. Hoeffding intervals are explicitly pointwise."
+    },
+    {
+      "finding": "Reliability fallback included failure of the shared positive-gain screen.",
+      "resolution": "A19 and core.py now distinguish numerical fallback, no positive gain, and posterior-reliability rejection. Run02 acquisition.json preserves each category."
+    },
+    {
+      "finding": "Fixed-pilot comparator objective undeclared.",
+      "resolution": "A15 declares the inherited main-sample inverse-count surrogate and common full-sample terminal estimator. A16 declares the exact zero K2 Jacobian and balanced zero-coefficient allocation."
+    },
+    {
+      "finding": "Random-permutation ties described but not evaluated.",
+      "resolution": "A05 distinguishes run01 and run02. Exact evaluation averages all permutations, rotating means and second moments before recomputing mixture bias. MC samples one shared permutation per episode. Current primary evaluator files match the saved run02 snapshot."
+    }
+  ],
+  "additional_scope_reviewed": [
+    "A18 declares the terminal-count identity audit as posthoc diagnosis. Its stated identity matches independent Bernoulli streams and the terminal estimator's dependence on final counts and successes.",
+    "A20 declares the exploratory K2 finite-prior Bellman control. Its policy uses observed counts and frozen support, integrates terminal loss over the posterior, and minimizes full-horizon posterior predictive loss. Evaluation averages both K2 coordinate orders on unchanged consumed vectors and projected stresses.",
+    "Completed run02 artifacts give identical gated and uniform risks in all four configurations. The Bellman control and its stress regression remain exploratory and do not revise the primary candidate verdict."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "vectors": 198,
+  "exact_cells": 396,
+  "method_evaluations": 2376,
+  "global_minima_and_exhaustive_coverage": "PASS",
+  "max_saved_metric_residual": 0.0,
+  "max_direct_enumeration_residual": 9.992007221626409e-16,
+  "GPU_cost": 0
+}

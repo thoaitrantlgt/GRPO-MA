@@ -1,0 +1,20 @@
+{
+  "verdict": "NO_DEVELOPMENT_SIGNAL",
+  "primary_reduction": 0.0,
+  "development_ci": [
+    0.0,
+    0.0
+  ],
+  "maximum_original_K4_stress_regression": 0.0,
+  "confirmation_GO": false,
+  "GPU_cost": 0,
+  "seconds": 65.91140660014935,
+  "configurations": 4,
+  "vectors": 102,
+  "consumed_vectors": 96,
+  "stress_vectors": 6,
+  "method_vector_evaluations": 2040,
+  "max_mass_error": 1.9984014443252818e-15,
+  "paired_mc_max_abs_z": 123.68909416733264,
+  "paired_mc_fraction_abs_z_over_3": 0.0024509803921568627
+}

@@ -1,0 +1,2329 @@
+[
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "probability": 0.14034511477571113,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.026885611647836177,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.026885611647836177,
+    "prior_expected_improvement": -3.3306690738754696e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "probability": 0.06203705576265913,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.003312008881918986,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.003312008881918986,
+    "prior_expected_improvement": -1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "probability": 0.05608983458004995,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0028256629206720985,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0028256629206720985,
+    "prior_expected_improvement": -1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "probability": 0.04654645924277454,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0018086962684615998,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0018086962684615998,
+    "prior_expected_improvement": 5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "probability": 0.06571360037263546,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0032011123821035375,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0032011123821035375,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "probability": 0.04181372200791952,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0020542939370993604,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0020542939370993604,
+    "prior_expected_improvement": 5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "probability": 0.03951438897411976,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0022149797575762415,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0022149797575762415,
+    "prior_expected_improvement": 8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "probability": 0.05128589955086585,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0029932794382236047,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0029932794382236047,
+    "prior_expected_improvement": 1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "probability": 0.05765277447779468,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.002735437045973099,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.002735437045973099,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "probability": 0.04336826291427746,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0018285617875944873,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0018285617875944873,
+    "prior_expected_improvement": 2.7755575615628914e-17,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "probability": 0.040016604604418624,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0021350159757809405,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0021350159757809405,
+    "prior_expected_improvement": 2.7755575615628914e-17,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "probability": 0.07948355436935435,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.003104144579995191,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.003104144579995191,
+    "prior_expected_improvement": 1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "probability": 0.04461137498751583,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0023491580982496238,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0023491580982496238,
+    "prior_expected_improvement": 5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "probability": 0.04075904585946374,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0025718609941873427,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0025718609941873427,
+    "prior_expected_improvement": 1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "probability": 0.04151467132145226,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0034765364893615622,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0034765364893615622,
+    "prior_expected_improvement": 1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 1,
+    "pilot": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "probability": 0.14924763619898773,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.030417316780624537,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.030417316780624537,
+    "prior_expected_improvement": -2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        3,
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "probability": 0.06576438127596453,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.013751877197110731,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.013751877197110731,
+    "prior_expected_improvement": -6.661338147750939e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "probability": 0.026271739489671653,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0014024074981061876,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0014024074981061876,
+    "prior_expected_improvement": 2.7755575615628914e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "probability": 0.013168312693324899,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00020201280163877392,
+    "policy_gain_contribution": 3.523102682396686e-05,
+    "remaining_information_gap": 0.00016678177481480703,
+    "prior_expected_improvement": 0.002524451894137969,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        2,
+        1
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "probability": 0.02196768885062272,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0009461950351791079,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0009461950351791079,
+    "prior_expected_improvement": 2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "probability": 0.01230334601340761,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0005722556240638287,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0005722556240638287,
+    "prior_expected_improvement": -3.885780586188048e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "probability": 0.010003306397266038,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00021779918113626223,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00021779918113626223,
+    "prior_expected_improvement": -1.3877787807814457e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "probability": 0.012285373552213217,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00017399101718569774,
+    "policy_gain_contribution": 2.1821794370406954e-05,
+    "remaining_information_gap": 0.00015216922281529075,
+    "prior_expected_improvement": 0.0025244518941380245,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      2,
+      1
+    ],
+    "probability": 0.005985047973631501,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002050185719973766,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002050185719973766,
+    "prior_expected_improvement": -1.3877787807814457e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "probability": 0.0059344736929379145,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 9.518156843830219e-05,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 9.518156843830219e-05,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "probability": 0.024998949999069802,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.001078094590028135,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.001078094590028135,
+    "prior_expected_improvement": 5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "probability": 0.012470124298520171,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0007073881356704034,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0007073881356704034,
+    "prior_expected_improvement": -2.7755575615628914e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "probability": 0.005455837326294553,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00019792383198870853,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00019792383198870853,
+    "prior_expected_improvement": -1.3877787807814457e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "probability": 0.011088790360545634,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006195389229976438,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006195389229976438,
+    "prior_expected_improvement": -2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "probability": 0.012656990122756277,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0005985811454060127,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0005985811454060127,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "probability": 0.008796740105858982,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003198105084610851,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003198105084610851,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      2,
+      0
+    ],
+    "probability": 0.00611370044845936,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002094001109923957,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002094001109923957,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "probability": 0.007699216553569627,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003475634333052974,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003475634333052974,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "probability": 0.006343196265648293,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00017595952236160615,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00017595952236160615,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "probability": 0.01746470184259931,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00023353312979041658,
+    "policy_gain_contribution": 5.415574157777871e-05,
+    "remaining_information_gap": 0.0001793773882126379,
+    "prior_expected_improvement": 0.0025244518941379968,
+    "selected_allocations": [
+      [
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        1,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "probability": 0.008592711951622962,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00026561286955179616,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00026561286955179616,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "probability": 0.008300583327198836,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00012294229962838687,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00012294229962838687,
+    "prior_expected_improvement": -2.7755575615628914e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      1,
+      0
+    ],
+    "probability": 0.009846784626528148,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002337509068884734,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002337509068884734,
+    "prior_expected_improvement": -1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      1,
+      1
+    ],
+    "probability": 0.006617932158981577,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00034147657306188273,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00034147657306188273,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      1,
+      2
+    ],
+    "probability": 0.007461733087777435,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0001664785544108825,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0001664785544108825,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      2,
+      0
+    ],
+    "probability": 0.0047487548262163,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 9.78851360684209e-05,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 9.78851360684209e-05,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      2,
+      1
+    ],
+    "probability": 0.008176516932197763,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00019585568451581866,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00019585568451581866,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "probability": 0.007839596432780038,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00011990872911524224,
+    "policy_gain_contribution": 1.1993326295423127e-05,
+    "remaining_information_gap": 0.00010791540281981911,
+    "prior_expected_improvement": 0.0025336493257779036,
+    "selected_allocations": [
+      [
+        1,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "probability": 0.021558602717002728,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0010469660408344347,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0010469660408344347,
+    "prior_expected_improvement": 5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "probability": 0.016229183716776906,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006013396829452662,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006013396829452662,
+    "prior_expected_improvement": -2.7755575615628914e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      0,
+      2
+    ],
+    "probability": 0.007138342348396402,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002075808606911072,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002075808606911072,
+    "prior_expected_improvement": -1.3877787807814457e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "probability": 0.010663624533711688,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.000483856561348604,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.000483856561348604,
+    "prior_expected_improvement": -2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "probability": 0.013930991613535268,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0004324637262533176,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0004324637262533176,
+    "prior_expected_improvement": -2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      1,
+      2
+    ],
+    "probability": 0.00893329997034942,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002953357526629137,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002953357526629137,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      2,
+      0
+    ],
+    "probability": 0.008945130788479116,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002132665633220296,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002132665633220296,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      2,
+      1
+    ],
+    "probability": 0.009799922235325486,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00032421944395014617,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00032421944395014617,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      0,
+      2,
+      2
+    ],
+    "probability": 0.012728690291977035,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00021107468604865423,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00021107468604865423,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "probability": 0.014851184370333734,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006781657686191103,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006781657686191103,
+    "prior_expected_improvement": -2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "probability": 0.013724991443923104,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006326655428522538,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006326655428522538,
+    "prior_expected_improvement": 1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "probability": 0.007267139746465985,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003125876708627157,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003125876708627157,
+    "prior_expected_improvement": 5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "probability": 0.012359910467910457,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006403291576729862,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006403291576729862,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "probability": 0.01914510707557725,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003728261643417805,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003728261643417805,
+    "prior_expected_improvement": -3.3306690738754696e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "probability": 0.013587847887397803,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0004959732748661992,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0004959732748661992,
+    "prior_expected_improvement": -4.440892098500626e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      2,
+      0
+    ],
+    "probability": 0.0072201731680060525,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003670907441006116,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003670907441006116,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      2,
+      1
+    ],
+    "probability": 0.012318824506800293,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0005768649443675737,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0005768649443675737,
+    "prior_expected_improvement": -4.440892098500626e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "probability": 0.01376133162965052,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0005290030633177681,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0005290030633177681,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "probability": 0.008847965908978806,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00022227660708154572,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00022227660708154572,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "probability": 0.006410088867642384,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003517888494565919,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003517888494565919,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      0,
+      2
+    ],
+    "probability": 0.004588996735695052,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0001706746006543866,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0001706746006543866,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      1,
+      0
+    ],
+    "probability": 0.007419172960263297,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003722958025011371,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003722958025011371,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "probability": 0.010816506690538297,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006028977248535388,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006028977248535388,
+    "prior_expected_improvement": -3.3306690738754696e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "probability": 0.010112526501431558,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0005127884160627119,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0005127884160627119,
+    "prior_expected_improvement": -2.7755575615628914e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      2,
+      0
+    ],
+    "probability": 0.004898658198758548,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002090166175366994,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002090166175366994,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "probability": 0.012083538315463055,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0005587500568256929,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0005587500568256929,
+    "prior_expected_improvement": -1.6653345369377348e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "probability": 0.020637336631750148,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.001242374710225787,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.001242374710225787,
+    "prior_expected_improvement": 4.440892098500626e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      0,
+      0
+    ],
+    "probability": 0.00949133149858653,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00016706538866660583,
+    "policy_gain_contribution": 1.124594873534983e-05,
+    "remaining_information_gap": 0.00015581943993125602,
+    "prior_expected_improvement": 0.0025244518941379968,
+    "selected_allocations": [
+      [
+        1,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      0,
+      1
+    ],
+    "probability": 0.009259729065194984,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00018977022849519558,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00018977022849519558,
+    "prior_expected_improvement": -1.3877787807814457e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      0,
+      2
+    ],
+    "probability": 0.0043223370529703814,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 8.914671017436421e-05,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 8.914671017436421e-05,
+    "prior_expected_improvement": 2.7755575615628914e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      1,
+      0
+    ],
+    "probability": 0.005840874594402576,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0001622541809192379,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0001622541809192379,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      1,
+      1
+    ],
+    "probability": 0.009707476043324776,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00031083241499025227,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00031083241499025227,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      1,
+      2
+    ],
+    "probability": 0.006972516226574595,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0001925372472520462,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0001925372472520462,
+    "prior_expected_improvement": -1.3877787807814457e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      2,
+      0
+    ],
+    "probability": 0.0038805429137131076,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 9.316093531909092e-05,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 9.316093531909092e-05,
+    "prior_expected_improvement": -2.7755575615628914e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      2,
+      1
+    ],
+    "probability": 0.008252673721772128,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00020641500018681304,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00020641500018681304,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      0,
+      2,
+      2
+    ],
+    "probability": 0.022636090584916963,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00022806929845174684,
+    "policy_gain_contribution": 2.210242794597507e-05,
+    "remaining_information_gap": 0.0002059668705057718,
+    "prior_expected_improvement": 0.0025336493257779036,
+    "selected_allocations": [
+      [
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        1,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "probability": 0.00910481496248111,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0002028905383161275,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0002028905383161275,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      0,
+      1
+    ],
+    "probability": 0.009500321662076545,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003323819289325571,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003323819289325571,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      0,
+      2
+    ],
+    "probability": 0.005838865030368887,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00018707541962088674,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00018707541962088674,
+    "prior_expected_improvement": -5.551115123125783e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "probability": 0.008059193390947123,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0003421705245298232,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0003421705245298232,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "probability": 0.014625043979840643,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006836383276752931,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006836383276752931,
+    "prior_expected_improvement": -4.440892098500626e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "probability": 0.013406662733922256,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.000637479931965594,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.000637479931965594,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      2,
+      0
+    ],
+    "probability": 0.004631284526982425,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00022342239102315638,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00022342239102315638,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "probability": 0.012350268075296817,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0007091503655246983,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0007091503655246983,
+    "prior_expected_improvement": -2.220446049250313e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      1,
+      2,
+      2
+    ],
+    "probability": 0.0357527516032757,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.001397934130128684,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.001397934130128684,
+    "prior_expected_improvement": 4.440892098500626e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "probability": 0.00927218996403381,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00011222115256457791,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00011222115256457791,
+    "prior_expected_improvement": -2.7755575615628914e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      0,
+      1
+    ],
+    "probability": 0.004693154481556206,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.00018692457153089115,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.00018692457153089115,
+    "prior_expected_improvement": -8.326672684688674e-17,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "probability": 0.003940154658957587,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 9.82877838062623e-05,
+    "policy_gain_contribution": 1.2588280677390943e-05,
+    "remaining_information_gap": 8.569950312887136e-05,
+    "prior_expected_improvement": 0.002533649325777876,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "probability": 0.004810056292154003,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.000207721279511192,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.000207721279511192,
+    "prior_expected_improvement": -1.1102230246251565e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "probability": 0.009655292492324186,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0006064368062113845,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0006064368062113845,
+    "prior_expected_improvement": -2.7755575615628914e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "probability": 0.014759014266588572,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.0008276245508985364,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.0008276245508985364,
+    "prior_expected_improvement": 3.885780586188048e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      2,
+      0
+    ],
+    "probability": 0.003977631621769953,
+    "policy_nonuniform_probability": 1.0,
+    "oracle_gain_contribution": 0.00014985445724982667,
+    "policy_gain_contribution": 2.8365999549142352e-05,
+    "remaining_information_gap": 0.00012148845770068432,
+    "prior_expected_improvement": 0.0025336493257779313,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        2,
+        1
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      2,
+      1
+    ],
+    "probability": 0.01741705138459979,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.001269809533356504,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.001269809533356504,
+    "prior_expected_improvement": 3.885780586188048e-16,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "m0": 2,
+    "pilot": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "probability": 0.0795070572435628,
+    "policy_nonuniform_probability": 0.0,
+    "oracle_gain_contribution": 0.015255138103894922,
+    "policy_gain_contribution": 0.0,
+    "remaining_information_gap": 0.015255138103894922,
+    "prior_expected_improvement": 0.0,
+    "selected_allocations": [
+      [
+        2,
+        2,
+        2,
+        2
+      ]
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+  uniform: depth 3/4, 6 states, 0.0s
+  uniform: depth 4/4, 9 states, 0.0s
+  bayes-control: depth 3/4, 6 states, 0.0s
+  bayes-control: depth 4/4, 10 states, 0.0s
+  bayes-control: depth 5/6, 29 states, 0.0s
+  bayes-control: depth 6/6, 58 states, 0.0s
+  uniform: depth 3/4, 6 states, 0.0s
+  uniform: depth 4/4, 9 states, 0.0s
+test_finite_prior_optimal_control_dominates_balanced_completion (test_bayes_information_control.BayesInformationControlTests) ... ok
+test_exact_moments_match_direct_squared_updates (test_gradient_headroom.GradientHeadroomTests) ... ok
+test_global_oracle_search_contains_uniform_and_minimum_coverage (test_gradient_headroom.GradientHeadroomTests) ... ok
+test_gradient_jacobian_local_coefficients_in_both_regions (test_gradient_headroom.GradientHeadroomTests) ... ok
+test_null_and_orthogonal_geometries (test_gradient_headroom.GradientHeadroomTests) ... ok
+test_complexity_count_matches_actual_quotient_state_count (test_k4_control.K4InformationControlTests) ... ok
+test_graph_risk_matches_existing_labelled_path_evaluation (test_k4_control.K4InformationControlTests) ... ok
+test_ladder_lowest_support_matches_previous_frozen_points (test_k4_control.K4InformationControlTests) ... ok
+test_rejects_nonexchangeable_support (test_k4_control.K4InformationControlTests) ... ok
+test_symmetry_reduction_matches_full_Bellman_solver (test_k4_control.K4InformationControlTests) ... ok
+test_K2_jacobian_is_exactly_zero_outside_floor (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_completion_risk_against_direct_outcome_enumeration (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_information_contract_and_exact_budget (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_one_action_is_blind_before_terminal_quota (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_policy_path_mass_and_uniform_terminal_risk (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_predictable_history_posterior_and_predictive_identity (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_randomized_policy_bias_rotates_before_averaging (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_relabelled_completion_and_scores (test_sequential_sampling.SequentialSamplingTests) ... ok
+test_target_and_jacobian_in_both_floor_regions (test_sequential_sampling.SequentialSamplingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.180s
+
+OK

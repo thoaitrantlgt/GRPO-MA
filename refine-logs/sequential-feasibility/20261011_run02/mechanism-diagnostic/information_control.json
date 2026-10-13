@@ -1,0 +1,24 @@
+[
+  {
+    "K": 2,
+    "B": 16,
+    "m0": 1,
+    "development_reduction": 0.0012043262808446586,
+    "maximum_projected_stress_regression": 23.87486793847984,
+    "minimum_conditional_finite_prior_gain": 0.0003178663929647718,
+    "bellman_states": 4540,
+    "seconds": 0.7806237998884171,
+    "mass_error": 8.881784197001252e-16
+  },
+  {
+    "K": 2,
+    "B": 16,
+    "m0": 2,
+    "development_reduction": 0.0012043262808446586,
+    "maximum_projected_stress_regression": 23.87486793847986,
+    "minimum_conditional_finite_prior_gain": 1.942890293094024e-16,
+    "bellman_states": 4004,
+    "seconds": 0.8678011000156403,
+    "mass_error": 8.881784197001252e-16
+  }
+]

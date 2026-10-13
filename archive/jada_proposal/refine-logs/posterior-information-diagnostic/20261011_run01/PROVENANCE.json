@@ -1,0 +1,23 @@
+{
+  "source": "refine-logs\\posterior-allocator-gate\\20261011_run01",
+  "source_sha256": {
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\exact_evaluation_m0_1.npz": "c3820a2231a45a8c5b84dae32805be27559344e82a3a29deecdd1afde715d98a",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\exact_evaluation_m0_2.npz": "82f1f20af9a00843233c644e56772113edc80cccd0aa83c5839bf7961ce30a7b",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\integration_posterior-Jeffreys_m0_1.npz": "cda63a644f0098c0ec3769a8427fc61227d8714801e02694693176e95f689446",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\integration_posterior-Jeffreys_m0_2.npz": "dd58361d53c093349c734cb2cdf1ac77473c0a42e046baf4e3d789594e63a904",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\integration_posterior-mixture_m0_1.npz": "4377f0acbef7cd5741ce6a0be62679e06b5c95d1d778cb97516cfb56cf93aeb1",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\integration_posterior-mixture_m0_2.npz": "a5bf7bf1c1176a79e7c13440d1578677556827604a7ed9ab4ed72937b4d825c8",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\prior_points_posterior-Jeffreys.npz": "a74839865debfd8d10c92764147917eae83c1bef86292c71ab11e862a2fcccc9",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\prior_points_posterior-mixture.npz": "d5bc99c0b922d67d6507cd3eb8df93855230b3e26706a60bec933e48ad4311f0",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\POLICY_FREEZE.json": "04969b84fe7578ff17dd5b0963ca1729a3360b87797f92199a968c3bd79f9e62",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\policy_posterior-Jeffreys_m0_1.json": "53076667c15383fee8ed4f3efdfce96ab37af7768d1a005835739af7a5e24c49",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\policy_posterior-Jeffreys_m0_2.json": "303076419ca0ef3f6a27c26d21fc856346f009a13ca6cc0275b69f2dec253e4d",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\policy_posterior-mixture_m0_1.json": "77994515a90fb20b39e6ff8d8d9d4364b84400fd12c6ea9f1d9224671ab34e79",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\policy_posterior-mixture_m0_2.json": "623b7a923e8c1b5cedd6ef1409525ac5aab07e67dbf3f632cad9ac26e229362a",
+    "refine-logs\\posterior-allocator-gate\\20261011_run01\\POLICY_STRUCTURE.json": "4fe5313229e62188e7b3deaa151c49c0e4b254a42838e4527e0c391721d77bf1"
+  },
+  "status": "post hoc descriptive analysis; confirmation consumed",
+  "new_sampling": false,
+  "refitting": false,
+  "GPU_cost": 0
+}

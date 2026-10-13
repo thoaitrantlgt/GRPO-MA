@@ -1,0 +1,1033 @@
+{
+  "decision": "NO_CLEAR_SIGNAL",
+  "comparisons": {
+    "fixed-main-m0-1": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.8454654624905399,
+        "JADA_mse": 0.8454654624905399,
+        "relative_reduction": 0.0035045513749406565,
+        "relative_ci95": [
+          0.002923095667279608,
+          0.004086007082601705
+        ],
+        "difference": 0.0029733975735908302,
+        "difference_ci95": [
+          0.002591381539127603,
+          0.0033554136080540574
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 68.93664870235482,
+        "df_difference": 61.697042567759894
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.8454654624905399,
+        "JADA_mse": 0.8454654624905399,
+        "relative_reduction": 0.0035045513749406565,
+        "relative_ci95": [
+          0.002923095667279608,
+          0.004086007082601705
+        ],
+        "difference": 0.0029733975735908302,
+        "difference_ci95": [
+          0.002591381539127603,
+          0.0033554136080540574
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 68.93664870235482,
+        "df_difference": 61.697042567759894
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.8454646873393097,
+        "relative_reduction": 0.0035054649955522654,
+        "relative_ci95": [
+          0.0030027987271180113,
+          0.004008131263986519
+        ],
+        "difference": 0.0029741727248210337,
+        "difference_ci95": [
+          0.0026854057984549134,
+          0.003262939651187154
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 64.89768410852476,
+        "df_difference": 72.22879178465483
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.8454646873393097,
+        "relative_reduction": 0.0035054649955522654,
+        "relative_ci95": [
+          0.0030027987271180113,
+          0.004008131263986519
+        ],
+        "difference": 0.0029741727248210337,
+        "difference_ci95": [
+          0.0026854057984549134,
+          0.003262939651187154
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 64.89768410852476,
+        "df_difference": 72.22879178465483
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.8454646873393097,
+        "relative_reduction": 0.0035054649955522654,
+        "relative_ci95": [
+          0.0030027987271180113,
+          0.004008131263986519
+        ],
+        "difference": 0.0029741727248210337,
+        "difference_ci95": [
+          0.0026854057984549134,
+          0.003262939651187154
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 64.89768410852476,
+        "df_difference": 72.22879178465483
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.8454646873393097,
+        "relative_reduction": 0.0035054649955522654,
+        "relative_ci95": [
+          0.0030027987271180113,
+          0.004008131263986519
+        ],
+        "difference": 0.0029741727248210337,
+        "difference_ci95": [
+          0.0026854057984549134,
+          0.003262939651187154
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 64.89768410852476,
+        "df_difference": 72.22879178465483
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.7711191030450794,
+        "relative_reduction": 0.09113179588828235,
+        "relative_ci95": [
+          0.07879829929112507,
+          0.10346529248543963
+        ],
+        "difference": 0.07731975701905136,
+        "difference_ci95": [
+          0.06573107313204533,
+          0.08890844090605739
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 37.56250479622244,
+        "df_difference": 50.78387145956246
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.8484388600641307,
+        "candidate_mse": 0.7711191030450794,
+        "relative_reduction": 0.09113179588828235,
+        "relative_ci95": [
+          0.07879829929112507,
+          0.10346529248543963
+        ],
+        "difference": 0.07731975701905136,
+        "difference_ci95": [
+          0.06573107313204533,
+          0.08890844090605739
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 37.56250479622244,
+        "df_difference": 50.78387145956246
+      }
+    },
+    "fixed-main-m0-2": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.7534005499912705,
+        "JADA_mse": 0.7534005499912705,
+        "relative_reduction": -0.015359169290102503,
+        "relative_ci95": [
+          -0.01779015557674155,
+          -0.012928183003463458
+        ],
+        "difference": -0.011396564822143351,
+        "difference_ci95": [
+          -0.012814275454297766,
+          -0.009978854189988937
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 71.56526173563309,
+        "df_difference": 71.15199493920281
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.7534005499912705,
+        "JADA_mse": 0.7534005499912705,
+        "relative_reduction": -0.015359169290102503,
+        "relative_ci95": [
+          -0.01779015557674155,
+          -0.012928183003463458
+        ],
+        "difference": -0.011396564822143351,
+        "difference_ci95": [
+          -0.012814275454297766,
+          -0.009978854189988937
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 71.56526173563309,
+        "df_difference": 71.15199493920281
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.7418807300766348,
+        "relative_reduction": 0.00016611109233366506,
+        "relative_ci95": [
+          5.236532991627947e-05,
+          0.00027985685475105063
+        ],
+        "difference": 0.0001232550924923359,
+        "difference_ci95": [
+          4.057553040093607e-05,
+          0.00020593465458373575
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 34.69549955911094,
+        "df_difference": 34.36240654533146
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.7418807300766348,
+        "relative_reduction": 0.00016611109233366506,
+        "relative_ci95": [
+          5.236532991627947e-05,
+          0.00027985685475105063
+        ],
+        "difference": 0.0001232550924923359,
+        "difference_ci95": [
+          4.057553040093607e-05,
+          0.00020593465458373575
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 34.69549955911094,
+        "df_difference": 34.36240654533146
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.7418807300766348,
+        "relative_reduction": 0.00016611109233366506,
+        "relative_ci95": [
+          5.236532991627947e-05,
+          0.00027985685475105063
+        ],
+        "difference": 0.0001232550924923359,
+        "difference_ci95": [
+          4.057553040093607e-05,
+          0.00020593465458373575
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 34.69549955911094,
+        "df_difference": 34.36240654533146
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.7418807300766348,
+        "relative_reduction": 0.00016611109233366506,
+        "relative_ci95": [
+          5.236532991627947e-05,
+          0.00027985685475105063
+        ],
+        "difference": 0.0001232550924923359,
+        "difference_ci95": [
+          4.057553040093607e-05,
+          0.00020593465458373575
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 34.69549955911094,
+        "df_difference": 34.36240654533146
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.6800174688131767,
+        "relative_reduction": 0.08353933077842113,
+        "relative_ci95": [
+          0.07320878720376664,
+          0.09386987435307562
+        ],
+        "difference": 0.06198651635595043,
+        "difference_ci95": [
+          0.052884451435407126,
+          0.07108858127649373
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 33.749459730465496,
+        "df_difference": 53.175348656900226
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.7420039851691271,
+        "candidate_mse": 0.6800174688131767,
+        "relative_reduction": 0.08353933077842113,
+        "relative_ci95": [
+          0.07320878720376664,
+          0.09386987435307562
+        ],
+        "difference": 0.06198651635595043,
+        "difference_ci95": [
+          0.052884451435407126,
+          0.07108858127649373
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 33.749459730465496,
+        "df_difference": 53.175348656900226
+      }
+    },
+    "fixed-main-m0-4": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.6947886978635952,
+        "JADA_mse": 0.6947886978635952,
+        "relative_reduction": -0.03594773066496981,
+        "relative_ci95": [
+          -0.04295057019214453,
+          -0.02894489113779509
+        ],
+        "difference": -0.024109398805124638,
+        "difference_ci95": [
+          -0.02712386889182696,
+          -0.021094928718422317
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 62.5587696508558,
+        "df_difference": 70.2405869242616
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.6947886978635952,
+        "JADA_mse": 0.6947886978635952,
+        "relative_reduction": -0.03594773066496981,
+        "relative_ci95": [
+          -0.04295057019214453,
+          -0.02894489113779509
+        ],
+        "difference": -0.024109398805124638,
+        "difference_ci95": [
+          -0.02712386889182696,
+          -0.021094928718422317
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 62.5587696508558,
+        "df_difference": 70.2405869242616
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.671122108488423,
+        "relative_reduction": -0.0006602401931505852,
+        "relative_ci95": [
+          -0.0011026388312929626,
+          -0.00021784155500820783
+        ],
+        "difference": -0.000442809429952451,
+        "difference_ci95": [
+          -0.0007302780435953238,
+          -0.00015534081630957822
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 33.263432887425715,
+        "df_difference": 28.256526143397856
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.671122108488423,
+        "relative_reduction": -0.0006602401931505852,
+        "relative_ci95": [
+          -0.0011026388312929626,
+          -0.00021784155500820783
+        ],
+        "difference": -0.000442809429952451,
+        "difference_ci95": [
+          -0.0007302780435953238,
+          -0.00015534081630957822
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 33.263432887425715,
+        "df_difference": 28.256526143397856
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.6706656785707645,
+        "relative_reduction": 2.0308495767173973e-05,
+        "relative_ci95": [
+          -0.00013697166200609892,
+          0.00017758865354044687
+        ],
+        "difference": 1.362048770603419e-05,
+        "difference_ci95": [
+          -9.178171455992812e-05,
+          0.0001190226899719965
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 18.371737471741127,
+        "df_difference": 18.415270382858054
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.6706656785707645,
+        "relative_reduction": 2.0308495767173973e-05,
+        "relative_ci95": [
+          -0.00013697166200609892,
+          0.00017758865354044687
+        ],
+        "difference": 1.362048770603419e-05,
+        "difference_ci95": [
+          -9.178171455992812e-05,
+          0.0001190226899719965
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 18.371737471741127,
+        "df_difference": 18.415270382858054
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.6097264655561278,
+        "relative_reduction": 0.09088223475498813,
+        "relative_ci95": [
+          0.08158460602839132,
+          0.10017986348158495
+        ],
+        "difference": 0.06095283350234282,
+        "difference_ci95": [
+          0.051404728233504345,
+          0.0705009387711813
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 46.260326581369625,
+        "df_difference": 52.0867565339113
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.6706792990584706,
+        "candidate_mse": 0.6097264655561278,
+        "relative_reduction": 0.09088223475498813,
+        "relative_ci95": [
+          0.08158460602839132,
+          0.10017986348158495
+        ],
+        "difference": 0.06095283350234282,
+        "difference_ci95": [
+          0.051404728233504345,
+          0.0705009387711813
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 46.260326581369625,
+        "df_difference": 52.0867565339113
+      }
+    },
+    "fixed-total-m0-1": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.7052225107536102,
+        "JADA_mse": 0.7052225107536102,
+        "relative_reduction": -0.10440885001733924,
+        "relative_ci95": [
+          -0.12501608523088004,
+          -0.08380161480379844
+        ],
+        "difference": -0.06667048290401612,
+        "difference_ci95": [
+          -0.07401092883248855,
+          -0.059330036975543676
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 61.89459958744553,
+        "df_difference": 64.54056853774819
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.7052225107536102,
+        "JADA_mse": 0.7052225107536102,
+        "relative_reduction": -0.10440885001733924,
+        "relative_ci95": [
+          -0.12501608523088004,
+          -0.08380161480379844
+        ],
+        "difference": -0.06667048290401612,
+        "difference_ci95": [
+          -0.07401092883248855,
+          -0.059330036975543676
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 61.89459958744553,
+        "df_difference": 64.54056853774819
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.6385520278495941,
+        "relative_reduction": 0.0,
+        "relative_ci95": [
+          -6.210363937318632e-10,
+          6.210363937318632e-10
+        ],
+        "difference": 0.0,
+        "difference_ci95": [
+          -3.509135980675887e-10,
+          3.509135980675887e-10
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 15.0,
+        "df_difference": 15.0
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.6385520278495941,
+        "relative_reduction": 0.0,
+        "relative_ci95": [
+          -6.210363937318632e-10,
+          6.210363937318632e-10
+        ],
+        "difference": 0.0,
+        "difference_ci95": [
+          -3.509135980675887e-10,
+          3.509135980675887e-10
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 15.0,
+        "df_difference": 15.0
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.6385520278495941,
+        "relative_reduction": 0.0,
+        "relative_ci95": [
+          -6.210363937318632e-10,
+          6.210363937318632e-10
+        ],
+        "difference": 0.0,
+        "difference_ci95": [
+          -3.509135980675887e-10,
+          3.509135980675887e-10
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 15.0,
+        "df_difference": 15.0
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.6385520278495941,
+        "relative_reduction": 0.0,
+        "relative_ci95": [
+          -6.210363937318632e-10,
+          6.210363937318632e-10
+        ],
+        "difference": 0.0,
+        "difference_ci95": [
+          -3.509135980675887e-10,
+          3.509135980675887e-10
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 15.0,
+        "df_difference": 15.0
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.5369225429513759,
+        "relative_reduction": 0.1591561540262718,
+        "relative_ci95": [
+          0.1322059267713366,
+          0.18610638128120702
+        ],
+        "difference": 0.10162948489821821,
+        "difference_ci95": [
+          0.07864681762276998,
+          0.12461215217366645
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 49.62142587102682,
+        "df_difference": 46.970938554203286
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.6385520278495941,
+        "candidate_mse": 0.5369225429513759,
+        "relative_reduction": 0.1591561540262718,
+        "relative_ci95": [
+          0.1322059267713366,
+          0.18610638128120702
+        ],
+        "difference": 0.10162948489821821,
+        "difference_ci95": [
+          0.07864681762276998,
+          0.12461215217366645
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 49.62142587102682,
+        "df_difference": 46.970938554203286
+      }
+    },
+    "fixed-total-m0-2": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.6385520278495943,
+        "candidate_mse": 0.6741720577992026,
+        "JADA_mse": 0.6741720577992026,
+        "relative_reduction": -0.05578250228029713,
+        "relative_ci95": [
+          -0.06577865874831318,
+          -0.04578634581228108
+        ],
+        "difference": -0.035620029949608334,
+        "difference_ci95": [
+          -0.03951952327821354,
+          -0.031720536621003124
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 65.67988139920361,
+        "df_difference": 69.28763405964048
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.6457048433452636,
+        "candidate_mse": 0.6741720577992026,
+        "JADA_mse": 0.6741720577992026,
+        "relative_reduction": -0.04408703875668074,
+        "relative_ci95": [
+          -0.05361458133304948,
+          -0.034559496180312003
+        ],
+        "difference": -0.02846721445393907,
+        "difference_ci95": [
+          -0.03237863497023991,
+          -0.02455579393763823
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 63.79406155216689,
+        "df_difference": 71.95583005883665
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.6385520278495943,
+        "candidate_mse": 0.6392840503923232,
+        "relative_reduction": -0.0011463788552892318,
+        "relative_ci95": [
+          -0.0015300070894626303,
+          -0.0007627506211158332
+        ],
+        "difference": -0.0007320225427288607,
+        "difference_ci95": [
+          -0.0010074304273827196,
+          -0.0004566146580750018
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 53.61259454529329,
+        "df_difference": 55.56831045823638
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.6457048433452636,
+        "candidate_mse": 0.6392840503923232,
+        "relative_reduction": 0.009943851310880047,
+        "relative_ci95": [
+          0.008658308036980955,
+          0.01122939458477914
+        ],
+        "difference": 0.006420792952940402,
+        "difference_ci95": [
+          0.005394708783366641,
+          0.007446877122514162
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 55.88536488985435,
+        "df_difference": 56.97419076962766
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.6385520278495943,
+        "candidate_mse": 0.6384565097376046,
+        "relative_reduction": 0.0001495854806246033,
+        "relative_ci95": [
+          7.979671599500652e-05,
+          0.00021937424525420008
+        ],
+        "difference": 9.551811198971194e-05,
+        "difference_ci95": [
+          5.591008155386381e-05,
+          0.00013512614242556007
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 52.10714545256473,
+        "df_difference": 42.2664987001041
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.6457048433452636,
+        "candidate_mse": 0.6384565097376046,
+        "relative_reduction": 0.01122545956153409,
+        "relative_ci95": [
+          0.009960659444489511,
+          0.012490259678578669
+        ],
+        "difference": 0.007248333607658974,
+        "difference_ci95": [
+          0.006154661856778721,
+          0.008342005358539227
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 56.49490202218598,
+        "df_difference": 66.14899922641978
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.6385520278495943,
+        "candidate_mse": 0.5489224020337654,
+        "relative_reduction": 0.1403638574567967,
+        "relative_ci95": [
+          0.12158760844372146,
+          0.15914010646987192
+        ],
+        "difference": 0.0896296258158289,
+        "difference_ci95": [
+          0.07234635429117296,
+          0.10691289734048483
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 46.565841323187534,
+        "df_difference": 52.90432478144353
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.6457048433452636,
+        "candidate_mse": 0.5489224020337654,
+        "relative_reduction": 0.1498865035766006,
+        "relative_ci95": [
+          0.13141781857597185,
+          0.16835518857722936
+        ],
+        "difference": 0.09678244131149816,
+        "difference_ci95": [
+          0.07898145004179899,
+          0.11458343258119733
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 46.17946695868266,
+        "df_difference": 52.66205060503296
+      }
+    },
+    "fixed-total-m0-4": {
+      "JADA-vs-uniform": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.6442445607869991,
+        "JADA_mse": 0.6442445607869991,
+        "relative_reduction": -0.008914751953063682,
+        "relative_ci95": [
+          -0.010764419612913606,
+          -0.007065084293213758
+        ],
+        "difference": -0.005692532937404904,
+        "difference_ci95": [
+          -0.006780802309007619,
+          -0.004604263565802189
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 57.91008104170191,
+        "df_difference": 67.58538305695005
+      },
+      "JADA-vs-variance-only": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.6442445607869991,
+        "JADA_mse": 0.6442445607869991,
+        "relative_reduction": -0.008914751953063682,
+        "relative_ci95": [
+          -0.010764419612913606,
+          -0.007065084293213758
+        ],
+        "difference": -0.005692532937404904,
+        "difference_ci95": [
+          -0.006780802309007619,
+          -0.004604263565802189
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 57.91008104170191,
+        "df_difference": 67.58538305695005
+      },
+      "posterior-Jeffreys-vs-uniform": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.6380204713657938,
+        "relative_reduction": 0.000832440366042686,
+        "relative_ci95": [
+          0.00030406359962755847,
+          0.0013608171324578137
+        ],
+        "difference": 0.0005315564838004327,
+        "difference_ci95": [
+          0.00019005373233326557,
+          0.0008730592352675999
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 44.06489631400299,
+        "df_difference": 41.28088621182689
+      },
+      "posterior-Jeffreys-vs-variance-only": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.6380204713657938,
+        "relative_reduction": 0.000832440366042686,
+        "relative_ci95": [
+          0.00030406359962755847,
+          0.0013608171324578137
+        ],
+        "difference": 0.0005315564838004327,
+        "difference_ci95": [
+          0.00019005373233326557,
+          0.0008730592352675999
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 44.06489631400299,
+        "df_difference": 41.28088621182689
+      },
+      "posterior-mixture-vs-uniform": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.6376283291853991,
+        "relative_reduction": 0.0014465519235852264,
+        "relative_ci95": [
+          0.0008150102709117933,
+          0.0020780935762586593
+        ],
+        "difference": 0.0009236986641950606,
+        "difference_ci95": [
+          0.0005163778678911109,
+          0.0013310194604990104
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 56.74246421260625,
+        "df_difference": 49.30119160026497
+      },
+      "posterior-mixture-vs-variance-only": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.6376283291853991,
+        "relative_reduction": 0.0014465519235852264,
+        "relative_ci95": [
+          0.0008150102709117933,
+          0.0020780935762586593
+        ],
+        "difference": 0.0009236986641950606,
+        "difference_ci95": [
+          0.0005163778678911109,
+          0.0013310194604990104
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 56.74246421260625,
+        "df_difference": 49.30119160026497
+      },
+      "adaptive-nonlinear-oracle-vs-uniform": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.5967580388371064,
+        "relative_reduction": 0.06545118829742724,
+        "relative_ci95": [
+          0.05808346898735276,
+          0.07281890760750172
+        ],
+        "difference": 0.041793989012487764,
+        "difference_ci95": [
+          0.035350848686434844,
+          0.048237129338540685
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 28.03656606545384,
+        "df_difference": 59.08770968863403
+      },
+      "adaptive-nonlinear-oracle-vs-variance-only": {
+        "baseline_mse": 0.6385520278495942,
+        "candidate_mse": 0.5967580388371064,
+        "relative_reduction": 0.06545118829742724,
+        "relative_ci95": [
+          0.05808346898735276,
+          0.07281890760750172
+        ],
+        "difference": 0.041793989012487764,
+        "difference_ci95": [
+          0.035350848686434844,
+          0.048237129338540685
+        ],
+        "vector_clusters": 96,
+        "strata": 6,
+        "df_relative": 28.03656606545384,
+        "df_difference": 59.08770968863403
+      }
+    }
+  },
+  "integration_diagnostics": [
+    {
+      "prior": "posterior-Jeffreys",
+      "setting": "fixed-main-m0-1",
+      "fit_completed_utc": "2026-10-11T06:46:04.271661+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 6.373644370528883e-05,
+      "prior_expected_uniform_mse": 0.37217141363636275,
+      "prior_expected_policy_mse": 0.3691616254697052
+    },
+    {
+      "prior": "posterior-Jeffreys",
+      "setting": "fixed-main-m0-2",
+      "fit_completed_utc": "2026-10-11T06:46:04.312853+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 7.090052232667862e-05,
+      "prior_expected_uniform_mse": 0.2816659064171653,
+      "prior_expected_policy_mse": 0.2812705638733942
+    },
+    {
+      "prior": "posterior-Jeffreys",
+      "setting": "fixed-main-m0-4",
+      "fit_completed_utc": "2026-10-11T06:46:04.515235+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.0002904891247545696,
+      "prior_expected_uniform_mse": 0.22926199544578135,
+      "prior_expected_policy_mse": 0.22870080153891442
+    },
+    {
+      "prior": "posterior-Jeffreys",
+      "setting": "fixed-total-m0-1",
+      "fit_completed_utc": "2026-10-11T06:46:04.827790+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.0,
+      "prior_expected_uniform_mse": 0.20889701862137589,
+      "prior_expected_policy_mse": 0.20889701862137589
+    },
+    {
+      "prior": "posterior-Jeffreys",
+      "setting": "fixed-total-m0-2",
+      "fit_completed_utc": "2026-10-11T06:46:05.073856+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 8.502260243232851e-05,
+      "prior_expected_uniform_mse": 0.20889701862137586,
+      "prior_expected_policy_mse": 0.20747007376526055
+    },
+    {
+      "prior": "posterior-Jeffreys",
+      "setting": "fixed-total-m0-4",
+      "fit_completed_utc": "2026-10-11T06:46:05.426967+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.04990873708659142,
+      "half_policy_changed_histories": 16,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.0007461555365290541,
+      "prior_expected_uniform_mse": 0.20889701862137586,
+      "prior_expected_policy_mse": 0.20746903507697478
+    },
+    {
+      "prior": "posterior-mixture",
+      "setting": "fixed-main-m0-1",
+      "fit_completed_utc": "2026-10-11T06:50:26.660314+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 6.0389329839105756e-05,
+      "prior_expected_uniform_mse": 0.8695497238272569,
+      "prior_expected_policy_mse": 0.8663195696398879
+    },
+    {
+      "prior": "posterior-mixture",
+      "setting": "fixed-main-m0-2",
+      "fit_completed_utc": "2026-10-11T06:50:26.687606+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.00013061795875208553,
+      "prior_expected_uniform_mse": 0.7612422375986342,
+      "prior_expected_policy_mse": 0.7610505371235835
+    },
+    {
+      "prior": "posterior-mixture",
+      "setting": "fixed-main-m0-4",
+      "fit_completed_utc": "2026-10-11T06:50:26.815750+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.0003541077605461057,
+      "prior_expected_uniform_mse": 0.6892702284215106,
+      "prior_expected_policy_mse": 0.6892245411013815
+    },
+    {
+      "prior": "posterior-mixture",
+      "setting": "fixed-total-m0-1",
+      "fit_completed_utc": "2026-10-11T06:50:27.053461+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.0,
+      "prior_expected_uniform_mse": 0.6557813333396074,
+      "prior_expected_policy_mse": 0.6557813333396074
+    },
+    {
+      "prior": "posterior-mixture",
+      "setting": "fixed-total-m0-2",
+      "fit_completed_utc": "2026-10-11T06:50:27.194386+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 5.358447412167186e-05,
+      "prior_expected_uniform_mse": 0.6557813333396076,
+      "prior_expected_policy_mse": 0.6556701426911694
+    },
+    {
+      "prior": "posterior-mixture",
+      "setting": "fixed-total-m0-4",
+      "fit_completed_utc": "2026-10-11T06:50:27.416912+00:00",
+      "pilot_mass_weighted_half_policy_TV": 0.0,
+      "half_policy_changed_histories": 0,
+      "max_selected_vs_uniform_paired_scramble_SE": 0.00025927938576708593,
+      "prior_expected_uniform_mse": 0.6557813333396076,
+      "prior_expected_policy_mse": 0.6547851260456865
+    }
+  ],
+  "exact_cells": 612,
+  "method_evaluations": 3672,
+  "elapsed_seconds": 480.66321579995565,
+  "GPU_cost": 0,
+  "review_status": "local-only; delegated reviewer unavailable (usage limit)",
+  "confirmation_consumed": true,
+  "primary_pass": false,
+  "equal_cost_pass": false,
+  "paired_gain_trend_m0_4_minus_1": {
+    "difference": -0.0034169821547735957,
+    "difference_ci95": [
+      -0.0038093676909561687,
+      -0.0030245966185910226
+    ],
+    "df_difference": 61.05343203428228,
+    "vector_clusters": 96,
+    "strata": 6
+  }
+}

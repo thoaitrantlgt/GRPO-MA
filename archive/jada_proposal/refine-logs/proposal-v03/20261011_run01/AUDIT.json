@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checks": {
+    "main_effects_match_source_rounding": true,
+    "intervals_match_source_rounding": true,
+    "largest_level_credit_result_matches": true,
+    "stress_regression_retained": true,
+    "quadrature_numbers_match": true,
+    "all_local_links_resolve": true,
+    "original_proposal_preserved": true,
+    "numbered_sections_complete": true,
+    "consumed_data_and_scope_explicit": true,
+    "trainer_jacobian_smooth_regions_verified": true
+  },
+  "check_count": 10,
+  "numeric_effect_strings": [
+    "-3.24%",
+    "10.22%",
+    "6.70%",
+    "-4.78%",
+    "0.0125%",
+    "-0.0660%",
+    "0.0832%",
+    "11.36%",
+    "3.09%",
+    "-1.62%"
+  ],
+  "sample_std_jacobian_residuals": {
+    "floor-inactive": 2.052178427192075e-10,
+    "floor-active": 3.7685694223910104e-05
+  },
+  "source_sha256": {
+    "refine-logs/cpu-estimator-gate/20261011_run01/summary.json": "0f3120e86a365a5b76efaa40c7f187edc389f49ed3721a9e46a269ef66b39e2e",
+    "refine-logs/nonlinear-oracle-gate/20261011_run01/summary.json": "bdfcffc673835c3df1888fd0107e6888309b474ec80c7905c4f58e607946c59a",
+    "refine-logs/posterior-allocator-gate/20261011_run01/summary.json": "9b654ba0835ea9a5b9359e61a3dc2a5ecbeea0d583d62c9c90c85754a852994d",
+    "refine-logs/pilot-information-gate/20261011_run01/summary.json": "adafc447197a10bcaadeebf8f83c2b54c3f7ecac3bb4eb1b55a86f11eac3d20c",
+    "refine-logs/gradient-objective-gate/20261011_run01/summary.json": "601fe64cfd4c4ec6c74054cc2ffa9175c88acecd71fc9dfd3db04626e36820ae",
+    "refine-logs/posterior-credit-convergence/20261011_run01/summary.json": "d0198ea3117fb5b231e768b89ca872e4ef112804921e0f7a7f6daa8148479371"
+  },
+  "proposal_sha256": "40243f114c90b02a898fc83cbbed7158bf32ec1602464b5e3cd5a9a2728f48d2",
+  "words": 3930,
+  "links_checked": 29,
+  "review": "local source/result/math checks only; no fresh independent review",
+  "new_experiments": false,
+  "GPU_cost": 0
+}
